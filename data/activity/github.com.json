@@ -3,16 +3,17 @@
  "label": "github.com",
  "profile_url": "https://github.com/NicolasRouquette",
  "kind": "github",
- "scope_note": "Public contributions only (735 further contributions are in private repositories)",
+ "pr_label": "pull requests",
+ "scope_note": "Public contributions only (1,399 further contributions are in private repositories)",
  "generated": "2026-10-25",
  "login": "NicolasRouquette",
  "since": 2012,
  "totals": {
-  "commits": 10172,
-  "prs": 396,
-  "reviews": 28,
+  "commits": 9531,
+  "prs": 395,
+  "reviews": 24,
   "issues": 876,
-  "restricted": 735
+  "restricted": 1399
  },
  "years": {
   "2012": {
@@ -100,9 +101,9 @@
    "issues": 10
   },
   "2026": {
-   "commits": 4267,
-   "prs": 46,
-   "reviews": 6,
+   "commits": 3626,
+   "prs": 45,
+   "reviews": 2,
    "issues": 21
   }
  },
@@ -133,15 +134,6 @@
    "reviews": 0,
    "issues": 6,
    "total": 1659
-  },
-  {
-   "owner": "Open-MBEE",
-   "repos": 15,
-   "commits": 641,
-   "prs": 1,
-   "reviews": 4,
-   "issues": 0,
-   "total": 646
   },
   {
    "owner": "NicolasRouquette",
@@ -1211,25 +1203,6 @@
    "total": 276
   },
   {
-   "repo": "Open-MBEE/soil-moisture-model",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/soil-moisture-model",
-   "description": "Private mirror of https://repo.maap-project.org/soil-moisture/soil-moisture-model",
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": "Lean",
-   "language_color": null,
-   "commits": 272,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 272
-  },
-  {
    "repo": "JPL-IMCE/imce.sbt.plugin",
    "owner": "JPL-IMCE",
    "url": "https://github.com/JPL-IMCE/imce.sbt.plugin",
@@ -1569,44 +1542,6 @@
    "total": 114
   },
   {
-   "repo": "Open-MBEE/fprime-lean-sysmlv2-example",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/fprime-lean-sysmlv2-example",
-   "description": "An example F' system with a Lean formalization and a SysMLv2 executable counterpart",
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": "Lean",
-   "language_color": null,
-   "commits": 112,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 112
-  },
-  {
-   "repo": "Open-MBEE/face.lean",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/face.lean",
-   "description": "Private mirror of https://github.jpl.nasa.gov/pass/FACE.lean",
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": "Lean",
-   "language_color": null,
-   "commits": 102,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 102
-  },
-  {
    "repo": "JPL-IMCE/imce.magicdraw.library.enhanced_api",
    "owner": "JPL-IMCE",
    "url": "https://github.com/JPL-IMCE/imce.magicdraw.library.enhanced_api",
@@ -1849,25 +1784,6 @@
    "total": 46
   },
   {
-   "repo": "Open-MBEE/mars.lean",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/mars.lean",
-   "description": "Formalization of MARS in Lean with support for SysMLv2 interchange",
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": "Lean",
-   "language_color": null,
-   "commits": 43,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 43
-  },
-  {
    "repo": "opencaesar/oml",
    "owner": "opencaesar",
    "url": "https://github.com/opencaesar/oml",
@@ -2032,25 +1948,6 @@
    "total": 28
   },
   {
-   "repo": "Open-MBEE/prov.lean",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/prov.lean",
-   "description": "A Lean-based formalization of W3C Provenance with interchange support for OWL/RDF, OML, and SysMLv2",
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": "Lean",
-   "language_color": null,
-   "commits": 28,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 28
-  },
-  {
    "repo": "JPL-IMCE/imce.third_party.scala_graph_libraries",
    "owner": "JPL-IMCE",
    "url": "https://github.com/JPL-IMCE/imce.third_party.scala_graph_libraries",
@@ -2172,25 +2069,6 @@
     2023
    ],
    "total": 21
-  },
-  {
-   "repo": "Open-MBEE/git-remote-sync.lean",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/git-remote-sync.lean",
-   "description": "A verified N-way git remote synchronization utility",
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": "Lean",
-   "language_color": null,
-   "commits": 17,
-   "prs": 1,
-   "reviews": 2,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 20
   },
   {
    "repo": "banana-rdf/banana-rdf",
@@ -2388,44 +2266,6 @@
    "total": 14
   },
   {
-   "repo": "Open-MBEE/git-remote-sync",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/git-remote-sync",
-   "description": "utilities for synchronizing GIT submodules between github and gitlab",
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": "Shell",
-   "language_color": "#89e051",
-   "commits": 14,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 14
-  },
-  {
-   "repo": "Open-MBEE/sysmlv2-opentelemetry-demo",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/sysmlv2-opentelemetry-demo",
-   "description": "A SysMLv2 implementation of the OpenTelemetry demo, https://github.com/Open-MBEE/opentelemetry-demo",
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": null,
-   "language_color": null,
-   "commits": 14,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 14
-  },
-  {
    "repo": "opencaesar/imce-vocabularies",
    "owner": "opencaesar",
    "url": "https://github.com/opencaesar/imce-vocabularies",
@@ -2482,25 +2322,6 @@
     2023
    ],
    "total": 13
-  },
-  {
-   "repo": "Open-MBEE/tasktree.lean",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/tasktree.lean",
-   "description": "A Lean-based implementation of Klaus Havelund's https://github.jpl.nasa.gov/khavelun/tasktree",
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": "Lean",
-   "language_color": null,
-   "commits": 12,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 12
   },
   {
    "repo": "pacti-org/cs-biocircuits",
@@ -2567,7 +2388,7 @@
    "description": "Lean 4 programming language and theorem prover",
    "fork": false,
    "archived": false,
-   "stars": 9671,
+   "stars": 9672,
    "language": "Lean",
    "language_color": null,
    "commits": 2,
@@ -2576,25 +2397,6 @@
    "issues": 6,
    "years": [
     2025,
-    2026
-   ],
-   "total": 10
-  },
-  {
-   "repo": "Open-MBEE/face",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/face",
-   "description": "Private mirror of https://github.jpl.nasa.gov/pass/face",
-   "fork": false,
-   "archived": false,
-   "stars": 1,
-   "language": "JavaScript",
-   "language_color": "#f1e05a",
-   "commits": 10,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
     2026
    ],
    "total": 10
@@ -2658,25 +2460,6 @@
     2016
    ],
    "total": 10
-  },
-  {
-   "repo": "Open-MBEE/sysmlv2-opentelemetry-protocol",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/sysmlv2-opentelemetry-protocol",
-   "description": "A SysMLv2 implementation of the OpenTelemetry protocol, https://github.com/Open-MBEE/opentelemetry-proto",
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": null,
-   "language_color": null,
-   "commits": 9,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 9
   },
   {
    "repo": "opencaesar/oml-tools",
@@ -2886,25 +2669,6 @@
    "commits": 6,
    "prs": 1,
    "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 7
-  },
-  {
-   "repo": "Open-MBEE/engineering-foundation-architecture",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/engineering-foundation-architecture",
-   "description": null,
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": null,
-   "language_color": null,
-   "commits": 5,
-   "prs": 0,
-   "reviews": 2,
    "issues": 0,
    "years": [
     2026
@@ -4662,7 +4426,7 @@
    "description": "draw.io is a JavaScript, client-side editor for general diagramming.",
    "fork": false,
    "archived": false,
-   "stars": 8986,
+   "stars": 8987,
    "language": "JavaScript",
    "language_color": "#f1e05a",
    "commits": 0,
@@ -5112,63 +4876,6 @@
    "total": 1
   },
   {
-   "repo": "Open-MBEE/fpime-sysmlv2",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/fpime-sysmlv2",
-   "description": "F' in SysMLv2 using OpenTelemetry for hierarchical logging",
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": null,
-   "language_color": null,
-   "commits": 1,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 1
-  },
-  {
-   "repo": "Open-MBEE/fprime-sysmlv2-opentelemetry-demo",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/fprime-sysmlv2-opentelemetry-demo",
-   "description": "The OpenTelemetry demo in F'/SysMLv2 with OpenTelemetry for logging.",
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": null,
-   "language_color": null,
-   "commits": 1,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 1
-  },
-  {
-   "repo": "Open-MBEE/nfr.ghe.io",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/nfr.ghe.io",
-   "description": null,
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": null,
-   "language_color": null,
-   "commits": 1,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 1
-  },
-  {
    "repo": "pawamoy/copier-pdm",
    "owner": "pawamoy",
    "url": "https://github.com/pawamoy/copier-pdm",
@@ -5403,7 +5110,7 @@
    "description": "Warp is an agentic development environment, born out of the terminal.",
    "fork": false,
    "archived": false,
-   "stars": 65693,
+   "stars": 65694,
    "language": "Rust",
    "language_color": "#dea584",
    "commits": 0,
@@ -6932,8 +6639,7 @@
   },
   {
    "date": "2026-10-25",
-   "contributionCount": 49
+   "contributionCount": 67
   }
- ],
- "pr_label": "pull requests"
+ ]
 }
