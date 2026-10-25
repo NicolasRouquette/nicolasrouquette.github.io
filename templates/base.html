@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page_title %}{{ page_title }} · {% endif %}{{ p.short_name }}</title>
+<meta name="description" content="{{ p.tagline | striptags }}">
+<link rel="stylesheet" href="{{ root }}static/style.css">
+<link rel="alternate" type="application/x-bibtex" href="{{ root }}publications.bib" title="BibTeX">
+<link rel="me" href="https://orcid.org/{{ p.ids.orcid }}">
+<link rel="me" href="https://github.com/{{ p.ids.github }}">
+<script type="application/ld+json">{{ jsonld | safe }}</script>
+</head>
+<body>
+<header>
+  <a class="brand" href="{{ root }}">{{ p.short_name }}</a>
+  <nav>
+    <a href="{{ root }}" {% if active == 'index' %}class="active"{% endif %}>About</a>
+    <a href="{{ root }}publications/" {% if active == 'publications' %}class="active"{% endif %}>Publications</a>
+    <a href="{{ root }}software/" {% if active == 'software' %}class="active"{% endif %}>Software</a>
+  </nav>
+</header>
+<main>
+{% block content %}{% endblock %}
+</main>
+<footer>
+  <ul class="ids">
+    <li><a href="https://orcid.org/{{ p.ids.orcid }}">ORCID {{ p.ids.orcid }}</a></li>
+    <li><a href="https://scholar.google.com/citations?user={{ p.ids.google_scholar }}">Google Scholar</a></li>
+    <li><a href="https://dblp.org/pid/{{ p.ids.dblp }}.html">DBLP</a></li>
+    <li><a href="https://openalex.org/{{ p.ids.openalex[0] }}">OpenAlex</a></li>
+    <li><a href="https://github.com/{{ p.ids.github }}">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/{{ p.ids.linkedin }}/">LinkedIn</a></li>
+  </ul>
+  <p class="fine">Publication list regenerated {{ pubs_generated }} from ORCID, Crossref, DBLP, OpenAlex and NTRS.
+     <a href="{{ root }}publications.bib">BibTeX</a> · <a href="{{ root }}publications.json">JSON</a> ·
+     <a href="https://github.com/{{ p.ids.github }}/{{ p.ids.github | lower }}.github.io">source</a></p>
+</footer>
+</body>
+</html>

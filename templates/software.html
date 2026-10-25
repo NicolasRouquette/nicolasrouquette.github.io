@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Software</h1>
+<section class="prose">{{ body | safe }}</section>
+<ul class="projects">
+{% for pr in p.projects %}
+  <li>
+    <h3><a href="https://github.com/{{ pr.repo }}">{{ pr.name }}</a> <span class="role">{{ pr.role }}</span></h3>
+    <p>{{ pr.blurb }}</p>
+    <p class="fine"><code>{{ pr.repo }}</code></p>
+  </li>
+{% endfor %}
+</ul>
+{% endblock %}
