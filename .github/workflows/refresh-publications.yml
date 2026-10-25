@@ -24,6 +24,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/publications.json data/sources
-          git diff --cached --quiet && exit 0
+          git diff --cached --quiet && echo "changed=0" >> "$GITHUB_OUTPUT" && exit 0
           git commit -m "data: refresh publications from OpenAlex/ORCID/Crossref/DBLP/NTRS"
           git push
+          echo "changed=1" >> "$GITHUB_OUTPUT"
+        id: commit
+      # A GITHUB_TOKEN push does not trigger deploy.yml, so republish gh-pages here.
+      - if: steps.commit.outputs.changed == '1'
+        run: python scripts/build.py && PAGES_PUSH=1 ./scripts/publish-pages.sh
