@@ -18,6 +18,7 @@
     <a href="{{ root }}" {% if active == 'index' %}class="active"{% endif %}>About</a>
     <a href="{{ root }}publications/" {% if active == 'publications' %}class="active"{% endif %}>Publications</a>
     <a href="{{ root }}software/" {% if active == 'software' %}class="active"{% endif %}>Software</a>
+    {% if has_focus %}<a href="{{ root }}focus/" {% if active == 'focus' %}class="active"{% endif %}>Focus</a>{% endif %}
   </nav>
 </header>
 <main>
@@ -34,7 +35,7 @@
   </ul>
   <p class="fine">Publication list regenerated {{ pubs_generated }} from ORCID, Crossref, DBLP, OpenAlex and NTRS.
      <a href="{{ root }}publications.bib">BibTeX</a> · <a href="{{ root }}publications.json">JSON</a> ·
-     <a href="https://github.com/{{ p.ids.github }}/{{ p.ids.github | lower }}.github.io">source</a></p>
+     <a href="{{ p.source_url }}">source</a></p>
 </footer>
 </body>
 </html>

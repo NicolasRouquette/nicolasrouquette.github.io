@@ -2,10 +2,13 @@
 """Render the site into _site/ from data/, content/ and templates/."""
 from __future__ import annotations
 
+import argparse
 import datetime as dt
 import json
+import os
 import re
 import shutil
+import subprocess
 import sys
 from itertools import groupby
 from pathlib import Path
@@ -18,13 +21,30 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "_site"
 
 
-def load() -> tuple[dict, dict, dict | None]:
+def detect_variant() -> str | None:
+    """Pick the variant whose `repos:` list names the repository being built ($GITHUB_REPOSITORY or origin)."""
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    if not repo:
+        try:
+            url = subprocess.run(["git", "remote", "get-url", "origin"], cwd=ROOT, capture_output=True, text=True, check=True).stdout.strip()
+            repo = re.sub(r"\.git$", "", re.sub(r"^.*[:/]([^/]+/[^/]+?)(\.git)?$", r"\1", url))
+        except (OSError, subprocess.CalledProcessError):
+            return None
+    for f in sorted((ROOT / "data" / "variants").glob("*.yaml")):
+        if repo in (yaml.safe_load(f.read_text()) or {}).get("repos", []):
+            return f.stem
+    return None
+
+
+def load(variant: str | None) -> tuple[dict, dict, list[dict]]:
     profile = yaml.safe_load((ROOT / "data" / "profile.yaml").read_text())
+    if variant:
+        profile.update(yaml.safe_load((ROOT / "data" / "variants" / f"{variant}.yaml").read_text()) or {})
     pubs_file = ROOT / "data" / "publications.json"
     pubs = json.loads(pubs_file.read_text()) if pubs_file.exists() else {"generated": "never", "publications": []}
-    gh_file = ROOT / "data" / "github.json"
-    gh = json.loads(gh_file.read_text()) if gh_file.exists() else None
-    return profile, pubs, gh
+    activity = [json.loads(f.read_text()) for f in sorted((ROOT / "data" / "activity").glob("*.json"))]
+    activity.sort(key=lambda a: (a.get("host") != "github.com", a.get("host", "")))
+    return profile, pubs, activity
 
 
 CELL = 14      # heatmap grid pitch in SVG units (11px cell + 3px gap)
@@ -125,13 +145,28 @@ def jsonld(p: dict) -> str:
     }, indent=1)
 
 
+def content(name: str, variant: str | None) -> Path | None:
+    """content/<variant>/<name>.md overrides content/<name>.md; None if neither exists."""
+    for c in ([ROOT / "content" / variant / f"{name}.md"] if variant else []) + [ROOT / "content" / f"{name}.md"]:
+        if c.exists():
+            return c
+    return None
+
+
 def main() -> int:
-    profile, pubs_doc, gh_doc = load()
+    ap = argparse.ArgumentParser(description="Render the site into _site/.")
+    ap.add_argument("--variant", "-v", help="data/variants/<variant>.yaml profile overlay, or 'auto' to pick by repository")
+    variant = ap.parse_args().variant
+    if variant == "auto":
+        variant = detect_variant()
+    profile, pubs_doc, activity_docs = load(variant)
     pubs = decorate(pubs_doc["publications"])
-    gh = github_view(gh_doc)
+    activity = [v for v in (github_view(a) for a in activity_docs) if v]
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape(["html"]))
     md = markdown.Markdown(extensions=["extra", "smarty"])
-    common = dict(p=profile, pubs=pubs, pubs_generated=pubs_doc["generated"], gh=gh, jsonld=jsonld(profile))
+    focus = content("focus", variant)
+    common = dict(p=profile, pubs=pubs, pubs_generated=pubs_doc["generated"], activity=activity, jsonld=jsonld(profile), has_focus=bool(focus))
+    pages = ["", "publications/", "software/"] + (["focus/"] if focus else [])
 
     if SITE.exists():
         shutil.rmtree(SITE)
@@ -142,26 +177,29 @@ def main() -> int:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(env.get_template(template).render(root=root, **common, **ctx))
 
-    body = md.convert((ROOT / "content" / "index.md").read_text()); md.reset()
+    body = md.convert(content("index", variant).read_text()); md.reset()
     render("index.html", "index.html", "./", active="index", body=body, recent=pubs[:6])
+    if focus:
+        body = md.convert(focus.read_text()); md.reset()
+        render("page.html", "focus/index.html", "../", active="focus", page_title="Current focus", body=body)
 
     by_year = [(y, list(g)) for y, g in groupby(pubs, key=lambda x: x.get("year"))]
     render("publications.html", "publications/index.html", "../", active="publications", page_title="Publications", by_year=by_year)
 
-    body = md.convert((ROOT / "content" / "software.md").read_text()); md.reset()
+    body = md.convert(content("software", variant).read_text()); md.reset()
     render("software.html", "software/index.html", "../", active="software", page_title="Software", body=body)
 
     (SITE / "publications.bib").write_text(bibtex(pubs))
     shutil.copy(ROOT / "data" / "publications.json", SITE / "publications.json")
-    if gh_doc:
-        shutil.copy(ROOT / "data" / "github.json", SITE / "github.json")
+    if activity_docs:
+        shutil.copytree(ROOT / "data" / "activity", SITE / "activity")
     (SITE / ".nojekyll").write_text("")
     (SITE / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {profile['site_url']}/sitemap.xml\n")
     (SITE / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + "".join(f"  <url><loc>{profile['site_url']}/{u}</loc></url>\n" for u in ["", "publications/", "software/"])
+        + "".join(f"  <url><loc>{profile['site_url']}/{u}</loc></url>\n" for u in pages)
         + "</urlset>\n")
-    print(f"built {SITE.relative_to(ROOT)}: {len(pubs)} publications, {len(gh['repos']) if gh else 0} GitHub repositories")
+    print(f"built {SITE.relative_to(ROOT)}{' (variant ' + variant + ')' if variant else ''}: {len(pubs)} publications, {sum(len(a['repos']) for a in activity)} repositories on {len(activity)} host(s)")
     return 0
 
 

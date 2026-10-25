@@ -19,12 +19,13 @@
   </ol>
   <p><a href="{{ root }}publications/">All {{ pubs | length }} publications →</a></p>
 </section>
-{% if gh %}
+{% if activity %}
 <section>
-  <h2>Open source</h2>
-  <p>Since {{ gh.since }}: {{ "{:,}".format(gh.totals.commits) }} commits and {{ gh.totals.prs }} pull requests across
-     {{ gh.repos | length }} public repositories owned by {{ gh.orgs | length }} organisations and people.
-     <a href="{{ root }}software/#github">Activity chart →</a></p>
+  <h2>Code</h2>
+  <ul>{% for gh in activity %}
+    <li><a href="{{ root }}software/#{{ gh.host | replace(".", "-") }}">{{ gh.label }}</a>, since {{ gh.since }}: {{ "{:,}".format(gh.totals.commits) }} commits and {{ gh.totals.prs }} {{ gh.pr_label or 'pull requests' }} across
+     {{ gh.repos | length }} repositories owned by {{ gh.orgs | length }} groups and people.</li>{% endfor %}
+  </ul>
 </section>
 {% endif %}
 {% endblock %}

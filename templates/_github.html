@@ -1,8 +1,8 @@
-<section class="gh" id="github">
-  <h2>GitHub activity</h2>
+<section class="gh" id="{{ gh.host | replace(".", "-") }}">
+  <h2>Activity on <a href="{{ gh.profile_url }}">{{ gh.label }}</a></h2>
   <p>Since {{ gh.since }}: <strong>{{ "{:,}".format(gh.totals.commits) }}</strong> commits,
-     <strong>{{ gh.totals.prs }}</strong> pull requests, <strong>{{ gh.totals.issues }}</strong> issues and
-     <strong>{{ gh.totals.reviews }}</strong> reviews across <strong>{{ gh.repos | length }}</strong> public repositories
+     <strong>{{ gh.totals.prs }}</strong> {{ gh.pr_label or 'pull requests' }}, <strong>{{ gh.totals.issues }}</strong> issues and
+     <strong>{{ gh.totals.reviews }}</strong> reviews across <strong>{{ gh.repos | length }}</strong> repositories
      owned by <strong>{{ gh.orgs | length }}</strong> organisations and people.</p>
 
   <h3>Last twelve months</h3>
@@ -42,6 +42,5 @@
     {% endfor %}
     </tbody>
   </table>
-  <p class="fine">Public contributions only ({{ "{:,}".format(gh.totals.restricted) }} further contributions are in private repositories);
-     from the GitHub GraphQL API, refreshed {{ gh.generated }}. Full data: <a href="{{ root }}github.json">github.json</a>.</p>
+  <p class="fine">{{ gh.scope_note }}; refreshed {{ gh.generated }}. Full data: <a href="{{ root }}activity/{{ gh.host }}.json">{{ gh.host }}.json</a>.</p>
 </section>

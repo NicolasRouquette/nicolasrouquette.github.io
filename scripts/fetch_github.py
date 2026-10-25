@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect public GitHub contribution data for the profile's GitHub login into data/github.json.
+"""Collect public GitHub contribution data for the profile's GitHub login into data/activity/github.com.json.
 
 Uses the GraphQL `contributionsCollection` API, one call per year since the account was created
 (the API caps a collection at one year), so the per-repository breakdown covers the whole account
@@ -20,7 +20,7 @@ import requests
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "data" / "github.json"
+OUT = ROOT / "data" / "activity" / "github.com.json"
 API = "https://api.github.com/graphql"
 
 BY_REPO = """
@@ -108,11 +108,14 @@ def main() -> int:
         for k in ("commits", "prs", "reviews", "issues", "total"):
             o[k] += e[k]
     doc = {
+        "host": "github.com", "label": "github.com", "profile_url": f"https://github.com/{login}", "kind": "github", "pr_label": "pull requests",
+        "scope_note": f"Public contributions only ({totals['restricted']:,} further contributions are in private repositories)",
         "generated": now.strftime("%Y-%m-%d"), "login": login, "since": first_year,
         "totals": totals, "years": {str(y): years[y] for y in sorted(years)},
         "orgs": sorted(orgs.values(), key=lambda o: -o["total"]), "repos": rows,
         "calendar": calendar,
     }
+    OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(doc, indent=1) + "\n")
     print(f"wrote {OUT.relative_to(ROOT)}: {len(rows)} repositories across {len(orgs)} owners, "
           f"{totals['commits']} commits / {totals['prs']} PRs / {totals['reviews']} reviews / {totals['issues']} issues "

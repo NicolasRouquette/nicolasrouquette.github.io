@@ -22,6 +22,6 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - run: python scripts/build.py
+      - run: python scripts/build.py --variant auto
       - name: Publish _site as an orphan gh-pages commit
         run: PAGES_PUSH=1 ./scripts/publish-pages.sh

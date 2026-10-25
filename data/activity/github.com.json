@@ -1,10 +1,15 @@
 {
+ "host": "github.com",
+ "label": "github.com",
+ "profile_url": "https://github.com/NicolasRouquette",
+ "kind": "github",
+ "scope_note": "Public contributions only (735 further contributions are in private repositories)",
  "generated": "2026-10-25",
  "login": "NicolasRouquette",
  "since": 2012,
  "totals": {
-  "commits": 10165,
-  "prs": 395,
+  "commits": 10172,
+  "prs": 396,
   "reviews": 28,
   "issues": 876,
   "restricted": 735
@@ -95,8 +100,8 @@
    "issues": 10
   },
   "2026": {
-   "commits": 4260,
-   "prs": 45,
+   "commits": 4267,
+   "prs": 46,
    "reviews": 6,
    "issues": 21
   }
@@ -131,21 +136,21 @@
   },
   {
    "owner": "Open-MBEE",
-   "repos": 14,
-   "commits": 640,
+   "repos": 15,
+   "commits": 641,
    "prs": 1,
    "reviews": 4,
    "issues": 0,
-   "total": 645
+   "total": 646
   },
   {
    "owner": "NicolasRouquette",
-   "repos": 18,
-   "commits": 334,
-   "prs": 2,
+   "repos": 19,
+   "commits": 340,
+   "prs": 3,
    "reviews": 0,
    "issues": 0,
-   "total": 336
+   "total": 343
   },
   {
    "owner": "opencaesar",
@@ -2562,7 +2567,7 @@
    "description": "Lean 4 programming language and theorem prover",
    "fork": false,
    "archived": false,
-   "stars": 9669,
+   "stars": 9671,
    "language": "Lean",
    "language_color": null,
    "commits": 2,
@@ -2865,6 +2870,25 @@
    "issues": 3,
    "years": [
     2019
+   ],
+   "total": 7
+  },
+  {
+   "repo": "NicolasRouquette/nicolasrouquette.github.io",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/nicolasrouquette.github.io",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 6,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
    ],
    "total": 7
   },
@@ -4162,7 +4186,7 @@
    "description": "The Scala 3 compiler, also known as Dotty.",
    "fork": false,
    "archived": false,
-   "stars": 6326,
+   "stars": 6327,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -5126,6 +5150,25 @@
    "total": 1
   },
   {
+   "repo": "Open-MBEE/nfr.ghe.io",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/nfr.ghe.io",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": null,
+   "language_color": null,
+   "commits": 1,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 1
+  },
+  {
    "repo": "pawamoy/copier-pdm",
    "owner": "pawamoy",
    "url": "https://github.com/pawamoy/copier-pdm",
@@ -5360,7 +5403,7 @@
    "description": "Warp is an agentic development environment, born out of the terminal.",
    "fork": false,
    "archived": false,
-   "stars": 65692,
+   "stars": 65693,
    "language": "Rust",
    "language_color": "#dea584",
    "commits": 0,
@@ -6889,7 +6932,8 @@
   },
   {
    "date": "2026-10-25",
-   "contributionCount": 40
+   "contributionCount": 49
   }
- ]
+ ],
+ "pr_label": "pull requests"
 }
