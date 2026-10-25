@@ -16,6 +16,8 @@ data/sources/dblp.xml    cached DBLP export, used when dblp.org refuses non-brow
 content/*.md             prose for the About and Software pages
 templates/*.html         Jinja2 templates; static/style.css is the only stylesheet
 scripts/fetch_publications.py, scripts/fetch_github.py, scripts/build.py, scripts/publish-pages.sh
+data/activity/github.com.json              GitHub contribution data
+data/variants/<name>.yaml, content/<name>/      per-variant profile overrides and page overrides (`--variant`)
 .github/workflows/deploy.yml               build + force-push _site to gh-pages on every push to main
 .github/workflows/refresh-publications.yml weekly refresh of publications + GitHub activity (also runnable by hand)
 ```
@@ -34,7 +36,7 @@ python scripts/fetch_publications.py && python scripts/build.py
 ```
 or on GitHub: *Actions → Refresh publications → Run workflow*.
 
-### Refresh the GitHub activity chart now
+### Refresh the github.com activity chart now
 ```sh
 GITHUB_TOKEN=$(gh auth token) python scripts/fetch_github.py && python scripts/build.py
 ```
@@ -63,6 +65,7 @@ Append to `projects:` in `data/profile.yaml` (`name`, `repo`, `role`, `blurb`).
 
 ### Change the About text
 Edit `content/index.md`; headline, title and tagline come from `data/profile.yaml`.
+
 
 ### Publish by hand (no history buildup)
 ```sh

@@ -11,5 +11,5 @@
   </li>
 {% endfor %}
 </ul>
-{% if gh %}{% include "_github.html" %}{% endif %}
+{% for gh in activity %}{% include "_github.html" %}{% endfor %}
 {% endblock %}

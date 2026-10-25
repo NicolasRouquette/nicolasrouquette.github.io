@@ -25,6 +25,12 @@ if [ ! -d "$SITE" ]; then
 fi
 
 touch "$SITE/.nojekyll"
+# commit-tree needs an identity; CI runners have none configured.
+if ! git --git-dir="$GIT_DIR_ABS" var GIT_AUTHOR_IDENT >/dev/null 2>&1; then
+  export GIT_AUTHOR_NAME="github-actions[bot]" GIT_COMMITTER_NAME="github-actions[bot]"
+  export GIT_AUTHOR_EMAIL="41898282+github-actions[bot]@users.noreply.github.com"
+  export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+fi
 SRC_REF="$(git --git-dir="$GIT_DIR_ABS" rev-parse --short HEAD 2>/dev/null || echo unknown)"
 
 TMP_DIR="$(mktemp -d -t ghpages-idx.XXXXXX)"
