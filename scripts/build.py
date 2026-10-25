@@ -70,15 +70,17 @@ def heatmap(calendar: list[dict]) -> dict:
     return {"cells": cells, "months": months, "dows": dows, "width": GUTTER + (col + 1) * CELL}
 
 
-def group_projects(projects: list[dict]) -> tuple[list[tuple[str, list[dict]]], list[tuple[str, list[dict]]]]:
-    """Projects by category (in order of first appearance) and by language (alphabetical)."""
-    by_cat: dict[str, list[dict]] = {}
+def group_projects(projects: list[dict], order: list[str]) -> tuple[list[tuple[str, list[dict]]], list[tuple[str, list[dict]]]]:
+    """Projects by category (a project may be in several; sections follow `order`, then first use) and by language."""
+    by_cat: dict[str, list[dict]] = {c: [] for c in order}
     by_lang: dict[str, list[dict]] = {}
     for pr in projects:
         pr["anchor"] = slug(pr["name"])
-        by_cat.setdefault(pr.get("category") or "Other", []).append(pr)
+        cats = pr.get("category") or ["Other"]
+        for c in ([cats] if isinstance(cats, str) else cats):
+            by_cat.setdefault(c, []).append(pr)
         by_lang.setdefault(pr.get("language") or "Other", []).append(pr)
-    return list(by_cat.items()), sorted(by_lang.items(), key=lambda kv: kv[0].lower())
+    return [(c, prs) for c, prs in by_cat.items() if prs], sorted(by_lang.items(), key=lambda kv: kv[0].lower())
 
 
 def github_view(gh: dict | None, max_orgs: int = 12, max_repos: int = 25) -> dict | None:
@@ -198,7 +200,7 @@ def main() -> int:
     render("publications.html", "publications/index.html", "../", active="publications", page_title="Publications", by_year=by_year)
 
     body = md.convert(content("software", variant).read_text()); md.reset()
-    by_category, by_language = group_projects(profile["projects"])
+    by_category, by_language = group_projects(profile["projects"], profile.get("project_categories") or [])
     render("software.html", "software/index.html", "../", active="software", page_title="Software", body=body,
            by_category=by_category, by_language=by_language)
 
