@@ -61,7 +61,8 @@ publication_exclude:
 Then run the refresh recipe (or wait for Monday's job).
 
 ### Add a project to the Software page
-Projects are grouped by `category` (sections, in order of first appearance) and indexed by `language`.
+A project is listed under every entry of its `category` list and indexed by `language`; section order is
+`project_categories` (then any other category in order of first use).
 Append to `projects:` in `data/profile.yaml` (`name`, `repo`, `role`, `blurb`, `category`, `language`).
 
 ### Change the About text
