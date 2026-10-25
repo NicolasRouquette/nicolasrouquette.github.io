@@ -19,4 +19,12 @@
   </ol>
   <p><a href="{{ root }}publications/">All {{ pubs | length }} publications →</a></p>
 </section>
+{% if gh %}
+<section>
+  <h2>Open source</h2>
+  <p>Since {{ gh.since }}: {{ "{:,}".format(gh.totals.commits) }} commits and {{ gh.totals.prs }} pull requests across
+     {{ gh.repos | length }} public repositories owned by {{ gh.orgs | length }} organisations and people.
+     <a href="{{ root }}software/#github">Activity chart →</a></p>
+</section>
+{% endif %}
 {% endblock %}

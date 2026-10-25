@@ -15,9 +15,9 @@ data/publications.json   generated — do not edit by hand (use publication_over
 data/sources/dblp.xml    cached DBLP export, used when dblp.org refuses non-browser clients
 content/*.md             prose for the About and Software pages
 templates/*.html         Jinja2 templates; static/style.css is the only stylesheet
-scripts/fetch_publications.py, scripts/build.py, scripts/publish-pages.sh
+scripts/fetch_publications.py, scripts/fetch_github.py, scripts/build.py, scripts/publish-pages.sh
 .github/workflows/deploy.yml               build + force-push _site to gh-pages on every push to main
-.github/workflows/refresh-publications.yml weekly publication refresh (also runnable by hand)
+.github/workflows/refresh-publications.yml weekly refresh of publications + GitHub activity (also runnable by hand)
 ```
 
 ## Recipes
@@ -33,6 +33,13 @@ python scripts/build.py && python -m http.server -d _site 8000
 python scripts/fetch_publications.py && python scripts/build.py
 ```
 or on GitHub: *Actions → Refresh publications → Run workflow*.
+
+### Refresh the GitHub activity chart now
+```sh
+GITHUB_TOKEN=$(gh auth token) python scripts/fetch_github.py && python scripts/build.py
+```
+Any token works (public data only); in Actions the workflow's own `GITHUB_TOKEN` is used.
+The weekly refresh workflow runs this together with the publication refresh.
 
 ### Fix a wrong or missing publication
 Edit `data/profile.yaml`. Overrides win over every fetched field and are matched by DOI (preferred) or exact title:

@@ -1,4 +1,4 @@
-name: Refresh publications
+name: Refresh publications and GitHub activity
 
 on:
   schedule:
@@ -19,13 +19,16 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python scripts/fetch_publications.py
+      - run: python scripts/fetch_github.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/publications.json data/sources
+          git add data/publications.json data/github.json data/sources
           git diff --cached --quiet && echo "changed=0" >> "$GITHUB_OUTPUT" && exit 0
-          git commit -m "data: refresh publications from OpenAlex/ORCID/Crossref/DBLP/NTRS"
+          git commit -m "data: refresh publications and GitHub activity"
           git push
           echo "changed=1" >> "$GITHUB_OUTPUT"
         id: commit
