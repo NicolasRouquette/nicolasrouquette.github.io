@@ -25,7 +25,7 @@ API = "https://api.github.com/graphql"
 
 BY_REPO = """
   {field}(maxRepositories: 100) {{
-    repository {{ nameWithOwner url description isFork isArchived stargazerCount
+    repository {{ nameWithOwner url description isPrivate isFork isArchived stargazerCount
                  owner {{ login }} primaryLanguage {{ name color }} }}
     contributions {{ totalCount }}
   }}"""
@@ -71,6 +71,7 @@ def main() -> int:
     repos: dict[str, dict] = {}
     years: dict[int, dict] = {}
     totals = {k: 0 for k in KINDS} | {"restricted": 0}
+    private_seen = False
     for year in range(first_year, now.year + 1):
         start = dt.datetime(year, 1, 1, tzinfo=dt.timezone.utc)
         end = min(dt.datetime(year + 1, 1, 1, tzinfo=dt.timezone.utc), now)
@@ -83,6 +84,14 @@ def main() -> int:
         for kind, field in KINDS.items():
             for row in c[field]:
                 r = row["repository"]
+                if r["isPrivate"]:
+                    # Only public work on public projects is published; a token that can see private
+                    # repositories still contributes to the "not shown" count, nothing else.
+                    years[year][kind] -= row["contributions"]["totalCount"]
+                    totals[kind] -= row["contributions"]["totalCount"]
+                    totals["restricted"] += row["contributions"]["totalCount"]
+                    private_seen = True
+                    continue
                 e = repos.setdefault(r["nameWithOwner"], {
                     "repo": r["nameWithOwner"], "owner": r["owner"]["login"], "url": r["url"],
                     "description": r["description"], "fork": r["isFork"], "archived": r["isArchived"],
@@ -115,6 +124,10 @@ def main() -> int:
         "orgs": sorted(orgs.values(), key=lambda o: -o["total"]), "repos": rows,
         "calendar": calendar,
     }
+    if private_seen:
+        print("warning: the token can see private repositories; they were dropped from the breakdown, but the "
+              "daily calendar cannot be split and may include them — prefer a token without private access "
+              "(the Actions GITHUB_TOKEN).", file=sys.stderr)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(doc, indent=1) + "\n")
     print(f"wrote {OUT.relative_to(ROOT)}: {len(rows)} repositories across {len(orgs)} owners, "
