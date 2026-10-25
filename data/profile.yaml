@@ -31,32 +31,47 @@ interests:
   - Flight software (F´) and observability
 
 # Software / projects shown on the Software page. `repo` is owner/name on GitHub.
+# Software page: projects are grouped by `category` (section order = first appearance) and indexed by `language`.
 projects:
   - name: openCAESAR
+    category: Model-based systems engineering
+    language: Java
     repo: opencaesar/oml
     role: co-lead
     blurb: Ontological Modeling Language and tooling for rigorous, agile MBSE at JPL.
   - name: Pacti
+    category: Compositional design and contracts
+    language: Python
     repo: pacti-org/pacti
     role: co-author
     blurb: Assume-guarantee contracts for efficient compositional analysis and design.
   - name: L4YAML
+    category: Verified software in Lean 4
+    language: Lean 4
     repo: nasa-jpl/L4YAML
     role: author
     blurb: A YAML 1.2 parser in Lean 4 with machine-checked proofs.
   - name: PropertyKindCalculus
+    category: Formal metrology
+    language: Lean 4
     repo: nasa-jpl/PropertyKindCalculus
     role: author
     blurb: Dybkær's kinds-of-property and quantity calculus, formalized in Lean 4 with PhysLib.
   - name: OpenSysML
+    category: Model-based systems engineering
+    language: Go
     repo: Open-MBEE/OpenSysML
     role: contributor
     blurb: Open SysML v2 tooling (Jupyter kernel, Airflow provider, OpenTelemetry bridge).
   - name: doc-verification-bridge
+    category: Verified software in Lean 4
+    language: Lean 4
     repo: NicolasRouquette/doc-verification-bridge
     role: author
     blurb: What theorems assume, prove, validate, and depend on? Bridging Verso docs and Lean proofs.
   - name: metrology-vocabularies
+    category: Formal metrology
+    language: OML
     repo: opencaesar/metrology-vocabularies
     role: author
     blurb: OML vocabularies for VIM3 / ISO 80000 metrology concepts.

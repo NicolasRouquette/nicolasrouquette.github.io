@@ -61,7 +61,8 @@ publication_exclude:
 Then run the refresh recipe (or wait for Monday's job).
 
 ### Add a project to the Software page
-Append to `projects:` in `data/profile.yaml` (`name`, `repo`, `role`, `blurb`).
+Projects are grouped by `category` (sections, in order of first appearance) and indexed by `language`.
+Append to `projects:` in `data/profile.yaml` (`name`, `repo`, `role`, `blurb`, `category`, `language`).
 
 ### Change the About text
 Edit `content/index.md`; headline, title and tagline come from `data/profile.yaml`.

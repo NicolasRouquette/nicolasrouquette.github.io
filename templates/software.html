@@ -2,14 +2,26 @@
 {% block content %}
 <h1>Software</h1>
 <section class="prose">{{ body | safe }}</section>
+<p class="fine">By language:
+{% for lang, prs in by_language %}<a href="#lang-{{ lang | lower | replace(' ', '-') }}">{{ lang }}</a> ({{ prs | length }}){{ " · " if not loop.last }}{% endfor %}</p>
+{% for cat, prs in by_category %}
+<h2 id="cat-{{ cat | lower | replace(' ', '-') }}">{{ cat }}</h2>
 <ul class="projects">
-{% for pr in p.projects %}
-  <li>
-    <h3><a href="https://github.com/{{ pr.repo }}">{{ pr.name }}</a> <span class="role">{{ pr.role }}</span></h3>
+{% for pr in prs %}
+  <li id="{{ pr.anchor }}">
+    <h3><a href="https://github.com/{{ pr.repo }}">{{ pr.name }}</a> <span class="role">{{ pr.role }}</span>{% if pr.language %} <span class="lang">{{ pr.language }}</span>{% endif %}</h3>
     <p>{{ pr.blurb }}</p>
     <p class="fine"><code>{{ pr.repo }}</code></p>
   </li>
 {% endfor %}
 </ul>
+{% endfor %}
+<h2>By language</h2>
+<dl class="by-language">
+{% for lang, prs in by_language %}
+  <dt id="lang-{{ lang | lower | replace(' ', '-') }}">{{ lang }}</dt>
+  <dd>{% for pr in prs %}<a href="#{{ pr.anchor }}">{{ pr.name }}</a>{{ ", " if not loop.last }}{% endfor %}</dd>
+{% endfor %}
+</dl>
 {% for gh in activity %}{% include "_github.html" %}{% endfor %}
 {% endblock %}
