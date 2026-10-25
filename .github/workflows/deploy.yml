@@ -1,4 +1,4 @@
-name: Build and deploy
+name: Build and publish
 
 on:
   push:
@@ -6,16 +6,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,16 +23,5 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python scripts/build.py
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publish _site as an orphan gh-pages commit
+        run: PAGES_PUSH=1 ./scripts/publish-pages.sh

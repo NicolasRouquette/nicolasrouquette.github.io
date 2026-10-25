@@ -6,14 +6,17 @@ A small Python build (Jinja2 + Markdown) renders `content/`, `data/` and `templa
 The publication list is not hand-maintained: `scripts/fetch_publications.py` merges ORCID, Crossref,
 DBLP, OpenAlex and NTRS into `data/publications.json`, and a weekly GitHub Action commits the refresh.
 
+Source lives on `main`; the built site is published as a single orphan commit on `gh-pages`
+(force-pushed on every build, so the branch never accumulates history).
+
 ```
 data/profile.yaml        who you are: identifiers, interests, projects, manual publication fixes
 data/publications.json   generated — do not edit by hand (use publication_overrides in profile.yaml)
 data/sources/dblp.xml    cached DBLP export, used when dblp.org refuses non-browser clients
 content/*.md             prose for the About and Software pages
 templates/*.html         Jinja2 templates; static/style.css is the only stylesheet
-scripts/fetch_publications.py, scripts/build.py
-.github/workflows/deploy.yml               build + deploy to GitHub Pages on every push to main
+scripts/fetch_publications.py, scripts/build.py, scripts/publish-pages.sh
+.github/workflows/deploy.yml               build + force-push _site to gh-pages on every push to main
 .github/workflows/refresh-publications.yml weekly publication refresh (also runnable by hand)
 ```
 
@@ -54,5 +57,12 @@ Append to `projects:` in `data/profile.yaml` (`name`, `repo`, `role`, `blurb`).
 ### Change the About text
 Edit `content/index.md`; headline, title and tagline come from `data/profile.yaml`.
 
+### Publish by hand (no history buildup)
+```sh
+python scripts/build.py && ./scripts/publish-pages.sh && git push origin gh-pages --force-with-lease
+```
+`PAGES_PUSH=1 ./scripts/publish-pages.sh` pushes for you (what CI runs). `PAGES_REMOTE=maap` publishes to another remote.
+
 ### First-time GitHub Pages setup
-Repository *Settings → Pages → Build and deployment → Source: GitHub Actions*. The deploy workflow does the rest.
+Repository *Settings → Pages → Build and deployment → Source: Deploy from a branch → `gh-pages` / `/ (root)`*.
+The first push to `main` creates `gh-pages` through the workflow.
