@@ -1,0 +1,1582 @@
+{
+ "generated": "2026-10-25",
+ "count": 72,
+ "publications": [
+  {
+   "title": "An Engineering Life-Cycle Assurance Process for Autonomous Space Systems",
+   "authors": [
+    "Alessandro Pinto",
+    "Caleb Wagner",
+    "Klaus Havelund",
+    "Nicolas Rouquette"
+   ],
+   "year": 2026,
+   "venue": "Proceedings - IEEE Aerospace Conference",
+   "type": "inproceedings",
+   "doi": "10.1109/aero66936.2026.11520157",
+   "url": "https://doi.org/10.1109/aero66936.2026.11520157",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 0,
+   "open_access_url": null,
+   "openalex_id": "W7162128820"
+  },
+  {
+   "title": "Autonomous Onboard Planning, Execution and Resource Management for the Endurance Lunar Rover",
+   "authors": [
+    "Michel D. Ingham",
+    "Zaki Hasnain",
+    "Steven Ardito",
+    "Saptarshi Bandyopadhyay",
+    "Tristan D. Hasseler",
+    "Bennett Huffmann",
+    "Katharine Patterson",
+    "Gregg Rabideau",
+    "Nicolas Rouquette",
+    "Tiago Vaquero"
+   ],
+   "year": 2026,
+   "venue": null,
+   "type": "inproceedings",
+   "doi": "10.2514/6.2026-3019",
+   "url": "https://doi.org/10.2514/6.2026-3019",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 0,
+   "open_access_url": null,
+   "openalex_id": "W7161076833"
+  },
+  {
+   "title": "Supervised and Unsupervised Methods for Detecting Anomalies in an Autonomous Long-Range Lunar Rover",
+   "authors": [
+    "Sofie Claridge",
+    "Jack Patterson",
+    "Zaki Hasnain",
+    "Ashish Goel",
+    "Katharine Patterson",
+    "Nicolas Rouquette",
+    "Caleb Wagner",
+    "Tristan D. Hasseler",
+    "Michel D. Ingham"
+   ],
+   "year": 2026,
+   "venue": "PHM Society European Conference",
+   "type": "inproceedings",
+   "doi": "10.36001/phme.2026.v9i1.4967",
+   "url": "https://doi.org/10.36001/phme.2026.v9i1.4967",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 0,
+   "open_access_url": "https://papers.phmsociety.org/index.php/phme/article/download/4967/2894",
+   "openalex_id": "W7171317907"
+  },
+  {
+   "title": "Pacti: Assume-Guarantee Contracts for Efficient Compositional Analysis and Design",
+   "authors": [
+    "Inigo Incer",
+    "Apurva Badithela",
+    "Josefine B. Graebener",
+    "Piergiuseppe Mallozzi",
+    "Ayush Pandey",
+    "Nicolas Rouquette",
+    "Sheng-Jung Yu",
+    "Albert Benveniste",
+    "Benoit Caillaud",
+    "Richard M. Murray",
+    "Alberto Sangiovanni-Vincentelli",
+    "Sanjit A. Seshia"
+   ],
+   "year": 2025,
+   "venue": "ACM Transactions on Cyber-Physical Systems",
+   "type": "article",
+   "doi": "10.1145/3704736",
+   "url": "https://doi.org/10.1145/3704736",
+   "sources": [
+    "crossref",
+    "dblp",
+    "openalex",
+    "orcid"
+   ],
+   "citations": 11,
+   "open_access_url": "https://arxiv.org/pdf/2303.17751",
+   "dblp_key": "journals/tcps/IncerBGMPRYBCMSS25",
+   "openalex_id": "W4404482918"
+  },
+  {
+   "title": "openCAESAR Application to Power Balance Analysis in Early Space Mission Formulation",
+   "authors": [
+    "Yuta Nakajima",
+    "Haruhi Katsumata",
+    "Daiki Tate",
+    "Yutaka Komatsu",
+    "Aaron Levitt",
+    "J. Steven Jenkins",
+    "Maged Elaasar",
+    "Nicolas F. Rouquette",
+    "David A. Wagner"
+   ],
+   "year": 2025,
+   "venue": "MODELS-C",
+   "type": "inproceedings",
+   "doi": "10.1109/models-c68889.2025.00111",
+   "url": "https://dblp.org/rec/conf/models/NakajimaKTKLJERW25",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 3,
+   "open_access_url": null,
+   "dblp_key": "conf/models/NakajimaKTKLJERW25",
+   "openalex_id": "W4417250765"
+  },
+  {
+   "title": "Codiscovering graphical structure and functional relationships within data: A Gaussian Process framework for connecting the dots",
+   "authors": [
+    "Théo Bourdais",
+    "Pau Batlle",
+    "Xianjin Yang",
+    "Ricardo Baptista",
+    "Nicolas Rouquette",
+    "Houman Owhadi"
+   ],
+   "year": 2024,
+   "venue": "Proceedings of the National Academy of Sciences",
+   "type": "article",
+   "doi": "10.1073/pnas.2403449121",
+   "url": "https://doi.org/10.1073/pnas.2403449121",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 7,
+   "open_access_url": "https://doi.org/10.1073/pnas.2403449121",
+   "openalex_id": "W4401213976"
+  },
+  {
+   "title": "Onboard Planning and Execution of Mobility and Telecommunications for the Endurance Lunar Rover",
+   "authors": [
+    "Michel D. Ingham",
+    "Zaki Hasnain",
+    "Rashied Amini",
+    "Steven Ardito",
+    "Saptarshi Bandyopadhyay",
+    "Robert L. Bocchino",
+    "Aaron Gaut",
+    "Lini Mestar",
+    "Gregg Rabideau",
+    "Nicolas Rouquette"
+   ],
+   "year": 2024,
+   "venue": null,
+   "type": "inproceedings",
+   "doi": "10.2514/6.2024-4889",
+   "url": "https://doi.org/10.2514/6.2024-4889",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 3,
+   "open_access_url": null,
+   "openalex_id": "W4402688860"
+  },
+  {
+   "title": "Early Design Exploration of Aerospace Systems Using Assume-Guarantee Contracts",
+   "authors": [
+    "Nicolas Rouquette",
+    "Alessandro Pinto",
+    "Inigo Incer"
+   ],
+   "year": 2024,
+   "venue": "CoRR",
+   "type": "article",
+   "doi": "10.48550/arxiv.2409.02218",
+   "url": "https://dblp.org/rec/journals/corr/abs-2409-02218",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": "https://arxiv.org/pdf/2409.02218",
+   "dblp_key": "journals/corr/abs-2409-02218",
+   "openalex_id": "W4403159949"
+  },
+  {
+   "title": "Endurance Mission-Level Simulation Architecture for Autonomy Development",
+   "authors": [
+    "Saptarshi Bandyopadhyay",
+    "Aaron Gaut",
+    "Nicolas Rouquette",
+    "Abhinandan Jain",
+    "Rashied Amini",
+    "Zaki Hasnain",
+    "Ashish Goel",
+    "Alex Davis",
+    "John O. Elliott",
+    "Richard P. Kornfeld",
+    "Issa Nesnas",
+    "Steven Ardito",
+    "Michel D. Ingham"
+   ],
+   "year": 2024,
+   "venue": null,
+   "type": "inproceedings",
+   "doi": "10.2514/6.2024-4834",
+   "url": "https://doi.org/10.2514/6.2024-4834",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 0,
+   "open_access_url": null,
+   "openalex_id": "W4402685636"
+  },
+  {
+   "title": "openCAESAR: Balancing Agility and Rigor in Model-Based Systems Engineering",
+   "authors": [
+    "Maged Elaasar",
+    "Nicolas Rouquette",
+    "David A. Wagner",
+    "Bentley Oakes",
+    "Abdelwahab Hamou-Lhadj",
+    "Mohammad Hamdaqa"
+   ],
+   "year": 2023,
+   "venue": "MoDELS (Companion)",
+   "type": "inproceedings",
+   "doi": "10.1109/models-c59198.2023.00051",
+   "url": "https://dblp.org/rec/conf/models/ElaasarRWOHH23",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 24,
+   "open_access_url": null,
+   "dblp_key": "conf/models/ElaasarRWOHH23",
+   "openalex_id": "W4390117289"
+  },
+  {
+   "title": "Ontological Metamodeling and Analysis Using openCAESAR",
+   "authors": [
+    "D. A. Wagner",
+    "Mark Chodas",
+    "M. Elaasar",
+    "J. Steven Jenkins",
+    "N. Rouquette"
+   ],
+   "year": 2023,
+   "venue": "Springer eBooks",
+   "type": "incollection",
+   "doi": "10.1007/978-3-030-93582-5_78",
+   "url": "https://doi.org/10.1007/978-3-030-93582-5_78",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 12,
+   "open_access_url": null,
+   "openalex_id": "W4385237231"
+  },
+  {
+   "title": "Autonomica: Ontological Modeling and Analysis of Autonomous Behavior",
+   "authors": [
+    "Maged Elaasar",
+    "Nicolas Rouquette",
+    "Klaus Havelund",
+    "Martin S. Feather",
+    "Saptarshi Bandyopadhyay",
+    "Alberto Candela"
+   ],
+   "year": 2023,
+   "venue": "INCOSE International Symposium",
+   "type": "inproceedings",
+   "doi": "10.1002/iis2.13099",
+   "url": "https://doi.org/10.1002/iis2.13099",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 3,
+   "open_access_url": null,
+   "openalex_id": "W4386309368"
+  },
+  {
+   "title": "Early Design Exploration of Space System Scenarios Using Assume-Guarantee Contracts",
+   "authors": [
+    "Nicolas Rouquette",
+    "Inigo Incer",
+    "Alessandro Pinto"
+   ],
+   "year": 2023,
+   "venue": "IEEE International Conference on Space Mission Challenges for Information Technology",
+   "type": "inproceedings",
+   "doi": "10.1109/smc-it56444.2023.00011",
+   "url": "http://dx.doi.org/10.1109/smc-it56444.2023.00011",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 1,
+   "open_access_url": null,
+   "openalex_id": "W4385730203"
+  },
+  {
+   "title": "Computational Hypergraph Discovery, a Gaussian Process framework for connecting the dots",
+   "authors": [
+    "Théo Bourdais",
+    "Pau Batlle",
+    "Xianjin Yang",
+    "Ricardo Baptista",
+    "Nicolas Rouquette",
+    "Houman Owhadi"
+   ],
+   "year": 2023,
+   "venue": "CoRR",
+   "type": "article",
+   "doi": "10.48550/arxiv.2311.17007",
+   "url": "https://dblp.org/rec/journals/corr/abs-2311-17007",
+   "sources": [
+    "dblp"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "dblp_key": "journals/corr/abs-2311-17007"
+  },
+  {
+   "title": "Semantic Modeling for Power Management Using CAESAR",
+   "authors": [
+    "D. A. Wagner",
+    "Mark Chodas",
+    "Maged Elaasar",
+    "J. Steven Jenkins",
+    "N. Rouquette"
+   ],
+   "year": 2022,
+   "venue": "Springer eBooks",
+   "type": "incollection",
+   "doi": "10.1007/978-3-030-27486-3_81-1",
+   "url": "https://doi.org/10.1007/978-3-030-27486-3_81-1",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 3,
+   "open_access_url": null,
+   "openalex_id": "W4285233255"
+  },
+  {
+   "title": "CAESAR Model-Based Approach to Harness Design",
+   "authors": [
+    "David Wagner",
+    "So Young Kim-Castet",
+    "Alejandro Jiménez",
+    "Maged Elaasar",
+    "Nicolas Rouquette",
+    "Steven P Jenkins"
+   ],
+   "year": 2020,
+   "venue": "Proceedings - IEEE Aerospace Conference",
+   "type": "inproceedings",
+   "doi": "10.1109/aero47225.2020.9172630",
+   "url": "https://doi.org/10.1109/aero47225.2020.9172630",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 28,
+   "open_access_url": null,
+   "openalex_id": "W3080480113"
+  },
+  {
+   "title": "CAESAR Server New Design Plan",
+   "authors": [
+    "Rouquette, Nicolas",
+    "Elaasar, Maged"
+   ],
+   "year": 2019,
+   "venue": "NASA Technical Reports Server",
+   "type": "techreport",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/citations/20210012468",
+   "sources": [
+    "ntrs"
+   ],
+   "citations": null,
+   "open_access_url": null
+  },
+  {
+   "title": "Operationalizing Engineering Models Of Steady-State Equations Into Efficient Simulation Programs",
+   "authors": [
+    "Nicolas Rouquette"
+   ],
+   "year": 2017,
+   "venue": "University of Southern California Digital Library",
+   "type": "phdthesis",
+   "doi": "10.25549/usctheses-c20-607441",
+   "url": "https://doi.org/10.25549/usctheses-c20-607441",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 3,
+   "open_access_url": "https://doi.org/10.25549/usctheses-c20-607441",
+   "openalex_id": "W2260801045"
+  },
+  {
+   "title": "Simplifying OMG MOF-Based Metamodeling",
+   "authors": [
+    "Nicolas F. Rouquette"
+   ],
+   "year": 2016,
+   "venue": "ISoLA (2)",
+   "type": "inproceedings",
+   "doi": "10.1007/978-3-319-47169-3_8",
+   "url": "https://dblp.org/rec/conf/isola/Rouquette16",
+   "sources": [
+    "dblp",
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 2,
+   "open_access_url": null,
+   "dblp_key": "conf/isola/Rouquette16",
+   "openalex_id": "W2529330943"
+  },
+  {
+   "title": "Ontology and Modeling Patterns for State-Based Behavior Representation",
+   "authors": [
+    "Castet, Jean-Francois",
+    "Rozek, Matthew L.",
+    "Ingham, Michel D.",
+    "Rouquette, Nicolas F.",
+    "Chung, Seung H.",
+    "Kerzhner, Aleksandr A.",
+    "Donahue, Kenneth M.",
+    "Jenkins, J. Steven",
+    "Wagner, David A.",
+    "Dvorak, Daniel L.",
+    "Karban, Robert"
+   ],
+   "year": 2015,
+   "venue": "AIAA Infotech@Aerospace Conference",
+   "type": "inproceedings",
+   "doi": "10.2514/6.2015-1115",
+   "url": "https://doi.org/10.2514/6.2015-1115",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 21,
+   "open_access_url": null,
+   "openalex_id": "W2329309348"
+  },
+  {
+   "title": "Mining Requirements Knowledge from Operational Experience",
+   "authors": [
+    "Robyn R. Lutz",
+    "Milton Lavin",
+    "J. Lux",
+    "K. Peters",
+    "Nicolas F. Rouquette"
+   ],
+   "year": 2013,
+   "venue": "Managing Requirements Knowledge",
+   "type": "incollection",
+   "doi": "10.1007/978-3-642-34419-0_3",
+   "url": "https://dblp.org/rec/books/sp/13/LutzLLPR13",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 7,
+   "open_access_url": null,
+   "dblp_key": "books/sp/13/LutzLLPR13",
+   "openalex_id": "W11131550"
+  },
+  {
+   "title": "Integrating Analytical Models with Descriptive System Models: Implementation of the OMG SyML Standard for the Tool-specific Case of MapleSim and MagicDraw",
+   "authors": [
+    "Sebastian J. I. Herzig",
+    "Nicolas F. Rouquette",
+    "Stephen Forrest",
+    "J. Steven Jenkins"
+   ],
+   "year": 2013,
+   "venue": "CSER",
+   "type": "inproceedings",
+   "doi": "10.1016/j.procs.2013.01.013",
+   "url": "https://dblp.org/rec/journals/procedia/HerzigRFJ13",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 6,
+   "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1877050913000148/pdf",
+   "dblp_key": "journals/procedia/HerzigRFJ13",
+   "openalex_id": "W2079493878"
+  },
+  {
+   "title": "Evaluating fractionated space systems - Status",
+   "authors": [
+    "S. Cornford",
+    "Steven P Jenkins",
+    "S. D. Wall",
+    "Bjorn F. Cole",
+    "Brian K. Bairstow",
+    "N. Rouquette",
+    "G. Dubos",
+    "Tyler Ryan",
+    "Pezhman Zarifian",
+    "Justin Boutwell"
+   ],
+   "year": 2013,
+   "venue": "Proceedings - IEEE Aerospace Conference",
+   "type": "inproceedings",
+   "doi": "10.1109/aero.2013.6496979",
+   "url": "https://doi.org/10.1109/aero.2013.6496979",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 1,
+   "open_access_url": null,
+   "openalex_id": "W2076929878"
+  },
+  {
+   "title": "An ontology for State Analysis: Formalizing the mapping to SysML",
+   "authors": [
+    "David A. Wagner",
+    "Mike Bennett",
+    "Robert Karban",
+    "N. Rouquette",
+    "Steven P Jenkins",
+    "Michel D. Ingham"
+   ],
+   "year": 2012,
+   "venue": "Proceedings - IEEE Aerospace Conference",
+   "type": "inproceedings",
+   "doi": "10.1109/aero.2012.6187335",
+   "url": "https://doi.org/10.1109/aero.2012.6187335",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 54,
+   "open_access_url": null,
+   "openalex_id": "W2073934093"
+  },
+  {
+   "title": "Semantically-Rigorous Systems Engineering Modeling Using Sysml and OWL",
+   "authors": [
+    "J. Steven Jenkins",
+    "Nicolas Rouquette"
+   ],
+   "year": 2012,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20150005663",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 19,
+   "open_access_url": null,
+   "openalex_id": "W1482579604"
+  },
+  {
+   "title": "Evaluating a Fractionated Spacecraft system: A business case tool for DARPA's F6 program",
+   "authors": [
+    "S. Cornford",
+    "Robert Shishko",
+    "S. D. Wall",
+    "Bjorn F. Cole",
+    "Steven P Jenkins",
+    "N. Rouquette",
+    "G. Dubos",
+    "Thomas P. Ryan",
+    "P. Zarifian",
+    "B. Durham"
+   ],
+   "year": 2012,
+   "venue": "Proceedings - IEEE Aerospace Conference",
+   "type": "inproceedings",
+   "doi": "10.1109/aero.2012.6187435",
+   "url": "https://doi.org/10.1109/aero.2012.6187435",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 14,
+   "open_access_url": null,
+   "openalex_id": "W2012755956"
+  },
+  {
+   "title": "Semantically-Rigorous Systems Engineering Using SysML and OWL",
+   "authors": [
+    "Steven P Jenkins",
+    "Nicolas Rouquette"
+   ],
+   "year": 2012,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20150005668",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 6,
+   "open_access_url": null,
+   "openalex_id": "W1482403111"
+  },
+  {
+   "title": "Progress on Integrating OWL and SysML",
+   "authors": [
+    "Steven P Jenkins",
+    "Nicolas Rouquette"
+   ],
+   "year": 2012,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20140002119",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 2,
+   "open_access_url": null,
+   "openalex_id": "W833942132"
+  },
+  {
+   "title": "SysML-Modelica: A Redefinition & Modification Use Case",
+   "authors": [
+    "Alek Kerzhner",
+    "Nicolas Rouquette"
+   ],
+   "year": 2012,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20150004704",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "openalex_id": "W2153183347"
+  },
+  {
+   "title": "SysML-Modelica: JPL Implementation Overview and Specification-Related Issues",
+   "authors": [
+    "Alek Kerzhner",
+    "Nicolas Rouquette"
+   ],
+   "year": 2012,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20150004706",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "openalex_id": "W1643996395"
+  },
+  {
+   "title": "Conceptual Model of Quantities, Units, Dimensions, and Values",
+   "authors": [
+    "Nicolas Rouquette",
+    "Hans-Peter DeKoenig",
+    "Roger M. Burkhart",
+    "Huáscar Espinoza"
+   ],
+   "year": 2011,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/api/citations/20120000470/downloads/20120000470.pdf",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "openalex_id": "W754352242"
+  },
+  {
+   "title": "IMCE MOF2/OWL2 Integration",
+   "authors": [
+    "Nicolas Rouquette"
+   ],
+   "year": 2011,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20150005723",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "openalex_id": "W1934441312"
+  },
+  {
+   "title": "5.5.1 An Overview of the SysML‐Modelica Transformation Specification",
+   "authors": [
+    "Christiaan J. J. Paredis",
+    "Yves Bernard",
+    "Roger M. Burkhart",
+    "Hans‐Peter de Koning",
+    "Sanford A. Friedenthal",
+    "Peter Fritzson",
+    "Nicolas Rouquette",
+    "Wladimir Schamai"
+   ],
+   "year": 2010,
+   "venue": "INCOSE International Symposium",
+   "type": "inproceedings",
+   "doi": "10.1002/j.2334-5837.2010.tb01099.x",
+   "url": "https://doi.org/10.1002/j.2334-5837.2010.tb01099.x",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 113,
+   "open_access_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-110236",
+   "openalex_id": "W2065457963"
+  },
+  {
+   "title": "Model Driven Engineering Languages and Systems - 13th International Conference, MODELS 2010, Oslo, Norway, October 3-8, 2010, Proceedings, Part II",
+   "authors": [
+    "Dorina C. Petriu",
+    "Nicolas Rouquette",
+    "Øystein Haugen"
+   ],
+   "year": 2010,
+   "venue": "MoDELS (2)",
+   "type": "book",
+   "doi": "10.1007/978-3-642-16129-2",
+   "url": "https://dblp.org/rec/conf/models/2010-2",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 41,
+   "open_access_url": null,
+   "dblp_key": "conf/models/2010-2",
+   "openalex_id": "W1666808443"
+  },
+  {
+   "title": "Model Driven Engineering Languages and Systems - 13th International Conference, MODELS 2010, Oslo, Norway, October 3-8, 2010, Proceedings, Part I",
+   "authors": [
+    "Dorina C. Petriu",
+    "Nicolas Rouquette",
+    "Øystein Haugen"
+   ],
+   "year": 2010,
+   "venue": "MoDELS (1)",
+   "type": "book",
+   "doi": "10.1007/978-3-642-16145-2",
+   "url": "https://dblp.org/rec/conf/models/2010-1",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 28,
+   "open_access_url": null,
+   "dblp_key": "conf/models/2010-1",
+   "openalex_id": "W2612017095"
+  },
+  {
+   "title": "Programming and Validation Techniques for Reliable Goal-driven Autonomic Software",
+   "authors": [
+    "Damian Dechev",
+    "Nicolas Rouquette",
+    "Peter Pirkelbauer",
+    "Bjarne Stroustrup"
+   ],
+   "year": 2010,
+   "venue": "Autonomic Communication",
+   "type": "incollection",
+   "doi": "10.1007/978-0-387-09753-4_9",
+   "url": "https://dblp.org/rec/books/daglib/p/DechevRPS10",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 3,
+   "open_access_url": null,
+   "dblp_key": "books/daglib/p/DechevRPS10",
+   "openalex_id": "W1652959898"
+  },
+  {
+   "title": "OWL2 and SysML",
+   "authors": [
+    "Nicolas Rouquette",
+    "Steven P Jenkins"
+   ],
+   "year": 2010,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20150008941",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "openalex_id": "W1638819419"
+  },
+  {
+   "title": "Proceedings of the 13th international conference on Model driven engineering languages and systems: Part I",
+   "authors": [
+    "Dorina Corina Petriu",
+    "Nicolas Rouquette",
+    "Øystein Haugen"
+   ],
+   "year": 2010,
+   "venue": null,
+   "type": "misc",
+   "doi": null,
+   "url": "https://dl.acm.org/action/showBook?doi=10.5555%2F1926458",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 0,
+   "open_access_url": null,
+   "openalex_id": "W166871027"
+  },
+  {
+   "title": "Requirements Analysis for an Integrated OCL Development Environment",
+   "authors": [
+    "Joanna Dobroslawa Chimiak-Opoka",
+    "Birgit Demuth",
+    "Darius Silingas",
+    "Nicolas F. Rouquette"
+   ],
+   "year": 2009,
+   "venue": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+   "type": "article",
+   "doi": "10.14279/tuj.eceasst.24.327",
+   "url": "https://dblp.org/rec/journals/eceasst/Chimiak-OpokaDSR09",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 7,
+   "open_access_url": "https://doi.org/10.14279/tuj.eceasst.24.327",
+   "dblp_key": "journals/eceasst/Chimiak-OpokaDSR09",
+   "openalex_id": "W2113224060"
+  },
+  {
+   "title": "Using Defect Reports to Build Requirements Knowledge in Product Lines",
+   "authors": [
+    "Robyn R. Lutz",
+    "Nicolas Rouquette"
+   ],
+   "year": 2009,
+   "venue": "MARK@RE",
+   "type": "inproceedings",
+   "doi": "10.1109/mark.2009.13",
+   "url": "https://dblp.org/rec/conf/re/LutzR09",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 4,
+   "open_access_url": null,
+   "dblp_key": "conf/re/LutzR09",
+   "openalex_id": "W2153885855"
+  },
+  {
+   "title": "Semantically Enhanced Containers for Concurrent Real-Time Systems",
+   "authors": [
+    "Damian Dechev",
+    "Peter Pirkelbauer",
+    "Nicolas Rouquette",
+    "Bjarne Stroustrup"
+   ],
+   "year": 2009,
+   "venue": "ECBS",
+   "type": "inproceedings",
+   "doi": "10.1109/ecbs.2009.12",
+   "url": "https://dblp.org/rec/conf/ecbs/DechevPRS09",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 2,
+   "open_access_url": null,
+   "dblp_key": "conf/ecbs/DechevPRS09",
+   "openalex_id": "W2102513374"
+  },
+  {
+   "title": "Verification and semantic parallelization of goal-driven autonomous software",
+   "authors": [
+    "Damian Dechev",
+    "Nicolas Rouquette",
+    "Peter Pirkelbauer",
+    "Bjarne Stroustrup"
+   ],
+   "year": 2008,
+   "venue": "Autonomics",
+   "type": "inproceedings",
+   "doi": "10.4108/icst.autonomics2008.4354",
+   "url": "https://dblp.org/rec/conf/autonomics/DechevRPS08",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 6,
+   "open_access_url": "http://eudl.eu/pdf/10.4108/ICST.AUTONOMICS2008.4354",
+   "dblp_key": "conf/autonomics/DechevRPS08",
+   "openalex_id": "W2101990932"
+  },
+  {
+   "title": "OWL for space mission systems development at JPL with semantic architecture styles",
+   "authors": [
+    "Nicolas Rouquette",
+    "Gary M. Wasserman",
+    "Vanessa Carson"
+   ],
+   "year": 2005,
+   "venue": "OWL: Experiences and Directions",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20060042763",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 2,
+   "open_access_url": null,
+   "openalex_id": "W817297304"
+  },
+  {
+   "title": "Semantic web service ontology standards",
+   "authors": [
+    "Nicolas Rouquette"
+   ],
+   "year": 2005,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20060044209",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "openalex_id": "W766294709"
+  },
+  {
+   "title": "Software Organization to Facilitate Dynamic Processor Scheduling",
+   "authors": [
+    "Raymond K. Clark",
+    "E. Douglas Jensen",
+    "Nicolas F. Rouquette"
+   ],
+   "year": 2004,
+   "venue": "IPDPS",
+   "type": "inproceedings",
+   "doi": "10.1109/ipdps.2004.1303083",
+   "url": "https://dblp.org/rec/conf/ipps/ClarkJR04",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 24,
+   "open_access_url": null,
+   "dblp_key": "conf/ipps/ClarkJR04",
+   "openalex_id": "W2157737196"
+  },
+  {
+   "title": "Using Empirical Testbeds to Accelerate Technology Maturity and Transition: The SCRover Experience",
+   "authors": [
+    "Barry W. Boehm",
+    "Jesal Bhuta",
+    "David Garlan",
+    "Eric Gradman",
+    "LiGuo Huang",
+    "Alexander Lam",
+    "Raymond J. Madachy",
+    "Nenad Medvidovic",
+    "Kenneth Meyer",
+    "Steven Meyers",
+    "Gustavo Pérez",
+    "Kirk Reinholtz",
+    "Roshanak Roshandel",
+    "Nicolas Rouquette"
+   ],
+   "year": 2004,
+   "venue": "ISESE",
+   "type": "inproceedings",
+   "doi": "10.1109/isese.2004.33",
+   "url": "https://dblp.org/rec/conf/isese/BoehmBGGHLMMMMPRRR04",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 20,
+   "open_access_url": null,
+   "dblp_key": "conf/isese/BoehmBGGHLMMMMPRRR04",
+   "openalex_id": "W4243347462"
+  },
+  {
+   "title": "Using Testbeds to Accelerate Technology Maturity and Transition: The SCRover Experience",
+   "authors": [
+    "Barry Boehm",
+    "Jesal Bhuta",
+    "David Garlan",
+    "Eric Gradman",
+    "LiGuo Huang",
+    "Alexander Lam",
+    "Raymond J. Madachy",
+    "Nenad Medvidović",
+    "Kenneth Meyer",
+    "Steven Meyers",
+    "Gustavo Perez",
+    "Kirk Reinholtz",
+    "Roshanak Roshandel",
+    "Nicolas Rouquette"
+   ],
+   "year": 2003,
+   "venue": null,
+   "type": "article",
+   "doi": null,
+   "url": "http://acme.able.cs.cmu.edu/pubs/uploads/pdf/ISESE04.pdf",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 3,
+   "open_access_url": null,
+   "openalex_id": "W1257772493"
+  },
+  {
+   "title": "From cradle to grave: an architecture substrate for software lifecycles",
+   "authors": [
+    "N. Rouquette"
+   ],
+   "year": 2003,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20060028693",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 0,
+   "open_access_url": null,
+   "openalex_id": "W808348823"
+  },
+  {
+   "title": "Model-based code generation: past, present and future",
+   "authors": [
+    "Nicolas Rouquette",
+    "Gregory A. Horvath"
+   ],
+   "year": 2003,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20060043312",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "openalex_id": "W820899951"
+  },
+  {
+   "title": "UML/MDA Reality Check: Heterogenous Architecture Style",
+   "authors": [
+    "Nicolas F. Rouquette"
+   ],
+   "year": 2003,
+   "venue": "UML",
+   "type": "inproceedings",
+   "doi": "10.1007/978-3-540-45221-8_14",
+   "url": "https://dblp.org/rec/conf/uml/Rouquette03",
+   "sources": [
+    "dblp",
+    "ntrs",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "dblp_key": "conf/uml/Rouquette03",
+   "openalex_id": "W1577621778"
+  },
+  {
+   "title": "Design of the Remote Agent experiment for spacecraft autonomy",
+   "authors": [
+    "Douglas E. Bernard",
+    "Gregory A. Dorais",
+    "Charles Fry",
+    "Edward B. Gamble",
+    "Bob Kanefsky",
+    "James Kurien",
+    "W. Millar",
+    "Nicola Muscettola",
+    "P. Pandurang Nayak",
+    "Barney Pell",
+    "Kanna Rajan",
+    "N. Rouquette",
+    "Benjamin Smith",
+    "Brian C. Williams"
+   ],
+   "year": 2002,
+   "venue": "Proceedings - IEEE Aerospace Conference",
+   "type": "inproceedings",
+   "doi": "10.1109/aero.1998.687914",
+   "url": "https://doi.org/10.1109/aero.1998.687914",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 135,
+   "open_access_url": null,
+   "openalex_id": "W2133558947"
+  },
+  {
+   "title": "The Mission Data System's software architecture framework",
+   "authors": [
+    "N. Rouquette"
+   ],
+   "year": 2002,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20060029534",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 1,
+   "open_access_url": null,
+   "openalex_id": "W850426979"
+  },
+  {
+   "title": "Event-based systems and software architecture: out of the shadows and into the mainstream",
+   "authors": [
+    "N. Rouquette"
+   ],
+   "year": 2002,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20060029740",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 0,
+   "open_access_url": null,
+   "openalex_id": "W901302793"
+  },
+  {
+   "title": "Dependable autonomous systems = knowing well what to do + knowing how to do it well",
+   "authors": [
+    "N. Rouquette",
+    "Nenad Medvidović",
+    "David Garlan"
+   ],
+   "year": 2001,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20060031054",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 0,
+   "open_access_url": null,
+   "openalex_id": "W990575785"
+  },
+  {
+   "title": "Remote Agent: An Autonomous Control System for the New Millennium",
+   "authors": [
+    "Kanna Rajan",
+    "Douglas E. Bernard",
+    "Gregory Dorais",
+    "Edward B. Gamble",
+    "Bob Kanefsky",
+    "James Kurien",
+    "William Millar",
+    "Nicola Muscettola",
+    "P. Pandurang Nayak",
+    "Nicolas F. Rouquette",
+    "Benjamin D. Smith",
+    "William Taylor",
+    "Yu-Wen Tung"
+   ],
+   "year": 2000,
+   "venue": "ECAI",
+   "type": "inproceedings",
+   "doi": null,
+   "url": "https://dblp.org/rec/conf/ecai/RajanBDGKKMMNRSTT00",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 38,
+   "open_access_url": null,
+   "dblp_key": "conf/ecai/RajanBDGKKMMNRSTT00",
+   "openalex_id": "W202104474"
+  },
+  {
+   "title": "Remote Agent Experiment",
+   "authors": [
+    "Doug Benard",
+    "Gregory A. Dorais",
+    "Ed Gamble",
+    "Bob Kanefsky",
+    "James Kurien",
+    "William Millar",
+    "Nicola Muscettola",
+    "P. Pandurang Nayak",
+    "Nicolas Rouquette",
+    "Kanna Rajan",
+    "Peter Norvig"
+   ],
+   "year": 2000,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/api/citations/20000116204/downloads/20000116204.pdf",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 9,
+   "open_access_url": null,
+   "openalex_id": "W808653495"
+  },
+  {
+   "title": "A Flexible Statechart-to-Model-Checker Translator",
+   "authors": [
+    "Nicolas Rouquette",
+    "J. Dunphy",
+    "Martin S. Feather"
+   ],
+   "year": 2000,
+   "venue": "NASA STI Repository (National Aeronautics and Space Administration)",
+   "type": "article",
+   "doi": null,
+   "url": "http://hdl.handle.net/2060/20000048813",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 3,
+   "open_access_url": "http://hdl.handle.net/2060/20000048813",
+   "openalex_id": "W750350917"
+  },
+  {
+   "title": "Remote Agent Experiment Validation Report",
+   "authors": [
+    "Britt W. Smith",
+    "Douglas E. Bernard",
+    "Gregory A. Dorais",
+    "Edward B. Gamble",
+    "James Kurien",
+    "Wayne A. Miller",
+    "P. K. Nayak",
+    "N. Rouquette",
+    "Kanna Rajan",
+    "Wayne A. Taylor",
+    "Y-W. Tung"
+   ],
+   "year": 2000,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20060032327",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 0,
+   "open_access_url": null,
+   "openalex_id": "W1587452875"
+  },
+  {
+   "title": "The 13th Technology of Deep Space One - Abstract",
+   "authors": [
+    "Nicolas Rouquette",
+    "Peter Glück"
+   ],
+   "year": 2000,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20000053107",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "openalex_id": "W141482324"
+  },
+  {
+   "title": "Autonomy and software technology on NASA's Deep Space One",
+   "authors": [
+    "Douglas E. Bernard",
+    "Richard J. Doyle",
+    "Ed Riedel",
+    "Nicolas Rouquette",
+    "Jay Wyatt",
+    "Mike Lowry",
+    "P. Pandurang Nayak"
+   ],
+   "year": 1999,
+   "venue": "IEEE Intell. Syst.",
+   "type": "article",
+   "doi": "10.1109/5254.769876",
+   "url": "https://dblp.org/rec/journals/expert/BernardDRRWLN99",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 32,
+   "open_access_url": null,
+   "dblp_key": "journals/expert/BernardDRRWLN99",
+   "openalex_id": "W1984500388"
+  },
+  {
+   "title": "The 13/sup th/ technology of Deep Space One",
+   "authors": [
+    "N. Rouquette",
+    "Tim Neilson",
+    "G. Chen"
+   ],
+   "year": 1999,
+   "venue": "Proceedings - IEEE Aerospace Conference",
+   "type": "inproceedings",
+   "doi": "10.1109/aero.1999.794354",
+   "url": "https://doi.org/10.1109/aero.1999.794354",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 14,
+   "open_access_url": null,
+   "openalex_id": "W1969641053"
+  },
+  {
+   "title": "Abstract for 1999 Rational Software User Conference",
+   "authors": [
+    "J. Dunphy",
+    "Nicolas Rouquette",
+    "Martin S. Feather",
+    "Yu-Wen Tung"
+   ],
+   "year": 1999,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "techreport",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20000074061",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "openalex_id": "W65907532"
+  },
+  {
+   "title": "\"Pushbutton\" Analysis Via Integration Of Industrial Tools With Formal Validation",
+   "authors": [
+    "Martin S. Feather",
+    "Julia R. Dunphy",
+    "Nicolas Rouquette"
+   ],
+   "year": 1998,
+   "venue": "WIFT",
+   "type": "inproceedings",
+   "doi": "10.1109/wift.1998.766309",
+   "url": "https://dblp.org/rec/conf/wift/FeatherDR98",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 1,
+   "open_access_url": null,
+   "dblp_key": "conf/wift/FeatherDR98",
+   "openalex_id": "W1604559946"
+  },
+  {
+   "title": "Position Paper for WIFT98",
+   "authors": [
+    "Martin S. Feather",
+    "J. Dunphy",
+    "N. Rouquette"
+   ],
+   "year": 1998,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20060034798",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 0,
+   "open_access_url": null,
+   "openalex_id": "W804850962"
+  },
+  {
+   "title": "Building Steady-State Simulators via Hierarchical Feedback Decomposition",
+   "authors": [
+    "Nicolas F. Rouquette"
+   ],
+   "year": 1996,
+   "venue": "AAAI/IAAI, Vol. 2",
+   "type": "inproceedings",
+   "doi": null,
+   "url": "https://dblp.org/rec/conf/aaai/Rouquette96",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "dblp_key": "conf/aaai/Rouquette96",
+   "openalex_id": "W2096608344"
+  },
+  {
+   "title": "Hierarchical Feedback Decomposition of Steady-State Equation Models",
+   "authors": [
+    "Nicolas Rouquette"
+   ],
+   "year": 1995,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20060037218",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 2,
+   "open_access_url": null,
+   "openalex_id": "W772117900"
+  },
+  {
+   "title": "Quantitative Diagnosis of Continuous-Valued, Stead-State Systems",
+   "authors": [
+    "N. Rouquette"
+   ],
+   "year": 1995,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/search.jsp?R=20060037377",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 0,
+   "open_access_url": null,
+   "openalex_id": "W806526015"
+  },
+  {
+   "title": "MESA: An Interactive Modeling and Simulation Environment for Intelligent Systems Automations",
+   "authors": [
+    "Leonard Charest",
+    "Nicolas Rouquette",
+    "Richard J. Doyle",
+    "Jay Wyatt",
+    "Charles Robertson"
+   ],
+   "year": 1994,
+   "venue": "HICSS (3)",
+   "type": "inproceedings",
+   "doi": "10.1109/hicss.1994.323311",
+   "url": "https://dblp.org/rec/conf/hicss/CharestRDWR94",
+   "sources": [
+    "dblp"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "dblp_key": "conf/hicss/CharestRDWR94"
+  },
+  {
+   "title": "Causal modeling and event-driven simulation for monitoring of continuous systems",
+   "authors": [
+    "Richard J. Doyle",
+    "Leonard Charest",
+    "Nicolas Rouquette",
+    "Jay Wyatt",
+    "Charles C. Robertson"
+   ],
+   "year": 1993,
+   "venue": "AIAA Computing in Aerospace Conference",
+   "type": "inproceedings",
+   "doi": "10.2514/6.1993-4525",
+   "url": "https://doi.org/10.2514/6.1993-4525",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 11,
+   "open_access_url": null,
+   "openalex_id": "W1978677140"
+  },
+  {
+   "title": "Extending model-based diagnosis for analog thermodynamical devices",
+   "authors": [
+    "Nicolas Rouquette",
+    "Steve Chien",
+    "Charles C. Robertson"
+   ],
+   "year": 1993,
+   "venue": "AIAA Computing in Aerospace Conference",
+   "type": "inproceedings",
+   "doi": "10.2514/6.1993-4577",
+   "url": "https://doi.org/10.2514/6.1993-4577",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": null,
+   "open_access_url": null,
+   "openalex_id": "W2043705837"
+  },
+  {
+   "title": "Event-driven simulation in SELMON: An overview of EDSE",
+   "authors": [
+    "Nicolas Rouquette",
+    "Steve Chien",
+    "Leonard Charest"
+   ],
+   "year": 1992,
+   "venue": "NASA Technical Reports Server (NASA)",
+   "type": "article",
+   "doi": null,
+   "url": "https://ntrs.nasa.gov/api/citations/19940009311/downloads/19940009311.pdf",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 5,
+   "open_access_url": null,
+   "openalex_id": "W849549859"
+  },
+  {
+   "title": "Sensor placement for diagnosability in space-borne systems - A model-based reasoning approach",
+   "authors": [
+    "Steve Chien",
+    "Richard J. Doyle",
+    "Nicolas Rouquette"
+   ],
+   "year": 1992,
+   "venue": "AIAA Aerospace Sciences Meeting and Exhibit",
+   "type": "inproceedings",
+   "doi": "10.2514/6.1992-874",
+   "url": "https://doi.org/10.2514/6.1992-874",
+   "sources": [
+    "ntrs",
+    "openalex"
+   ],
+   "citations": 5,
+   "open_access_url": null,
+   "openalex_id": "W1964636398"
+  }
+ ]
+}

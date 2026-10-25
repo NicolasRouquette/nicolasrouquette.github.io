@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>{{ p.name }}</h1>
+  <p class="role">{{ p.title }}, {{ p.affiliation }}</p>
+  <p class="tagline">{{ p.tagline }}</p>
+</section>
+<section class="prose">
+{{ body | safe }}
+</section>
+<section>
+  <h2>Interests</h2>
+  <ul class="tags">{% for i in p.interests %}<li>{{ i }}</li>{% endfor %}</ul>
+</section>
+<section>
+  <h2>Recent publications</h2>
+  <ol class="pubs">
+  {% for pub in recent %}{% include "_pub.html" %}{% endfor %}
+  </ol>
+  <p><a href="{{ root }}publications/">All {{ pubs | length }} publications →</a></p>
+</section>
+{% if gh %}
+<section>
+  <h2>Open source</h2>
+  <p>Since {{ gh.since }}: {{ "{:,}".format(gh.totals.commits) }} commits and {{ gh.totals.prs }} pull requests across
+     {{ gh.repos | length }} public repositories owned by {{ gh.orgs | length }} organisations and people.
+     <a href="{{ root }}software/#github">Activity chart →</a></p>
+</section>
+{% endif %}
+{% endblock %}

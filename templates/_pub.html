@@ -1,0 +1,11 @@
+<li class="pub" id="{{ pub.anchor }}">
+  <span class="title">{% if pub.link %}<a href="{{ pub.link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</span>
+  {% if pub.authors %}<span class="authors">{{ pub.authors | join(", ") }}.</span>{% endif %}
+  <span class="venue">{% if pub.venue %}{{ pub.venue }}, {% endif %}{{ pub.year or "n.d." }}.</span>
+  <span class="links">
+    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">doi</a>{% endif %}
+    {% if pub.open_access_url %}<a href="{{ pub.open_access_url }}">pdf</a>{% endif %}
+    {% if pub.dblp_key %}<a href="https://dblp.org/rec/{{ pub.dblp_key }}.html">dblp</a>{% endif %}
+    {% if pub.citations %}<span class="cites" title="citations (OpenAlex)">{{ pub.citations }} cites</span>{% endif %}
+  </span>
+</li>

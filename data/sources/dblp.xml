@@ -1,0 +1,444 @@
+<?xml version="1.0"?>
+<dblpperson name="Nicolas Rouquette" pid="56/3476" n="23">
+<person key="homepages/56/3476" mdate="2017-06-27">
+<author pid="56/3476">Nicolas Rouquette</author>
+<author pid="56/3476">Nicolas F. Rouquette</author>
+</person>
+<r><article key="journals/tcps/IncerBGMPRYBCMSS25" mdate="2026-02-18">
+<author orcid="0000-0001-7933-692X" pid="231/7729">Inigo Incer</author>
+<author orcid="0000-0002-9788-2702" pid="248/5642">Apurva Badithela</author>
+<author orcid="0000-0002-1376-0741" pid="289/0108">Josefine B. Graebener</author>
+<author orcid="0000-0002-4438-6107" pid="184/7781">Piergiuseppe Mallozzi</author>
+<author orcid="0000-0003-3590-4459" pid="190/7221-1">Ayush Pandey 0001</author>
+<author orcid="0000-0003-3137-8690" pid="56/3476">Nicolas Rouquette</author>
+<author orcid="0000-0003-2585-9586" pid="261/7901">Sheng-Jung Yu</author>
+<author orcid="0000-0003-3352-4137" pid="14/6732">Albert Benveniste</author>
+<author orcid="0000-0002-3234-5033" pid="c/BenoitCaillaud">Beno&#238;t Caillaud</author>
+<author orcid="0000-0002-5785-7481" pid="m/RichardMMurray">Richard M. Murray</author>
+<author orcid="0000-0003-1298-8389" pid="s/ALSangiovanniV">Alberto L. Sangiovanni-Vincentelli</author>
+<author orcid="0000-0001-6190-8707" pid="s/SanjitASeshia">Sanjit A. Seshia</author>
+<title>Pacti: Assume-Guarantee Contracts for Efficient Compositional Analysis and Design.</title>
+<pages>3:1-3:35</pages>
+<year>2025</year>
+<month>January</month>
+<volume>9</volume>
+<journal>ACM Trans. Cyber Phys. Syst.</journal>
+<number>1</number>
+<ee>https://doi.org/10.1145/3704736</ee>
+<url>db/journals/tcps/tcps9.html#IncerBGMPRYBCMSS25</url>
+<stream>streams/journals/tcps</stream>
+</article>
+</r>
+<r><inproceedings key="conf/models/NakajimaKTKLJERW25" mdate="2026-08-15">
+<author orcid="0009-0009-9241-2793" pid="177/8144">Yuta Nakajima</author>
+<author pid="425/5552">Haruhi Katsumata</author>
+<author pid="425/5933">Daiki Tate</author>
+<author pid="218/9947">Yutaka Komatsu</author>
+<author pid="425/6026">Aaron Levitt</author>
+<author pid="52/4615">J. Steven Jenkins</author>
+<author pid="35/2258">Maged Elaasar</author>
+<author pid="56/3476">Nicolas F. Rouquette</author>
+<author pid="42/5626-2">David A. Wagner 0002</author>
+<title>openCAESAR Application to Power Balance Analysis in Early Space Mission Formulation.</title>
+<pages>844-852</pages>
+<year>2025</year>
+<booktitle>MODELS-C</booktitle>
+<ee>https://doi.org/10.1109/MODELS-C68889.2025.00111</ee>
+<crossref>conf/models/2025c</crossref>
+<url>db/conf/models/models2025c.html#NakajimaKTKLJERW25</url>
+<stream>streams/conf/models</stream>
+</inproceedings>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2409-02218" mdate="2025-03-03">
+<author pid="56/3476">Nicolas Rouquette</author>
+<author pid="49/456">Alessandro Pinto</author>
+<author orcid="0000-0001-7933-692X" pid="231/7729">Inigo Incer</author>
+<title>Early Design Exploration of Aerospace Systems Using Assume-Guarantee Contracts.</title>
+<year>2024</year>
+<volume>abs/2409.02218</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2409.02218</ee>
+<url>db/journals/corr/corr2409.html#abs-2409-02218</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r><inproceedings key="conf/models/ElaasarRWOHH23" mdate="2026-03-24">
+<author orcid="0009-0003-4178-8076" pid="35/2258">Maged Elaasar</author>
+<author pid="56/3476">Nicolas Rouquette</author>
+<author pid="42/5626-2">David A. Wagner 0002</author>
+<author pid="147/8495">Bentley Oakes</author>
+<author orcid="0000-0002-3319-5006" pid="70/2136">Abdelwahab Hamou-Lhadj</author>
+<author pid="99/8152">Mohammad Hamdaqa</author>
+<title>openCAESAR: Balancing Agility and Rigor in Model-Based Systems Engineering.</title>
+<pages>221-230</pages>
+<year>2023</year>
+<booktitle>MoDELS (Companion)</booktitle>
+<ee>https://doi.org/10.1109/MODELS-C59198.2023.00051</ee>
+<crossref>conf/models/2023c</crossref>
+<url>db/conf/models/models2023c.html#ElaasarRWOHH23</url>
+</inproceedings>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2311-17007" mdate="2023-12-04">
+<author pid="362/2209">Th&#233;o Bourdais</author>
+<author pid="295/2805">Pau Batlle</author>
+<author pid="261/1551">Xianjin Yang</author>
+<author pid="136/6901">Ricardo Baptista</author>
+<author pid="56/3476">Nicolas Rouquette</author>
+<author pid="23/7188">Houman Owhadi</author>
+<title>Computational Hypergraph Discovery, a Gaussian Process framework for connecting the dots.</title>
+<year>2023</year>
+<volume>abs/2311.17007</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2311.17007</ee>
+<url>db/journals/corr/corr2311.html#abs-2311-17007</url>
+</article>
+</r>
+<r><inproceedings key="conf/isola/Rouquette16" mdate="2017-05-23">
+<author pid="56/3476">Nicolas F. Rouquette</author>
+<title>Simplifying OMG MOF-Based Metamodeling.</title>
+<pages>97-118</pages>
+<year>2016</year>
+<booktitle>ISoLA (2)</booktitle>
+<ee>https://doi.org/10.1007/978-3-319-47169-3_8</ee>
+<crossref>conf/isola/2016-2</crossref>
+<url>db/conf/isola/isola2016-2.html#Rouquette16</url>
+</inproceedings>
+</r>
+<r><inproceedings key="journals/procedia/HerzigRFJ13" mdate="2025-11-02">
+<author pid="128/1807">Sebastian J. I. Herzig</author>
+<author pid="56/3476">Nicolas F. Rouquette</author>
+<author pid="128/1809">Stephen Forrest</author>
+<author pid="52/4615">J. Steven Jenkins</author>
+<title>Integrating Analytical Models with Descriptive System Models: Implementation of the OMG SyML Standard for the Tool-specific Case of MapleSim and MagicDraw.</title>
+<pages>118-127</pages>
+<year>2013</year>
+<crossref>conf/cser/2013</crossref>
+<booktitle>CSER</booktitle>
+<ee type="oa">https://doi.org/10.1016/j.procs.2013.01.013</ee>
+<url>db/journals/procedia/procedia16.html#HerzigRFJ13</url>
+</inproceedings>
+</r>
+<r><incollection key="books/sp/13/LutzLLPR13" mdate="2024-06-10">
+<author pid="49/3478">Robyn R. Lutz</author>
+<author pid="201/9715">Milton Lavin</author>
+<author pid="201/9722">J. Lux</author>
+<author pid="201/9716">K. Peters</author>
+<author pid="56/3476">Nicolas F. Rouquette</author>
+<title>Mining Requirements Knowledge from Operational Experience.</title>
+<pages>49-73</pages>
+<year>2013</year>
+<booktitle>Managing Requirements Knowledge</booktitle>
+<ee>https://doi.org/10.1007/978-3-642-34419-0_3</ee>
+<crossref>books/sp/2013MT</crossref>
+<url>db/books/collections/MT2013.html#LutzLLPR13</url>
+</incollection>
+</r>
+<r><incollection key="books/daglib/p/DechevRPS10" mdate="2017-05-29">
+<author orcid="0000-0002-0569-3403" pid="52/6282">Damian Dechev</author>
+<author pid="56/3476">Nicolas Rouquette</author>
+<author pid="31/1579">Peter Pirkelbauer</author>
+<author pid="s/BjarneStroustrup">Bjarne Stroustrup</author>
+<title>Programming and Validation Techniques for Reliable Goal-driven Autonomic Software.</title>
+<pages>231-247</pages>
+<year>2010</year>
+<booktitle>Autonomic Communication</booktitle>
+<ee>https://doi.org/10.1007/978-0-387-09753-4_9</ee>
+<crossref>books/daglib/0023509</crossref>
+<url>db/books/daglib/0023509.html#DechevRPS10</url>
+</incollection>
+</r>
+<r><proceedings key="conf/models/2010-1" mdate="2019-05-14">
+<editor orcid="0000-0003-4688-9370" pid="46/4207">Dorina C. Petriu</editor>
+<editor pid="56/3476">Nicolas Rouquette</editor>
+<editor pid="h/OysteinHaugen">&#216;ystein Haugen</editor>
+<title>Model Driven Engineering Languages and Systems - 13th International Conference, MODELS 2010, Oslo, Norway, October 3-8, 2010, Proceedings, Part I</title>
+<volume>6394</volume>
+<year>2010</year>
+<ee>https://doi.org/10.1007/978-3-642-16145-2</ee>
+<isbn>978-3-642-16144-5</isbn>
+<booktitle>MoDELS (1)</booktitle>
+<series href="db/series/lncs/index.html">Lecture Notes in Computer Science</series>
+<publisher>Springer</publisher>
+<url>db/conf/models/models2010-1.html</url>
+</proceedings>
+</r>
+<r><proceedings key="conf/models/2010-2" mdate="2019-05-14">
+<editor orcid="0000-0003-4688-9370" pid="46/4207">Dorina C. Petriu</editor>
+<editor pid="56/3476">Nicolas Rouquette</editor>
+<editor pid="h/OysteinHaugen">&#216;ystein Haugen</editor>
+<title>Model Driven Engineering Languages and Systems - 13th International Conference, MODELS 2010, Oslo, Norway, October 3-8, 2010, Proceedings, Part II</title>
+<volume>6395</volume>
+<year>2010</year>
+<ee>https://doi.org/10.1007/978-3-642-16129-2</ee>
+<isbn>978-3-642-16128-5</isbn>
+<booktitle>MoDELS (2)</booktitle>
+<series href="db/series/lncs/index.html">Lecture Notes in Computer Science</series>
+<publisher>Springer</publisher>
+<url>db/conf/models/models2010-2.html</url>
+</proceedings>
+</r>
+<r><article key="journals/eceasst/Chimiak-OpokaDSR09" mdate="2021-10-14">
+<author orcid="0000-0001-5614-2161" pid="66/69">Joanna Dobroslawa Chimiak-Opoka</author>
+<author pid="96/4750">Birgit Demuth</author>
+<author pid="56/855">Darius Silingas</author>
+<author pid="56/3476">Nicolas F. Rouquette</author>
+<title>Requirements Analysis for an Integrated OCL Development Environment.</title>
+<year>2009</year>
+<volume>24</volume>
+<journal>Electron. Commun. Eur. Assoc. Softw. Sci. Technol.</journal>
+<ee type="oa">https://doi.org/10.14279/tuj.eceasst.24.327</ee>
+<url>db/journals/eceasst/eceasst24.html#Chimiak-OpokaDSR09</url>
+</article>
+</r>
+<r><inproceedings key="conf/ecbs/DechevPRS09" mdate="2023-03-23">
+<author orcid="0000-0002-0569-3403" pid="52/6282">Damian Dechev</author>
+<author pid="31/1579">Peter Pirkelbauer</author>
+<author pid="56/3476">Nicolas Rouquette</author>
+<author pid="s/BjarneStroustrup">Bjarne Stroustrup</author>
+<title>Semantically Enhanced Containers for Concurrent Real-Time Systems.</title>
+<pages>48-57</pages>
+<year>2009</year>
+<booktitle>ECBS</booktitle>
+<ee>https://doi.org/10.1109/ECBS.2009.12</ee>
+<ee>https://doi.ieeecomputersociety.org/10.1109/ECBS.2009.12</ee>
+<crossref>conf/ecbs/2009</crossref>
+<url>db/conf/ecbs/ecbs2009.html#DechevPRS09</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/re/LutzR09" mdate="2023-03-24">
+<author orcid="0000-0001-5390-7982" pid="49/3478">Robyn R. Lutz</author>
+<author pid="56/3476">Nicolas Rouquette</author>
+<title>Using Defect Reports to Build Requirements Knowledge in Product Lines.</title>
+<pages>12-21</pages>
+<year>2009</year>
+<booktitle>MARK@RE</booktitle>
+<ee>https://doi.org/10.1109/MARK.2009.13</ee>
+<ee>https://doi.ieeecomputersociety.org/10.1109/MARK.2009.13</ee>
+<crossref>conf/re/2009mark</crossref>
+<url>db/conf/re/mark2009.html#LutzR09</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/autonomics/DechevRPS08" mdate="2018-11-26">
+<author orcid="0000-0002-0569-3403" pid="52/6282">Damian Dechev</author>
+<author pid="56/3476">Nicolas Rouquette</author>
+<author pid="31/1579">Peter Pirkelbauer</author>
+<author pid="s/BjarneStroustrup">Bjarne Stroustrup</author>
+<title>Verification and semantic parallelization of goal-driven autonomous software.</title>
+<pages>33</pages>
+<year>2008</year>
+<booktitle>Autonomics</booktitle>
+<ee>https://doi.org/10.4108/ICST.AUTONOMICS2008.4354</ee>
+<ee>https://dl.acm.org/citation.cfm?id=1487685</ee>
+<crossref>conf/autonomics/2008</crossref>
+<url>db/conf/autonomics/autonomics2008.html#DechevRPS08</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/ipps/ClarkJR04" mdate="2023-03-24">
+<author pid="92/5335">Raymond K. Clark</author>
+<author pid="92/2777">E. Douglas Jensen</author>
+<author pid="56/3476">Nicolas F. Rouquette</author>
+<title>Software Organization to Facilitate Dynamic Processor Scheduling.</title>
+<year>2004</year>
+<crossref>conf/ipps/2004</crossref>
+<booktitle>IPDPS</booktitle>
+<ee>https://doi.org/10.1109/IPDPS.2004.1303083</ee>
+<ee>https://doi.ieeecomputersociety.org/10.1109/IPDPS.2004.1303083</ee>
+<url>db/conf/ipps/ipdps2004-w2.html#ClarkJR04</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/isese/BoehmBGGHLMMMMPRRR04" mdate="2024-09-04">
+<author pid="b/BarryWBoehm">Barry W. Boehm</author>
+<author pid="12/2425">Jesal Bhuta</author>
+<author pid="01/2201">David Garlan</author>
+<author pid="95/35">Eric Gradman</author>
+<author orcid="0000-0001-7790-0195" pid="28/3956">LiGuo Huang</author>
+<author pid="02/1582">Alexander Lam</author>
+<author pid="11/2670">Raymond J. Madachy</author>
+<author pid="65/1728">Nenad Medvidovic</author>
+<author pid="81/3641">Kenneth Meyer</author>
+<author pid="12/5653">Steven Meyers</author>
+<author pid="24/2781">Gustavo P&#233;rez</author>
+<author pid="12/5938">Kirk Reinholtz</author>
+<author pid="78/1349">Roshanak Roshandel</author>
+<author pid="56/3476">Nicolas Rouquette</author>
+<title>Using Empirical Testbeds to Accelerate Technology Maturity and Transition: The SCRover Experience.</title>
+<pages>117-126</pages>
+<year>2004</year>
+<crossref>conf/isese/2004</crossref>
+<booktitle>ISESE</booktitle>
+<ee>https://doi.org/10.1109/ISESE.2004.33</ee>
+<url>db/conf/isese/isese2004.html#BoehmBGGHLMMMMPRRR04</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/uml/Rouquette03" mdate="2017-05-24">
+<author pid="56/3476">Nicolas F. Rouquette</author>
+<title>UML/MDA Reality Check: Heterogenous Architecture Style.</title>
+<pages>143</pages>
+<ee>https://doi.org/10.1007/978-3-540-45221-8_14</ee>
+<year>2003</year>
+<crossref>conf/uml/2003</crossref>
+<booktitle>UML</booktitle>
+<url>db/conf/uml/uml2003.html#Rouquette03</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/ecai/RajanBDGKKMMNRSTT00" mdate="2003-06-30">
+<author pid="22/999">Kanna Rajan</author>
+<author pid="27/2937">Douglas E. Bernard</author>
+<author pid="85/5247">Gregory Dorais</author>
+<author pid="33/310">Edward B. Gamble</author>
+<author pid="71/5065">Bob Kanefsky</author>
+<author pid="85/1519">James Kurien</author>
+<author pid="15/5524">William Millar</author>
+<author pid="22/5493">Nicola Muscettola</author>
+<author pid="57/2360">P. Pandurang Nayak</author>
+<author pid="56/3476">Nicolas F. Rouquette</author>
+<author pid="64/73">Benjamin D. Smith</author>
+<author pid="76/3537">William Taylor</author>
+<author pid="01/5528">Yu-Wen Tung</author>
+<title>Remote Agent: An Autonomous Control System for the New Millennium.</title>
+<pages>726-730</pages>
+<year>2000</year>
+<crossref>conf/ecai/2000</crossref>
+<booktitle>ECAI</booktitle>
+<url>db/conf/ecai/ecai2000.html#RajanBDGKKMMNRSTT00</url>
+</inproceedings>
+</r>
+<r><article key="journals/expert/BernardDRRWLN99" mdate="2020-08-12">
+<author pid="27/2937">Douglas E. Bernard</author>
+<author pid="10/1197">Richard J. Doyle</author>
+<author pid="272/2512">Ed Riedel</author>
+<author pid="56/3476">Nicolas Rouquette</author>
+<author pid="99/6404">Jay Wyatt</author>
+<author pid="188/0731">Mike Lowry</author>
+<author pid="57/2360">P. Pandurang Nayak</author>
+<title>Autonomy and software technology on NASA's Deep Space One.</title>
+<pages>10-15</pages>
+<year>1999</year>
+<volume>14</volume>
+<journal>IEEE Intell. Syst.</journal>
+<number>3</number>
+<ee>https://doi.org/10.1109/5254.769876</ee>
+<url>db/journals/expert/expert14.html#BernardDRRWLN99</url>
+</article>
+</r>
+<r><inproceedings key="conf/wift/FeatherDR98" mdate="2023-03-23">
+<author pid="f/MartinSFeather">Martin S. Feather</author>
+<author pid="11/6878">Julia R. Dunphy</author>
+<author pid="56/3476">Nicolas Rouquette</author>
+<title>&#34;Pushbutton&#34; Analysis Via Integration Of Industrial Tools With Formal Validation.</title>
+<pages>140-</pages>
+<year>1998</year>
+<crossref>conf/wift/1998</crossref>
+<booktitle>WIFT</booktitle>
+<ee>https://doi.org/10.1109/WIFT.1998.766309</ee>
+<ee>https://doi.ieeecomputersociety.org/10.1109/WIFT.1998.766309</ee>
+<url>db/conf/wift/wift1998.html#FeatherDR98</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/aaai/Rouquette96" mdate="2023-09-05">
+<author pid="56/3476">Nicolas F. Rouquette</author>
+<title>Building Steady-State Simulators via Hierarchical Feedback Decomposition.</title>
+<pages>991-997</pages>
+<year>1996</year>
+<crossref>conf/aaai/1996-2</crossref>
+<booktitle>AAAI/IAAI, Vol. 2</booktitle>
+<url>db/conf/aaai/aaai96-2.html#Rouquette96</url>
+<ee type="archive">http://www.aaai.org/Library/AAAI/1996/aaai96-147.php</ee>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/hicss/CharestRDWR94" mdate="2025-10-02">
+<author pid="69/4487">Leonard Charest</author>
+<author pid="56/3476">Nicolas Rouquette</author>
+<author pid="10/1197">Richard J. Doyle</author>
+<author pid="99/6404">Jay Wyatt</author>
+<author pid="41/2036">Charles Robertson</author>
+<title>MESA: An Interactive Modeling and Simulation Environment for Intelligent Systems Automations.</title>
+<pages>517-525</pages>
+<year>1994</year>
+<crossref>conf/hicss/1994</crossref>
+<booktitle>HICSS (3)</booktitle>
+<url>db/conf/hicss/hicss1994.html#CharestRDWR94</url>
+<ee>https://doi.org/10.1109/HICSS.1994.323311</ee>
+</inproceedings>
+</r>
+<coauthors n="77" nc="5">
+<co c="0"><na f="b/Badithela:Apurva" pid="248/5642">Apurva Badithela</na></co>
+<co c="0"><na f="b/Baptista:Ricardo" pid="136/6901">Ricardo Baptista</na></co>
+<co c="0"><na f="b/Benveniste:Albert" pid="14/6732">Albert Benveniste</na></co>
+<co c="0"><na f="b/Bernard:Douglas_E=" pid="27/2937">Douglas E. Bernard</na></co>
+<co c="0"><na f="b/Bhuta:Jesal" pid="12/2425">Jesal Bhuta</na></co>
+<co c="0"><na f="b/Boehm:Barry_W=" pid="b/BarryWBoehm">Barry W. Boehm</na></co>
+<co c="0"><na f="b/Bourdais:Th=eacute=o" pid="362/2209">Th&#233;o Bourdais</na></co>
+<co c="0"><na f="c/Caillaud:Beno=icirc=t" pid="c/BenoitCaillaud">Beno&#238;t Caillaud</na></co>
+<co c="0"><na f="c/Charest:Leonard" pid="69/4487">Leonard Charest</na></co>
+<co c="2" n="2"><na f="c/Chimiak=Opoka:Joanna" pid="66/69">Joanna Chimiak-Opoka</na><na>Joanna Dobroslawa Chimiak-Opoka</na></co>
+<co c="4"><na f="c/Clark:Raymond_K=" pid="92/5335">Raymond K. Clark</na></co>
+<co c="0"><na f="d/Dechev:Damian" pid="52/6282">Damian Dechev</na></co>
+<co c="2"><na f="d/Demuth:Birgit" pid="96/4750">Birgit Demuth</na></co>
+<co c="0"><na f="d/Dorais:Gregory" pid="85/5247">Gregory Dorais</na></co>
+<co c="0"><na f="d/Doyle:Richard_J=" pid="10/1197">Richard J. Doyle</na></co>
+<co c="0"><na f="d/Dunphy:Julia_R=" pid="11/6878">Julia R. Dunphy</na></co>
+<co c="0"><na f="e/Elaasar:Maged" pid="35/2258">Maged Elaasar</na></co>
+<co c="0" n="2"><na f="f/Feather:Martin" pid="f/MartinSFeather">Martin Feather</na><na>Martin S. Feather</na></co>
+<co c="0"><na f="f/Forrest:Stephen" pid="128/1809">Stephen Forrest</na></co>
+<co c="0" n="2"><na f="f/Franch:Pau_Batlle" pid="295/2805">Pau Batlle Franch</na><na>Pau Batlle</na></co>
+<co c="0"><na f="g/Gamble:Edward_B=" pid="33/310">Edward B. Gamble</na></co>
+<co c="0"><na f="g/Garlan:David" pid="01/2201">David Garlan</na></co>
+<co c="0"><na f="g/Gradman:Eric" pid="95/35">Eric Gradman</na></co>
+<co c="0" n="2"><na f="g/Graebener:Josefine" pid="289/0108">Josefine Graebener</na><na>Josefine B. Graebener</na></co>
+<co c="0"><na f="h/Hamdaqa:Mohammad" pid="99/8152">Mohammad Hamdaqa</na></co>
+<co c="0"><na f="h/Hamou=Lhadj:Abdelwahab" pid="70/2136">Abdelwahab Hamou-Lhadj</na></co>
+<co c="3"><na f="h/Haugen:=Oslash=ystein" pid="h/OysteinHaugen">&#216;ystein Haugen</na></co>
+<co c="0"><na f="h/Herzig:Sebastian_J=_I=" pid="128/1807">Sebastian J. I. Herzig</na></co>
+<co c="0"><na f="h/Huang:LiGuo" pid="28/3956">LiGuo Huang</na></co>
+<co c="0"><na f="i/Incer:Inigo" pid="231/7729">Inigo Incer</na></co>
+<co c="0"><na f="j/Jenkins:J=_Steven" pid="52/4615">J. Steven Jenkins</na></co>
+<co c="4"><na f="j/Jensen:E=_Douglas" pid="92/2777">E. Douglas Jensen</na></co>
+<co c="0"><na f="k/Kanefsky:Bob" pid="71/5065">Bob Kanefsky</na></co>
+<co c="0"><na f="k/Katsumata:Haruhi" pid="425/5552">Haruhi Katsumata</na></co>
+<co c="0"><na f="k/Komatsu:Yutaka" pid="218/9947">Yutaka Komatsu</na></co>
+<co c="0"><na f="k/Kurien:James" pid="85/1519">James Kurien</na></co>
+<co c="0"><na f="l/Lam:Alexander" pid="02/1582">Alexander Lam</na></co>
+<co c="1"><na f="l/Lavin:Milton" pid="201/9715">Milton Lavin</na></co>
+<co c="0"><na f="l/Levitt:Aaron" pid="425/6026">Aaron Levitt</na></co>
+<co c="0"><na f="l/Lowry:Mike" pid="188/0731">Mike Lowry</na></co>
+<co c="1"><na f="l/Lutz:Robyn_R=" pid="49/3478">Robyn R. Lutz</na></co>
+<co c="1"><na f="l/Lux:J=" pid="201/9722">J. Lux</na></co>
+<co c="0"><na f="m/Madachy:Raymond_J=" pid="11/2670">Raymond J. Madachy</na></co>
+<co c="0"><na f="m/Mallozzi:Piergiuseppe" pid="184/7781">Piergiuseppe Mallozzi</na></co>
+<co c="0"><na f="m/Medvidovic:Nenad" pid="65/1728">Nenad Medvidovic</na></co>
+<co c="0"><na f="m/Meyer:Kenneth" pid="81/3641">Kenneth Meyer</na></co>
+<co c="0"><na f="m/Meyers:Steven" pid="12/5653">Steven Meyers</na></co>
+<co c="0"><na f="m/Millar:William" pid="15/5524">William Millar</na></co>
+<co c="0"><na f="m/Murray:Richard_M=" pid="m/RichardMMurray">Richard M. Murray</na></co>
+<co c="0"><na f="m/Muscettola:Nicola" pid="22/5493">Nicola Muscettola</na></co>
+<co c="0"><na f="n/Nakajima:Yuta" pid="177/8144">Yuta Nakajima</na></co>
+<co c="0"><na f="n/Nayak:P=_Pandurang" pid="57/2360">P. Pandurang Nayak</na></co>
+<co c="0"><na f="o/Oakes:Bentley" pid="147/8495">Bentley Oakes</na></co>
+<co c="0"><na f="o/Owhadi:Houman" pid="23/7188">Houman Owhadi</na></co>
+<co c="0"><na f="p/Pandey_0001:Ayush" pid="190/7221-1">Ayush Pandey 0001</na></co>
+<co c="0"><na f="p/P=eacute=rez:Gustavo" pid="24/2781">Gustavo P&#233;rez</na></co>
+<co c="1"><na f="p/Peters:K=" pid="201/9716">K. Peters</na></co>
+<co c="3"><na f="p/Petriu:Dorina_C=" pid="46/4207">Dorina C. Petriu</na></co>
+<co c="0"><na f="p/Pinto:Alessandro" pid="49/456">Alessandro Pinto</na></co>
+<co c="0"><na f="p/Pirkelbauer:Peter" pid="31/1579">Peter Pirkelbauer</na></co>
+<co c="0"><na f="r/Rajan:Kanna" pid="22/999">Kanna Rajan</na></co>
+<co c="0"><na f="r/Reinholtz:Kirk" pid="12/5938">Kirk Reinholtz</na></co>
+<co c="0"><na f="r/Riedel:Ed" pid="272/2512">Ed Riedel</na></co>
+<co c="0"><na f="r/Robertson:Charles" pid="41/2036">Charles Robertson</na></co>
+<co c="0"><na f="r/Roshandel:Roshanak" pid="78/1349">Roshanak Roshandel</na></co>
+<co c="0"><na f="s/Sangiovanni=Vincentelli:Alberto_L=" pid="s/ALSangiovanniV">Alberto L. Sangiovanni-Vincentelli</na></co>
+<co c="0"><na f="s/Seshia:Sanjit_A=" pid="s/SanjitASeshia">Sanjit A. Seshia</na></co>
+<co c="2"><na f="s/Silingas:Darius" pid="56/855">Darius Silingas</na></co>
+<co c="0"><na f="s/Smith:Benjamin_D=" pid="64/73">Benjamin D. Smith</na></co>
+<co c="0"><na f="s/Stroustrup:Bjarne" pid="s/BjarneStroustrup">Bjarne Stroustrup</na></co>
+<co c="0"><na f="t/Tate:Daiki" pid="425/5933">Daiki Tate</na></co>
+<co c="0"><na f="t/Taylor:William" pid="76/3537">William Taylor</na></co>
+<co c="0"><na f="t/Tung:Yu=Wen" pid="01/5528">Yu-Wen Tung</na></co>
+<co c="0"><na f="w/Wagner_0002:David_A=" pid="42/5626-2">David A. Wagner 0002</na></co>
+<co c="0"><na f="w/Wyatt:Jay" pid="99/6404">Jay Wyatt</na></co>
+<co c="0"><na f="y/Yang:Xianjin" pid="261/1551">Xianjin Yang</na></co>
+<co c="0"><na f="y/Yu:Sheng=Jung" pid="261/7901">Sheng-Jung Yu</na></co>
+</coauthors>
+</dblpperson>
+

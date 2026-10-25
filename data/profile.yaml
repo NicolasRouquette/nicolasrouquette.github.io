@@ -1,0 +1,68 @@
+# Everything on the site that is about *you* (not your papers) lives here.
+name: Nicolas F. Rouquette
+short_name: Nicolas Rouquette
+title: Principal Computer Scientist
+affiliation: Jet Propulsion Laboratory, California Institute of Technology
+location: Pasadena, California
+email: nfr@jpl.nasa.gov
+site_url: https://nicolasrouquette.github.io
+tagline: >-
+  Formal methods and model-based systems engineering for space systems:
+  Lean 4 formalizations, SysML v2, ontologies, assume-guarantee contracts, F´ flight software.
+
+# Identifiers. The publication fetcher keys off these; the site links to them.
+ids:
+  orcid: 0000-0003-3137-8690
+  google_scholar: -KUbp7IAAAAJ
+  dblp: 56/3476
+  openalex:
+    - A5113483498          # "Nicolas Rouquette" (ORCID-linked)
+    - A5114256421          # "N. Rouquette" — orphan profile, merged here until OpenAlex merges it
+  github: NicolasRouquette
+  linkedin: nicolas-rouquette-1a56aa
+  ntrs_query: '"Rouquette, Nicolas"'
+
+interests:
+  - Formal methods (Lean 4, Dafny, Viper, Stainless)
+  - Model-based systems engineering (SysML v2, OML, openCAESAR)
+  - Ontologies and semantic web for engineering
+  - Assume-guarantee contracts and compositional design
+  - Metrology, units, and uncertainty quantification
+  - Flight software (F´) and observability
+
+# Software / projects shown on the Software page. `repo` is owner/name on GitHub.
+projects:
+  - name: openCAESAR
+    repo: opencaesar/oml
+    role: co-lead
+    blurb: Ontological Modeling Language and tooling for rigorous, agile MBSE at JPL.
+  - name: Pacti
+    repo: pacti-org/pacti
+    role: co-author
+    blurb: Assume-guarantee contracts for efficient compositional analysis and design.
+  - name: L4YAML
+    repo: nasa-jpl/L4YAML
+    role: author
+    blurb: A YAML 1.2 parser in Lean 4 with machine-checked proofs.
+  - name: PropertyKindCalculus
+    repo: nasa-jpl/PropertyKindCalculus
+    role: author
+    blurb: Dybkær's kinds-of-property and quantity calculus, formalized in Lean 4 with PhysLib.
+  - name: OpenSysML
+    repo: Open-MBEE/OpenSysML
+    role: contributor
+    blurb: Open SysML v2 tooling (Jupyter kernel, Airflow provider, OpenTelemetry bridge).
+  - name: doc-verification-bridge
+    repo: NicolasRouquette/doc-verification-bridge
+    role: author
+    blurb: What theorems assume, prove, validate, and depend on? Bridging Verso docs and Lean proofs.
+  - name: metrology-vocabularies
+    repo: opencaesar/metrology-vocabularies
+    role: author
+    blurb: OML vocabularies for VIM3 / ISO 80000 metrology concepts.
+
+# Manual additions / fixes to the publication list. Keyed by DOI (preferred) or by `title`.
+# Fields given here override whatever the fetchers return.
+publication_overrides: []
+# Entries to hide (false positives from name matching). DOIs or exact titles.
+publication_exclude: []

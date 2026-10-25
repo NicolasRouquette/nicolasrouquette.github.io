@@ -1,0 +1,47 @@
+<section class="gh" id="github">
+  <h2>GitHub activity</h2>
+  <p>Since {{ gh.since }}: <strong>{{ "{:,}".format(gh.totals.commits) }}</strong> commits,
+     <strong>{{ gh.totals.prs }}</strong> pull requests, <strong>{{ gh.totals.issues }}</strong> issues and
+     <strong>{{ gh.totals.reviews }}</strong> reviews across <strong>{{ gh.repos | length }}</strong> public repositories
+     owned by <strong>{{ gh.orgs | length }}</strong> organisations and people.</p>
+
+  <h3>Last twelve months</h3>
+  <svg class="heatmap" viewBox="0 0 {{ gh.heat.width }} 112" role="img" aria-label="Daily GitHub contributions over the last twelve months">
+    {% for m in gh.heat.months %}<text x="{{ m.x }}" y="9">{{ m.label }}</text>{% endfor %}
+    {% for d in gh.heat.dows %}<text x="0" y="{{ d.y }}">{{ d.label }}</text>{% endfor %}
+    {% for c in gh.heat.cells %}<rect class="l{{ c.level }}" x="{{ c.x }}" y="{{ c.y }}" width="11" height="11" rx="2"><title>{{ c.date }}: {{ c.n }} contribution{{ '' if c.n == 1 else 's' }}</title></rect>
+    {% endfor %}
+  </svg>
+
+  <h3>Commits per year</h3>
+  <ul class="bars years">
+  {% for y in gh.years %}
+    <li><span class="label">{{ y.year }}</span><span class="track"><span class="fill" style="width: {{ y.pct }}%"></span></span><span class="value">{{ "{:,}".format(y.commits) }}</span></li>
+  {% endfor %}
+  </ul>
+
+  <h3>By organisation</h3>
+  <p class="fine">Commits <i class="sw commits"></i>, pull requests <i class="sw prs"></i>, issues <i class="sw issues"></i>, reviews <i class="sw reviews"></i>; width is relative to the most active organisation.</p>
+  <ul class="bars orgs">
+  {% for o in gh.org_rows %}
+    <li><span class="label">{% if o.url %}<a href="{{ o.url }}">{{ o.owner }}</a>{% else %}{{ o.owner }}{% endif %} <small>{{ o.repos }} repo{{ '' if o.repos == 1 else 's' }}</small></span>
+        <span class="track">{% for seg in o.segments %}<span class="fill {{ seg.kind }}" style="width: {{ seg.pct }}%" title="{{ seg.n }} {{ seg.kind }}"></span>{% endfor %}</span>
+        <span class="value">{{ "{:,}".format(o.total) }}</span></li>
+  {% endfor %}
+  </ul>
+
+  <h3>Most active repositories</h3>
+  <table class="repos">
+    <thead><tr><th>Repository</th><th>Language</th><th class="num">Commits</th><th class="num">PRs</th><th class="num">Issues</th><th>Years</th></tr></thead>
+    <tbody>
+    {% for r in gh.top_repos %}
+      <tr><td><a href="{{ r.url }}">{{ r.repo }}</a>{% if r.archived %} <small>archived</small>{% endif %}{% if r.fork %} <small>fork</small>{% endif %}</td>
+          <td>{% if r.language %}<i class="dot" style="background: {{ r.language_color or 'var(--muted)' }}"></i>{{ r.language }}{% endif %}</td>
+          <td class="num">{{ "{:,}".format(r.commits) }}</td><td class="num">{{ r.prs }}</td><td class="num">{{ r.issues }}</td>
+          <td>{{ r.span }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <p class="fine">Public contributions only ({{ "{:,}".format(gh.totals.restricted) }} further contributions are in private repositories);
+     from the GitHub GraphQL API, refreshed {{ gh.generated }}. Full data: <a href="{{ root }}github.json">github.json</a>.</p>
+</section>

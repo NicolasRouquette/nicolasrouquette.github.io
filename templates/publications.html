@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Publications</h1>
+<p class="fine">{{ pubs | length }} entries, merged from <a href="https://orcid.org/{{ p.ids.orcid }}">ORCID</a>,
+  Crossref, <a href="https://dblp.org/pid/{{ p.ids.dblp }}.html">DBLP</a>, <a href="https://openalex.org/{{ p.ids.openalex[0] }}">OpenAlex</a>
+  and <a href="https://ntrs.nasa.gov/search?q={{ p.ids.ntrs_query | urlencode }}">NTRS</a>.
+  Citation counts are OpenAlex's; <a href="https://scholar.google.com/citations?user={{ p.ids.google_scholar }}">Google Scholar</a> counts higher.
+  Download as <a href="{{ root }}publications.bib">BibTeX</a>.</p>
+<input id="filter" type="search" placeholder="Filter by title, author, venue…" aria-label="Filter publications">
+{% for year, group in by_year %}
+<h2 class="year">{{ year or "Undated" }}</h2>
+<ol class="pubs">
+{% for pub in group %}{% include "_pub.html" %}{% endfor %}
+</ol>
+{% endfor %}
+<script>
+const f = document.getElementById('filter');
+f.addEventListener('input', () => {
+  const q = f.value.toLowerCase();
+  document.querySelectorAll('li.pub').forEach(li => { li.hidden = q && !li.textContent.toLowerCase().includes(q); });
+  document.querySelectorAll('h2.year').forEach(h => { h.hidden = ![...h.nextElementSibling.children].some(li => !li.hidden); });
+});
+</script>
+{% endblock %}
