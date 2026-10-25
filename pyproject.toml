@@ -1,0 +1,14 @@
+[project]
+name = "nicolasrouquette-site"
+version = "0"
+description = "Static research site generator: publication merge, GitHub activity, Jinja2 build"
+requires-python = ">=3.11"
+dependencies = [
+  "Jinja2>=3.1,<4",
+  "Markdown>=3.5,<4",
+  "PyYAML>=6,<7",
+  "requests>=2.31,<3",
+]
+
+[tool.uv]
+package = false

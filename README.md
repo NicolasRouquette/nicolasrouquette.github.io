@@ -25,20 +25,20 @@ data/variants/<name>.yaml, content/<name>/      per-variant profile overrides an
 ## Recipes
 
 ### Preview locally
+All scripts run with [uv](https://docs.astral.sh/uv/), which creates the virtualenv from `pyproject.toml`/`uv.lock` on first use:
 ```sh
-pip install -r requirements.txt
-python scripts/build.py && python -m http.server -d _site 8000
+uv run scripts/build.py && uv run python -m http.server -d _site 8000
 ```
 
 ### Refresh the publication list now
 ```sh
-python scripts/fetch_publications.py && python scripts/build.py
+uv run scripts/fetch_publications.py && uv run scripts/build.py
 ```
 or on GitHub: *Actions → Refresh publications → Run workflow*.
 
 ### Refresh the github.com activity chart now
 ```sh
-GITHUB_TOKEN=$(gh auth token) python scripts/fetch_github.py && python scripts/build.py
+GITHUB_TOKEN=$(gh auth token) uv run scripts/fetch_github.py && uv run scripts/build.py
 ```
 Any token works (public data only); in Actions the workflow's own `GITHUB_TOKEN` is used.
 The weekly refresh workflow runs this together with the publication refresh.
@@ -69,7 +69,7 @@ Edit `content/index.md`; headline, title and tagline come from `data/profile.yam
 
 ### Publish by hand (no history buildup)
 ```sh
-python scripts/build.py && ./scripts/publish-pages.sh && git push origin gh-pages --force-with-lease
+uv run scripts/build.py && ./scripts/publish-pages.sh && git push origin gh-pages --force-with-lease
 ```
 `PAGES_PUSH=1 ./scripts/publish-pages.sh` pushes for you (what CI runs). `PAGES_REMOTE=maap` publishes to another remote.
 
