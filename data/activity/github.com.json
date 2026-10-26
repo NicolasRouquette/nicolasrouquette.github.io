@@ -4,16 +4,16 @@
  "profile_url": "https://github.com/NicolasRouquette",
  "kind": "github",
  "pr_label": "pull requests",
- "scope_note": "Public contributions only (1,399 further contributions are in private repositories)",
- "generated": "2026-10-25",
+ "scope_note": "Public contributions only (1,438 further contributions are in private repositories)",
+ "generated": "2026-10-26",
  "login": "NicolasRouquette",
  "since": 2012,
  "totals": {
-  "commits": 9531,
-  "prs": 395,
+  "commits": 9555,
+  "prs": 399,
   "reviews": 24,
   "issues": 876,
-  "restricted": 1399
+  "restricted": 1438
  },
  "years": {
   "2012": {
@@ -101,8 +101,8 @@
    "issues": 10
   },
   "2026": {
-   "commits": 3626,
-   "prs": 45,
+   "commits": 3650,
+   "prs": 49,
    "reviews": 2,
    "issues": 21
   }
@@ -120,11 +120,11 @@
   {
    "owner": "nasa-jpl",
    "repos": 5,
-   "commits": 3370,
+   "commits": 3384,
    "prs": 7,
    "reviews": 2,
    "issues": 4,
-   "total": 3383
+   "total": 3397
   },
   {
    "owner": "TIWG",
@@ -138,11 +138,11 @@
   {
    "owner": "NicolasRouquette",
    "repos": 19,
-   "commits": 340,
-   "prs": 3,
+   "commits": 350,
+   "prs": 7,
    "reviews": 0,
    "issues": 0,
-   "total": 343
+   "total": 357
   },
   {
    "owner": "opencaesar",
@@ -1061,14 +1061,14 @@
    "stars": 11,
    "language": "Lean",
    "language_color": null,
-   "commits": 628,
+   "commits": 642,
    "prs": 1,
    "reviews": 0,
    "issues": 0,
    "years": [
     2026
    ],
-   "total": 629
+   "total": 643
   },
   {
    "repo": "JPL-IMCE/gov.nasa.jpl.omf.scala.binding.owlapi",
@@ -2051,6 +2051,25 @@
    "total": 22
   },
   {
+   "repo": "NicolasRouquette/nicolasrouquette.github.io",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/nicolasrouquette.github.io",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 16,
+   "prs": 5,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 21
+  },
+  {
    "repo": "NicolasRouquette/oml.lean4",
    "owner": "NicolasRouquette",
    "url": "https://github.com/NicolasRouquette/oml.lean4",
@@ -2388,7 +2407,7 @@
    "description": "Lean 4 programming language and theorem prover",
    "fork": false,
    "archived": false,
-   "stars": 9672,
+   "stars": 9675,
    "language": "Lean",
    "language_color": null,
    "commits": 2,
@@ -2653,25 +2672,6 @@
    "issues": 3,
    "years": [
     2019
-   ],
-   "total": 7
-  },
-  {
-   "repo": "NicolasRouquette/nicolasrouquette.github.io",
-   "owner": "NicolasRouquette",
-   "url": "https://github.com/NicolasRouquette/nicolasrouquette.github.io",
-   "description": null,
-   "fork": false,
-   "archived": false,
-   "stars": 0,
-   "language": "Python",
-   "language_color": "#3572A5",
-   "commits": 6,
-   "prs": 1,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
    ],
    "total": 7
   },
@@ -3165,7 +3165,7 @@
    "description": "Kubernetes website and documentation repo: ",
    "fork": false,
    "archived": false,
-   "stars": 5414,
+   "stars": 5413,
    "language": "HTML",
    "language_color": "#e34c26",
    "commits": 1,
@@ -3338,7 +3338,7 @@
    "description": "A cloud-native Pipeline resource.",
    "fork": false,
    "archived": false,
-   "stars": 9091,
+   "stars": 9090,
    "language": "Go",
    "language_color": "#00ADD8",
    "commits": 0,
@@ -3665,7 +3665,7 @@
    "description": "The \"batteries included\" extended library for the Lean programming language and theorem prover",
    "fork": false,
    "archived": false,
-   "stars": 424,
+   "stars": 425,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -4312,7 +4312,7 @@
    "description": "The Git interface you've been missing all your life has finally arrived.",
    "fork": false,
    "archived": false,
-   "stars": 12146,
+   "stars": 12148,
    "language": "Objective-C",
    "language_color": "#438eff",
    "commits": 0,
@@ -4426,7 +4426,7 @@
    "description": "draw.io is a JavaScript, client-side editor for general diagramming.",
    "fork": false,
    "archived": false,
-   "stars": 8987,
+   "stars": 8992,
    "language": "JavaScript",
    "language_color": "#f1e05a",
    "commits": 0,
@@ -5015,7 +5015,7 @@
    "description": "Your favorite language gets closer to bare metal.",
    "fork": false,
    "archived": false,
-   "stars": 4703,
+   "stars": 4704,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -5110,7 +5110,7 @@
    "description": "Warp is an agentic development environment, born out of the terminal.",
    "fork": false,
    "archived": false,
-   "stars": 65694,
+   "stars": 65708,
    "language": "Rust",
    "language_color": "#dea584",
    "commits": 0,
@@ -6623,7 +6623,7 @@
   },
   {
    "date": "2026-10-21",
-   "contributionCount": 19
+   "contributionCount": 20
   },
   {
    "date": "2026-10-22",
@@ -6639,7 +6639,11 @@
   },
   {
    "date": "2026-10-25",
-   "contributionCount": 67
+   "contributionCount": 113
+  },
+  {
+   "date": "2026-10-26",
+   "contributionCount": 20
   }
  ]
 }
