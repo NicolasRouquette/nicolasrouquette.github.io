@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software · Nicolas Rouquette</title>
+<meta name="description" content="Formal methods and model-based systems engineering for space systems: Lean 4 formalizations, SysML v2, ontologies, assume-guarantee contracts, F´ flight software.">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="alternate" type="application/x-bibtex" href="../publications.bib" title="BibTeX">
+<link rel="me" href="https://orcid.org/0000-0003-3137-8690">
+<link rel="me" href="https://github.com/NicolasRouquette">
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Person",
+ "name": "Nicolas F. Rouquette",
+ "jobTitle": "Principal Computer Scientist",
+ "url": "https://nicolasrouquette.github.io",
+ "affiliation": {
+  "@type": "Organization",
+  "name": "Jet Propulsion Laboratory, California Institute of Technology"
+ },
+ "sameAs": [
+  "https://orcid.org/0000-0003-3137-8690",
+  "https://scholar.google.com/citations?user=-KUbp7IAAAAJ",
+  "https://dblp.org/pid/56/3476.html",
+  "https://openalex.org/A5113483498",
+  "https://github.com/NicolasRouquette",
+  "https://www.linkedin.com/in/nicolas-rouquette-1a56aa/"
+ ],
+ "knowsAbout": [
+  "Formal methods (Lean 4, Dafny, Viper, Stainless)",
+  "Model-based systems engineering (SysML v2, OML, openCAESAR)",
+  "Ontologies and semantic web for engineering",
+  "Assume-guarantee contracts and compositional design",
+  "Metrology, units, and uncertainty quantification",
+  "Flight software (F\u00b4) and observability"
+ ]
+}</script>
+</head>
+<body>
+<header>
+  <a class="brand" href="../">Nicolas Rouquette</a>
+  <nav>
+    <a href="../" >About</a>
+    <a href="../publications/" >Publications</a>
+    <a href="../software/" class="active">Software</a>
+    
+  </nav>
+</header>
+<main>
+
+<h1>Software</h1>
+<section class="prose"><p>Most of what I build is open source. The projects below are the ones I currently maintain or contribute to; my <a href="https://github.com/NicolasRouquette">GitHub profile</a> has the rest.</p></section>
+<p class="fine">By language:
+<a href="#lang-go">Go</a> (1) · <a href="#lang-java">Java</a> (1) · <a href="#lang-lean-4">Lean 4</a> (3) · <a href="#lang-oml">OML</a> (1) · <a href="#lang-python">Python</a> (1)</p>
+
+<h2 id="cat-verified-software-in-lean-4">Verified software in Lean 4</h2>
+<ul class="projects">
+
+  <li id="verified-software-in-lean-4--l4yaml">
+    <h3><a href="https://github.com/nasa-jpl/L4YAML">L4YAML</a> <span class="role">author</span> <span class="lang">Lean 4</span></h3>
+    <p>A YAML 1.2 parser in Lean 4 with machine-checked proofs.</p>
+    <p class="fine"><code>nasa-jpl/L4YAML</code></p>
+  </li>
+
+  <li id="verified-software-in-lean-4--propertykindcalculus">
+    <h3><a href="https://github.com/nasa-jpl/PropertyKindCalculus">PropertyKindCalculus</a> <span class="role">author</span> <span class="lang">Lean 4</span></h3>
+    <p>Dybkær&#39;s kinds-of-property and quantity calculus, formalized in Lean 4 with PhysLib.</p>
+    <p class="fine"><code>nasa-jpl/PropertyKindCalculus</code></p>
+  </li>
+
+  <li id="verified-software-in-lean-4--doc-verification-bridge">
+    <h3><a href="https://github.com/NicolasRouquette/doc-verification-bridge">doc-verification-bridge</a> <span class="role">author</span> <span class="lang">Lean 4</span></h3>
+    <p>What theorems assume, prove, validate, and depend on? Bridging Verso docs and Lean proofs.</p>
+    <p class="fine"><code>NicolasRouquette/doc-verification-bridge</code></p>
+  </li>
+
+</ul>
+
+<h2 id="cat-formal-metrology">Formal metrology</h2>
+<ul class="projects">
+
+  <li id="formal-metrology--propertykindcalculus">
+    <h3><a href="https://github.com/nasa-jpl/PropertyKindCalculus">PropertyKindCalculus</a> <span class="role">author</span> <span class="lang">Lean 4</span></h3>
+    <p>Dybkær&#39;s kinds-of-property and quantity calculus, formalized in Lean 4 with PhysLib.</p>
+    <p class="fine"><code>nasa-jpl/PropertyKindCalculus</code></p>
+  </li>
+
+  <li id="formal-metrology--metrology-vocabularies">
+    <h3><a href="https://github.com/opencaesar/metrology-vocabularies">metrology-vocabularies</a> <span class="role">author</span> <span class="lang">OML</span></h3>
+    <p>OML vocabularies for VIM3 / ISO 80000 metrology concepts.</p>
+    <p class="fine"><code>opencaesar/metrology-vocabularies</code></p>
+  </li>
+
+</ul>
+
+<h2 id="cat-model-based-systems-engineering">Model-based systems engineering</h2>
+<ul class="projects">
+
+  <li id="model-based-systems-engineering--opencaesar">
+    <h3><a href="https://github.com/opencaesar/oml">openCAESAR</a> <span class="role">co-lead</span> <span class="lang">Java</span></h3>
+    <p>Ontological Modeling Language and tooling for rigorous, agile MBSE at JPL.</p>
+    <p class="fine"><code>opencaesar/oml</code></p>
+  </li>
+
+  <li id="model-based-systems-engineering--opensysml">
+    <h3><a href="https://github.com/Open-MBEE/OpenSysML">OpenSysML</a> <span class="role">contributor</span> <span class="lang">Go</span></h3>
+    <p>Open SysML v2 tooling (Jupyter kernel, Airflow provider, OpenTelemetry bridge).</p>
+    <p class="fine"><code>Open-MBEE/OpenSysML</code></p>
+  </li>
+
+</ul>
+
+<h2 id="cat-compositional-design-and-contracts">Compositional design and contracts</h2>
+<ul class="projects">
+
+  <li id="compositional-design-and-contracts--pacti">
+    <h3><a href="https://github.com/pacti-org/pacti">Pacti</a> <span class="role">co-author</span> <span class="lang">Python</span></h3>
+    <p>Assume-guarantee contracts for efficient compositional analysis and design.</p>
+    <p class="fine"><code>pacti-org/pacti</code></p>
+  </li>
+
+</ul>
+
+<h2>By language</h2>
+<dl class="by-language">
+
+  <dt id="lang-go">Go</dt>
+  <dd><a href="#model-based-systems-engineering--opensysml">OpenSysML</a></dd>
+
+  <dt id="lang-java">Java</dt>
+  <dd><a href="#model-based-systems-engineering--opencaesar">openCAESAR</a></dd>
+
+  <dt id="lang-lean-4">Lean 4</dt>
+  <dd><a href="#verified-software-in-lean-4--l4yaml">L4YAML</a>, <a href="#verified-software-in-lean-4--propertykindcalculus">PropertyKindCalculus</a>, <a href="#verified-software-in-lean-4--doc-verification-bridge">doc-verification-bridge</a></dd>
+
+  <dt id="lang-oml">OML</dt>
+  <dd><a href="#formal-metrology--metrology-vocabularies">metrology-vocabularies</a></dd>
+
+  <dt id="lang-python">Python</dt>
+  <dd><a href="#compositional-design-and-contracts--pacti">Pacti</a></dd>
+
+</dl>
+<section class="gh" id="github-com">
+  <h2>Activity on <a href="https://github.com/NicolasRouquette">github.com</a></h2>
+  <p>Since 2012: <strong>9,555</strong> commits,
+     <strong>399</strong> pull requests, <strong>876</strong> issues and
+     <strong>24</strong> reviews across <strong>213</strong> repositories
+     owned by <strong>100</strong> organisations and people.</p>
+
+  <h3>Last twelve months</h3>
+  <svg class="heatmap" viewBox="0 0 770 112" role="img" aria-label="Daily GitHub contributions over the last twelve months">
+    <text x="28" y="9">Nov</text><text x="98" y="9">Dec</text><text x="154" y="9">Jan</text><text x="224" y="9">Feb</text><text x="280" y="9">Mar</text><text x="336" y="9">Apr</text><text x="392" y="9">May</text><text x="462" y="9">Jun</text><text x="518" y="9">Jul</text><text x="574" y="9">Aug</text><text x="644" y="9">Sep</text><text x="700" y="9">Oct</text>
+    <text x="0" y="37">Mon</text><text x="0" y="65">Wed</text><text x="0" y="93">Fri</text>
+    <rect class="l0" x="28" y="14" width="11" height="11" rx="2"><title>2025-10-26: 0 contributions</title></rect>
+    <rect class="l0" x="28" y="28" width="11" height="11" rx="2"><title>2025-10-27: 0 contributions</title></rect>
+    <rect class="l0" x="28" y="42" width="11" height="11" rx="2"><title>2025-10-28: 0 contributions</title></rect>
+    <rect class="l0" x="28" y="56" width="11" height="11" rx="2"><title>2025-10-29: 0 contributions</title></rect>
+    <rect class="l0" x="28" y="70" width="11" height="11" rx="2"><title>2025-10-30: 0 contributions</title></rect>
+    <rect class="l0" x="28" y="84" width="11" height="11" rx="2"><title>2025-10-31: 0 contributions</title></rect>
+    <rect class="l0" x="28" y="98" width="11" height="11" rx="2"><title>2025-11-01: 0 contributions</title></rect>
+    <rect class="l0" x="42" y="14" width="11" height="11" rx="2"><title>2025-11-02: 0 contributions</title></rect>
+    <rect class="l0" x="42" y="28" width="11" height="11" rx="2"><title>2025-11-03: 0 contributions</title></rect>
+    <rect class="l0" x="42" y="42" width="11" height="11" rx="2"><title>2025-11-04: 0 contributions</title></rect>
+    <rect class="l0" x="42" y="56" width="11" height="11" rx="2"><title>2025-11-05: 0 contributions</title></rect>
+    <rect class="l0" x="42" y="70" width="11" height="11" rx="2"><title>2025-11-06: 0 contributions</title></rect>
+    <rect class="l0" x="42" y="84" width="11" height="11" rx="2"><title>2025-11-07: 0 contributions</title></rect>
+    <rect class="l0" x="42" y="98" width="11" height="11" rx="2"><title>2025-11-08: 0 contributions</title></rect>
+    <rect class="l0" x="56" y="14" width="11" height="11" rx="2"><title>2025-11-09: 0 contributions</title></rect>
+    <rect class="l0" x="56" y="28" width="11" height="11" rx="2"><title>2025-11-10: 0 contributions</title></rect>
+    <rect class="l0" x="56" y="42" width="11" height="11" rx="2"><title>2025-11-11: 0 contributions</title></rect>
+    <rect class="l1" x="56" y="56" width="11" height="11" rx="2"><title>2025-11-12: 1 contribution</title></rect>
+    <rect class="l0" x="56" y="70" width="11" height="11" rx="2"><title>2025-11-13: 0 contributions</title></rect>
+    <rect class="l0" x="56" y="84" width="11" height="11" rx="2"><title>2025-11-14: 0 contributions</title></rect>
+    <rect class="l0" x="56" y="98" width="11" height="11" rx="2"><title>2025-11-15: 0 contributions</title></rect>
+    <rect class="l0" x="70" y="14" width="11" height="11" rx="2"><title>2025-11-16: 0 contributions</title></rect>
+    <rect class="l0" x="70" y="28" width="11" height="11" rx="2"><title>2025-11-17: 0 contributions</title></rect>
+    <rect class="l0" x="70" y="42" width="11" height="11" rx="2"><title>2025-11-18: 0 contributions</title></rect>
+    <rect class="l0" x="70" y="56" width="11" height="11" rx="2"><title>2025-11-19: 0 contributions</title></rect>
+    <rect class="l0" x="70" y="70" width="11" height="11" rx="2"><title>2025-11-20: 0 contributions</title></rect>
+    <rect class="l0" x="70" y="84" width="11" height="11" rx="2"><title>2025-11-21: 0 contributions</title></rect>
+    <rect class="l0" x="70" y="98" width="11" height="11" rx="2"><title>2025-11-22: 0 contributions</title></rect>
+    <rect class="l0" x="84" y="14" width="11" height="11" rx="2"><title>2025-11-23: 0 contributions</title></rect>
+    <rect class="l0" x="84" y="28" width="11" height="11" rx="2"><title>2025-11-24: 0 contributions</title></rect>
+    <rect class="l0" x="84" y="42" width="11" height="11" rx="2"><title>2025-11-25: 0 contributions</title></rect>
+    <rect class="l0" x="84" y="56" width="11" height="11" rx="2"><title>2025-11-26: 0 contributions</title></rect>
+    <rect class="l0" x="84" y="70" width="11" height="11" rx="2"><title>2025-11-27: 0 contributions</title></rect>
+    <rect class="l0" x="84" y="84" width="11" height="11" rx="2"><title>2025-11-28: 0 contributions</title></rect>
+    <rect class="l0" x="84" y="98" width="11" height="11" rx="2"><title>2025-11-29: 0 contributions</title></rect>
+    <rect class="l0" x="98" y="14" width="11" height="11" rx="2"><title>2025-11-30: 0 contributions</title></rect>
+    <rect class="l0" x="98" y="28" width="11" height="11" rx="2"><title>2025-12-01: 0 contributions</title></rect>
+    <rect class="l0" x="98" y="42" width="11" height="11" rx="2"><title>2025-12-02: 0 contributions</title></rect>
+    <rect class="l0" x="98" y="56" width="11" height="11" rx="2"><title>2025-12-03: 0 contributions</title></rect>
+    <rect class="l0" x="98" y="70" width="11" height="11" rx="2"><title>2025-12-04: 0 contributions</title></rect>
+    <rect class="l1" x="98" y="84" width="11" height="11" rx="2"><title>2025-12-05: 3 contributions</title></rect>
+    <rect class="l0" x="98" y="98" width="11" height="11" rx="2"><title>2025-12-06: 0 contributions</title></rect>
+    <rect class="l1" x="112" y="14" width="11" height="11" rx="2"><title>2025-12-07: 5 contributions</title></rect>
+    <rect class="l0" x="112" y="28" width="11" height="11" rx="2"><title>2025-12-08: 0 contributions</title></rect>
+    <rect class="l0" x="112" y="42" width="11" height="11" rx="2"><title>2025-12-09: 0 contributions</title></rect>
+    <rect class="l0" x="112" y="56" width="11" height="11" rx="2"><title>2025-12-10: 0 contributions</title></rect>
+    <rect class="l0" x="112" y="70" width="11" height="11" rx="2"><title>2025-12-11: 0 contributions</title></rect>
+    <rect class="l0" x="112" y="84" width="11" height="11" rx="2"><title>2025-12-12: 0 contributions</title></rect>
+    <rect class="l0" x="112" y="98" width="11" height="11" rx="2"><title>2025-12-13: 0 contributions</title></rect>
+    <rect class="l0" x="126" y="14" width="11" height="11" rx="2"><title>2025-12-14: 0 contributions</title></rect>
+    <rect class="l0" x="126" y="28" width="11" height="11" rx="2"><title>2025-12-15: 0 contributions</title></rect>
+    <rect class="l0" x="126" y="42" width="11" height="11" rx="2"><title>2025-12-16: 0 contributions</title></rect>
+    <rect class="l0" x="126" y="56" width="11" height="11" rx="2"><title>2025-12-17: 0 contributions</title></rect>
+    <rect class="l0" x="126" y="70" width="11" height="11" rx="2"><title>2025-12-18: 0 contributions</title></rect>
+    <rect class="l0" x="126" y="84" width="11" height="11" rx="2"><title>2025-12-19: 0 contributions</title></rect>
+    <rect class="l0" x="126" y="98" width="11" height="11" rx="2"><title>2025-12-20: 0 contributions</title></rect>
+    <rect class="l0" x="140" y="14" width="11" height="11" rx="2"><title>2025-12-21: 0 contributions</title></rect>
+    <rect class="l0" x="140" y="28" width="11" height="11" rx="2"><title>2025-12-22: 0 contributions</title></rect>
+    <rect class="l1" x="140" y="42" width="11" height="11" rx="2"><title>2025-12-23: 2 contributions</title></rect>
+    <rect class="l0" x="140" y="56" width="11" height="11" rx="2"><title>2025-12-24: 0 contributions</title></rect>
+    <rect class="l0" x="140" y="70" width="11" height="11" rx="2"><title>2025-12-25: 0 contributions</title></rect>
+    <rect class="l1" x="140" y="84" width="11" height="11" rx="2"><title>2025-12-26: 3 contributions</title></rect>
+    <rect class="l1" x="140" y="98" width="11" height="11" rx="2"><title>2025-12-27: 1 contribution</title></rect>
+    <rect class="l0" x="154" y="14" width="11" height="11" rx="2"><title>2025-12-28: 0 contributions</title></rect>
+    <rect class="l0" x="154" y="28" width="11" height="11" rx="2"><title>2025-12-29: 0 contributions</title></rect>
+    <rect class="l0" x="154" y="42" width="11" height="11" rx="2"><title>2025-12-30: 0 contributions</title></rect>
+    <rect class="l0" x="154" y="56" width="11" height="11" rx="2"><title>2025-12-31: 0 contributions</title></rect>
+    <rect class="l0" x="154" y="70" width="11" height="11" rx="2"><title>2026-01-01: 0 contributions</title></rect>
+    <rect class="l0" x="154" y="84" width="11" height="11" rx="2"><title>2026-01-02: 0 contributions</title></rect>
+    <rect class="l1" x="154" y="98" width="11" height="11" rx="2"><title>2026-01-03: 4 contributions</title></rect>
+    <rect class="l1" x="168" y="14" width="11" height="11" rx="2"><title>2026-01-04: 1 contribution</title></rect>
+    <rect class="l1" x="168" y="28" width="11" height="11" rx="2"><title>2026-01-05: 6 contributions</title></rect>
+    <rect class="l1" x="168" y="42" width="11" height="11" rx="2"><title>2026-01-06: 8 contributions</title></rect>
+    <rect class="l1" x="168" y="56" width="11" height="11" rx="2"><title>2026-01-07: 6 contributions</title></rect>
+    <rect class="l1" x="168" y="70" width="11" height="11" rx="2"><title>2026-01-08: 11 contributions</title></rect>
+    <rect class="l1" x="168" y="84" width="11" height="11" rx="2"><title>2026-01-09: 14 contributions</title></rect>
+    <rect class="l1" x="168" y="98" width="11" height="11" rx="2"><title>2026-01-10: 4 contributions</title></rect>
+    <rect class="l1" x="182" y="14" width="11" height="11" rx="2"><title>2026-01-11: 23 contributions</title></rect>
+    <rect class="l1" x="182" y="28" width="11" height="11" rx="2"><title>2026-01-12: 26 contributions</title></rect>
+    <rect class="l1" x="182" y="42" width="11" height="11" rx="2"><title>2026-01-13: 3 contributions</title></rect>
+    <rect class="l1" x="182" y="56" width="11" height="11" rx="2"><title>2026-01-14: 9 contributions</title></rect>
+    <rect class="l1" x="182" y="70" width="11" height="11" rx="2"><title>2026-01-15: 10 contributions</title></rect>
+    <rect class="l1" x="182" y="84" width="11" height="11" rx="2"><title>2026-01-16: 11 contributions</title></rect>
+    <rect class="l1" x="182" y="98" width="11" height="11" rx="2"><title>2026-01-17: 20 contributions</title></rect>
+    <rect class="l1" x="196" y="14" width="11" height="11" rx="2"><title>2026-01-18: 4 contributions</title></rect>
+    <rect class="l1" x="196" y="28" width="11" height="11" rx="2"><title>2026-01-19: 13 contributions</title></rect>
+    <rect class="l1" x="196" y="42" width="11" height="11" rx="2"><title>2026-01-20: 3 contributions</title></rect>
+    <rect class="l0" x="196" y="56" width="11" height="11" rx="2"><title>2026-01-21: 0 contributions</title></rect>
+    <rect class="l0" x="196" y="70" width="11" height="11" rx="2"><title>2026-01-22: 0 contributions</title></rect>
+    <rect class="l0" x="196" y="84" width="11" height="11" rx="2"><title>2026-01-23: 0 contributions</title></rect>
+    <rect class="l0" x="196" y="98" width="11" height="11" rx="2"><title>2026-01-24: 0 contributions</title></rect>
+    <rect class="l1" x="210" y="14" width="11" height="11" rx="2"><title>2026-01-25: 6 contributions</title></rect>
+    <rect class="l1" x="210" y="28" width="11" height="11" rx="2"><title>2026-01-26: 5 contributions</title></rect>
+    <rect class="l1" x="210" y="42" width="11" height="11" rx="2"><title>2026-01-27: 1 contribution</title></rect>
+    <rect class="l1" x="210" y="56" width="11" height="11" rx="2"><title>2026-01-28: 2 contributions</title></rect>
+    <rect class="l0" x="210" y="70" width="11" height="11" rx="2"><title>2026-01-29: 0 contributions</title></rect>
+    <rect class="l1" x="210" y="84" width="11" height="11" rx="2"><title>2026-01-30: 1 contribution</title></rect>
+    <rect class="l0" x="210" y="98" width="11" height="11" rx="2"><title>2026-01-31: 0 contributions</title></rect>
+    <rect class="l0" x="224" y="14" width="11" height="11" rx="2"><title>2026-02-01: 0 contributions</title></rect>
+    <rect class="l1" x="224" y="28" width="11" height="11" rx="2"><title>2026-02-02: 1 contribution</title></rect>
+    <rect class="l1" x="224" y="42" width="11" height="11" rx="2"><title>2026-02-03: 4 contributions</title></rect>
+    <rect class="l0" x="224" y="56" width="11" height="11" rx="2"><title>2026-02-04: 0 contributions</title></rect>
+    <rect class="l0" x="224" y="70" width="11" height="11" rx="2"><title>2026-02-05: 0 contributions</title></rect>
+    <rect class="l0" x="224" y="84" width="11" height="11" rx="2"><title>2026-02-06: 0 contributions</title></rect>
+    <rect class="l0" x="224" y="98" width="11" height="11" rx="2"><title>2026-02-07: 0 contributions</title></rect>
+    <rect class="l0" x="238" y="14" width="11" height="11" rx="2"><title>2026-02-08: 0 contributions</title></rect>
+    <rect class="l0" x="238" y="28" width="11" height="11" rx="2"><title>2026-02-09: 0 contributions</title></rect>
+    <rect class="l1" x="238" y="42" width="11" height="11" rx="2"><title>2026-02-10: 1 contribution</title></rect>
+    <rect class="l0" x="238" y="56" width="11" height="11" rx="2"><title>2026-02-11: 0 contributions</title></rect>
+    <rect class="l1" x="238" y="70" width="11" height="11" rx="2"><title>2026-02-12: 2 contributions</title></rect>
+    <rect class="l0" x="238" y="84" width="11" height="11" rx="2"><title>2026-02-13: 0 contributions</title></rect>
+    <rect class="l1" x="238" y="98" width="11" height="11" rx="2"><title>2026-02-14: 2 contributions</title></rect>
+    <rect class="l1" x="252" y="14" width="11" height="11" rx="2"><title>2026-02-15: 22 contributions</title></rect>
+    <rect class="l1" x="252" y="28" width="11" height="11" rx="2"><title>2026-02-16: 25 contributions</title></rect>
+    <rect class="l1" x="252" y="42" width="11" height="11" rx="2"><title>2026-02-17: 6 contributions</title></rect>
+    <rect class="l1" x="252" y="56" width="11" height="11" rx="2"><title>2026-02-18: 12 contributions</title></rect>
+    <rect class="l1" x="252" y="70" width="11" height="11" rx="2"><title>2026-02-19: 19 contributions</title></rect>
+    <rect class="l1" x="252" y="84" width="11" height="11" rx="2"><title>2026-02-20: 13 contributions</title></rect>
+    <rect class="l1" x="252" y="98" width="11" height="11" rx="2"><title>2026-02-21: 26 contributions</title></rect>
+    <rect class="l1" x="266" y="14" width="11" height="11" rx="2"><title>2026-02-22: 44 contributions</title></rect>
+    <rect class="l1" x="266" y="28" width="11" height="11" rx="2"><title>2026-02-23: 10 contributions</title></rect>
+    <rect class="l1" x="266" y="42" width="11" height="11" rx="2"><title>2026-02-24: 15 contributions</title></rect>
+    <rect class="l1" x="266" y="56" width="11" height="11" rx="2"><title>2026-02-25: 17 contributions</title></rect>
+    <rect class="l2" x="266" y="70" width="11" height="11" rx="2"><title>2026-02-26: 56 contributions</title></rect>
+    <rect class="l1" x="266" y="84" width="11" height="11" rx="2"><title>2026-02-27: 37 contributions</title></rect>
+    <rect class="l1" x="266" y="98" width="11" height="11" rx="2"><title>2026-02-28: 22 contributions</title></rect>
+    <rect class="l1" x="280" y="14" width="11" height="11" rx="2"><title>2026-03-01: 36 contributions</title></rect>
+    <rect class="l1" x="280" y="28" width="11" height="11" rx="2"><title>2026-03-02: 29 contributions</title></rect>
+    <rect class="l1" x="280" y="42" width="11" height="11" rx="2"><title>2026-03-03: 23 contributions</title></rect>
+    <rect class="l1" x="280" y="56" width="11" height="11" rx="2"><title>2026-03-04: 43 contributions</title></rect>
+    <rect class="l1" x="280" y="70" width="11" height="11" rx="2"><title>2026-03-05: 29 contributions</title></rect>
+    <rect class="l1" x="280" y="84" width="11" height="11" rx="2"><title>2026-03-06: 2 contributions</title></rect>
+    <rect class="l1" x="280" y="98" width="11" height="11" rx="2"><title>2026-03-07: 6 contributions</title></rect>
+    <rect class="l1" x="294" y="14" width="11" height="11" rx="2"><title>2026-03-08: 14 contributions</title></rect>
+    <rect class="l1" x="294" y="28" width="11" height="11" rx="2"><title>2026-03-09: 29 contributions</title></rect>
+    <rect class="l1" x="294" y="42" width="11" height="11" rx="2"><title>2026-03-10: 30 contributions</title></rect>
+    <rect class="l2" x="294" y="56" width="11" height="11" rx="2"><title>2026-03-11: 61 contributions</title></rect>
+    <rect class="l1" x="294" y="70" width="11" height="11" rx="2"><title>2026-03-12: 22 contributions</title></rect>
+    <rect class="l1" x="294" y="84" width="11" height="11" rx="2"><title>2026-03-13: 4 contributions</title></rect>
+    <rect class="l1" x="294" y="98" width="11" height="11" rx="2"><title>2026-03-14: 10 contributions</title></rect>
+    <rect class="l1" x="308" y="14" width="11" height="11" rx="2"><title>2026-03-15: 20 contributions</title></rect>
+    <rect class="l1" x="308" y="28" width="11" height="11" rx="2"><title>2026-03-16: 7 contributions</title></rect>
+    <rect class="l1" x="308" y="42" width="11" height="11" rx="2"><title>2026-03-17: 8 contributions</title></rect>
+    <rect class="l1" x="308" y="56" width="11" height="11" rx="2"><title>2026-03-18: 4 contributions</title></rect>
+    <rect class="l1" x="308" y="70" width="11" height="11" rx="2"><title>2026-03-19: 4 contributions</title></rect>
+    <rect class="l1" x="308" y="84" width="11" height="11" rx="2"><title>2026-03-20: 18 contributions</title></rect>
+    <rect class="l1" x="308" y="98" width="11" height="11" rx="2"><title>2026-03-21: 13 contributions</title></rect>
+    <rect class="l1" x="322" y="14" width="11" height="11" rx="2"><title>2026-03-22: 14 contributions</title></rect>
+    <rect class="l1" x="322" y="28" width="11" height="11" rx="2"><title>2026-03-23: 5 contributions</title></rect>
+    <rect class="l1" x="322" y="42" width="11" height="11" rx="2"><title>2026-03-24: 7 contributions</title></rect>
+    <rect class="l1" x="322" y="56" width="11" height="11" rx="2"><title>2026-03-25: 4 contributions</title></rect>
+    <rect class="l1" x="322" y="70" width="11" height="11" rx="2"><title>2026-03-26: 5 contributions</title></rect>
+    <rect class="l1" x="322" y="84" width="11" height="11" rx="2"><title>2026-03-27: 7 contributions</title></rect>
+    <rect class="l1" x="322" y="98" width="11" height="11" rx="2"><title>2026-03-28: 7 contributions</title></rect>
+    <rect class="l1" x="336" y="14" width="11" height="11" rx="2"><title>2026-03-29: 13 contributions</title></rect>
+    <rect class="l1" x="336" y="28" width="11" height="11" rx="2"><title>2026-03-30: 1 contribution</title></rect>
+    <rect class="l1" x="336" y="42" width="11" height="11" rx="2"><title>2026-03-31: 4 contributions</title></rect>
+    <rect class="l1" x="336" y="56" width="11" height="11" rx="2"><title>2026-04-01: 15 contributions</title></rect>
+    <rect class="l1" x="336" y="70" width="11" height="11" rx="2"><title>2026-04-02: 13 contributions</title></rect>
+    <rect class="l1" x="336" y="84" width="11" height="11" rx="2"><title>2026-04-03: 17 contributions</title></rect>
+    <rect class="l1" x="336" y="98" width="11" height="11" rx="2"><title>2026-04-04: 24 contributions</title></rect>
+    <rect class="l1" x="350" y="14" width="11" height="11" rx="2"><title>2026-04-05: 6 contributions</title></rect>
+    <rect class="l1" x="350" y="28" width="11" height="11" rx="2"><title>2026-04-06: 4 contributions</title></rect>
+    <rect class="l1" x="350" y="42" width="11" height="11" rx="2"><title>2026-04-07: 8 contributions</title></rect>
+    <rect class="l1" x="350" y="56" width="11" height="11" rx="2"><title>2026-04-08: 5 contributions</title></rect>
+    <rect class="l1" x="350" y="70" width="11" height="11" rx="2"><title>2026-04-09: 17 contributions</title></rect>
+    <rect class="l1" x="350" y="84" width="11" height="11" rx="2"><title>2026-04-10: 5 contributions</title></rect>
+    <rect class="l1" x="350" y="98" width="11" height="11" rx="2"><title>2026-04-11: 12 contributions</title></rect>
+    <rect class="l1" x="364" y="14" width="11" height="11" rx="2"><title>2026-04-12: 12 contributions</title></rect>
+    <rect class="l1" x="364" y="28" width="11" height="11" rx="2"><title>2026-04-13: 4 contributions</title></rect>
+    <rect class="l1" x="364" y="42" width="11" height="11" rx="2"><title>2026-04-14: 6 contributions</title></rect>
+    <rect class="l1" x="364" y="56" width="11" height="11" rx="2"><title>2026-04-15: 7 contributions</title></rect>
+    <rect class="l1" x="364" y="70" width="11" height="11" rx="2"><title>2026-04-16: 6 contributions</title></rect>
+    <rect class="l1" x="364" y="84" width="11" height="11" rx="2"><title>2026-04-17: 15 contributions</title></rect>
+    <rect class="l1" x="364" y="98" width="11" height="11" rx="2"><title>2026-04-18: 16 contributions</title></rect>
+    <rect class="l1" x="378" y="14" width="11" height="11" rx="2"><title>2026-04-19: 15 contributions</title></rect>
+    <rect class="l1" x="378" y="28" width="11" height="11" rx="2"><title>2026-04-20: 2 contributions</title></rect>
+    <rect class="l1" x="378" y="42" width="11" height="11" rx="2"><title>2026-04-21: 13 contributions</title></rect>
+    <rect class="l1" x="378" y="56" width="11" height="11" rx="2"><title>2026-04-22: 13 contributions</title></rect>
+    <rect class="l1" x="378" y="70" width="11" height="11" rx="2"><title>2026-04-23: 17 contributions</title></rect>
+    <rect class="l1" x="378" y="84" width="11" height="11" rx="2"><title>2026-04-24: 5 contributions</title></rect>
+    <rect class="l1" x="378" y="98" width="11" height="11" rx="2"><title>2026-04-25: 12 contributions</title></rect>
+    <rect class="l1" x="392" y="14" width="11" height="11" rx="2"><title>2026-04-26: 12 contributions</title></rect>
+    <rect class="l0" x="392" y="28" width="11" height="11" rx="2"><title>2026-04-27: 0 contributions</title></rect>
+    <rect class="l1" x="392" y="42" width="11" height="11" rx="2"><title>2026-04-28: 4 contributions</title></rect>
+    <rect class="l1" x="392" y="56" width="11" height="11" rx="2"><title>2026-04-29: 4 contributions</title></rect>
+    <rect class="l0" x="392" y="70" width="11" height="11" rx="2"><title>2026-04-30: 0 contributions</title></rect>
+    <rect class="l1" x="392" y="84" width="11" height="11" rx="2"><title>2026-05-01: 5 contributions</title></rect>
+    <rect class="l0" x="392" y="98" width="11" height="11" rx="2"><title>2026-05-02: 0 contributions</title></rect>
+    <rect class="l1" x="406" y="14" width="11" height="11" rx="2"><title>2026-05-03: 1 contribution</title></rect>
+    <rect class="l0" x="406" y="28" width="11" height="11" rx="2"><title>2026-05-04: 0 contributions</title></rect>
+    <rect class="l1" x="406" y="42" width="11" height="11" rx="2"><title>2026-05-05: 3 contributions</title></rect>
+    <rect class="l0" x="406" y="56" width="11" height="11" rx="2"><title>2026-05-06: 0 contributions</title></rect>
+    <rect class="l0" x="406" y="70" width="11" height="11" rx="2"><title>2026-05-07: 0 contributions</title></rect>
+    <rect class="l0" x="406" y="84" width="11" height="11" rx="2"><title>2026-05-08: 0 contributions</title></rect>
+    <rect class="l1" x="406" y="98" width="11" height="11" rx="2"><title>2026-05-09: 1 contribution</title></rect>
+    <rect class="l1" x="420" y="14" width="11" height="11" rx="2"><title>2026-05-10: 11 contributions</title></rect>
+    <rect class="l1" x="420" y="28" width="11" height="11" rx="2"><title>2026-05-11: 1 contribution</title></rect>
+    <rect class="l0" x="420" y="42" width="11" height="11" rx="2"><title>2026-05-12: 0 contributions</title></rect>
+    <rect class="l0" x="420" y="56" width="11" height="11" rx="2"><title>2026-05-13: 0 contributions</title></rect>
+    <rect class="l0" x="420" y="70" width="11" height="11" rx="2"><title>2026-05-14: 0 contributions</title></rect>
+    <rect class="l1" x="420" y="84" width="11" height="11" rx="2"><title>2026-05-15: 1 contribution</title></rect>
+    <rect class="l0" x="420" y="98" width="11" height="11" rx="2"><title>2026-05-16: 0 contributions</title></rect>
+    <rect class="l0" x="434" y="14" width="11" height="11" rx="2"><title>2026-05-17: 0 contributions</title></rect>
+    <rect class="l0" x="434" y="28" width="11" height="11" rx="2"><title>2026-05-18: 0 contributions</title></rect>
+    <rect class="l0" x="434" y="42" width="11" height="11" rx="2"><title>2026-05-19: 0 contributions</title></rect>
+    <rect class="l0" x="434" y="56" width="11" height="11" rx="2"><title>2026-05-20: 0 contributions</title></rect>
+    <rect class="l0" x="434" y="70" width="11" height="11" rx="2"><title>2026-05-21: 0 contributions</title></rect>
+    <rect class="l0" x="434" y="84" width="11" height="11" rx="2"><title>2026-05-22: 0 contributions</title></rect>
+    <rect class="l1" x="434" y="98" width="11" height="11" rx="2"><title>2026-05-23: 44 contributions</title></rect>
+    <rect class="l1" x="448" y="14" width="11" height="11" rx="2"><title>2026-05-24: 28 contributions</title></rect>
+    <rect class="l1" x="448" y="28" width="11" height="11" rx="2"><title>2026-05-25: 34 contributions</title></rect>
+    <rect class="l1" x="448" y="42" width="11" height="11" rx="2"><title>2026-05-26: 46 contributions</title></rect>
+    <rect class="l1" x="448" y="56" width="11" height="11" rx="2"><title>2026-05-27: 24 contributions</title></rect>
+    <rect class="l1" x="448" y="70" width="11" height="11" rx="2"><title>2026-05-28: 20 contributions</title></rect>
+    <rect class="l1" x="448" y="84" width="11" height="11" rx="2"><title>2026-05-29: 22 contributions</title></rect>
+    <rect class="l1" x="448" y="98" width="11" height="11" rx="2"><title>2026-05-30: 23 contributions</title></rect>
+    <rect class="l2" x="462" y="14" width="11" height="11" rx="2"><title>2026-05-31: 82 contributions</title></rect>
+    <rect class="l2" x="462" y="28" width="11" height="11" rx="2"><title>2026-06-01: 95 contributions</title></rect>
+    <rect class="l3" x="462" y="42" width="11" height="11" rx="2"><title>2026-06-02: 101 contributions</title></rect>
+    <rect class="l3" x="462" y="56" width="11" height="11" rx="2"><title>2026-06-03: 125 contributions</title></rect>
+    <rect class="l4" x="462" y="70" width="11" height="11" rx="2"><title>2026-06-04: 150 contributions</title></rect>
+    <rect class="l3" x="462" y="84" width="11" height="11" rx="2"><title>2026-06-05: 145 contributions</title></rect>
+    <rect class="l2" x="462" y="98" width="11" height="11" rx="2"><title>2026-06-06: 92 contributions</title></rect>
+    <rect class="l0" x="476" y="14" width="11" height="11" rx="2"><title>2026-06-07: 0 contributions</title></rect>
+    <rect class="l1" x="476" y="28" width="11" height="11" rx="2"><title>2026-06-08: 28 contributions</title></rect>
+    <rect class="l2" x="476" y="42" width="11" height="11" rx="2"><title>2026-06-09: 83 contributions</title></rect>
+    <rect class="l3" x="476" y="56" width="11" height="11" rx="2"><title>2026-06-10: 122 contributions</title></rect>
+    <rect class="l3" x="476" y="70" width="11" height="11" rx="2"><title>2026-06-11: 143 contributions</title></rect>
+    <rect class="l2" x="476" y="84" width="11" height="11" rx="2"><title>2026-06-12: 96 contributions</title></rect>
+    <rect class="l3" x="476" y="98" width="11" height="11" rx="2"><title>2026-06-13: 107 contributions</title></rect>
+    <rect class="l2" x="490" y="14" width="11" height="11" rx="2"><title>2026-06-14: 74 contributions</title></rect>
+    <rect class="l1" x="490" y="28" width="11" height="11" rx="2"><title>2026-06-15: 43 contributions</title></rect>
+    <rect class="l1" x="490" y="42" width="11" height="11" rx="2"><title>2026-06-16: 10 contributions</title></rect>
+    <rect class="l1" x="490" y="56" width="11" height="11" rx="2"><title>2026-06-17: 14 contributions</title></rect>
+    <rect class="l1" x="490" y="70" width="11" height="11" rx="2"><title>2026-06-18: 2 contributions</title></rect>
+    <rect class="l1" x="490" y="84" width="11" height="11" rx="2"><title>2026-06-19: 10 contributions</title></rect>
+    <rect class="l1" x="490" y="98" width="11" height="11" rx="2"><title>2026-06-20: 41 contributions</title></rect>
+    <rect class="l1" x="504" y="14" width="11" height="11" rx="2"><title>2026-06-21: 26 contributions</title></rect>
+    <rect class="l1" x="504" y="28" width="11" height="11" rx="2"><title>2026-06-22: 1 contribution</title></rect>
+    <rect class="l1" x="504" y="42" width="11" height="11" rx="2"><title>2026-06-23: 9 contributions</title></rect>
+    <rect class="l1" x="504" y="56" width="11" height="11" rx="2"><title>2026-06-24: 41 contributions</title></rect>
+    <rect class="l1" x="504" y="70" width="11" height="11" rx="2"><title>2026-06-25: 45 contributions</title></rect>
+    <rect class="l2" x="504" y="84" width="11" height="11" rx="2"><title>2026-06-26: 52 contributions</title></rect>
+    <rect class="l1" x="504" y="98" width="11" height="11" rx="2"><title>2026-06-27: 36 contributions</title></rect>
+    <rect class="l1" x="518" y="14" width="11" height="11" rx="2"><title>2026-06-28: 32 contributions</title></rect>
+    <rect class="l1" x="518" y="28" width="11" height="11" rx="2"><title>2026-06-29: 20 contributions</title></rect>
+    <rect class="l1" x="518" y="42" width="11" height="11" rx="2"><title>2026-06-30: 6 contributions</title></rect>
+    <rect class="l1" x="518" y="56" width="11" height="11" rx="2"><title>2026-07-01: 30 contributions</title></rect>
+    <rect class="l1" x="518" y="70" width="11" height="11" rx="2"><title>2026-07-02: 23 contributions</title></rect>
+    <rect class="l1" x="518" y="84" width="11" height="11" rx="2"><title>2026-07-03: 8 contributions</title></rect>
+    <rect class="l1" x="518" y="98" width="11" height="11" rx="2"><title>2026-07-04: 5 contributions</title></rect>
+    <rect class="l1" x="532" y="14" width="11" height="11" rx="2"><title>2026-07-05: 11 contributions</title></rect>
+    <rect class="l0" x="532" y="28" width="11" height="11" rx="2"><title>2026-07-06: 0 contributions</title></rect>
+    <rect class="l1" x="532" y="42" width="11" height="11" rx="2"><title>2026-07-07: 1 contribution</title></rect>
+    <rect class="l1" x="532" y="56" width="11" height="11" rx="2"><title>2026-07-08: 1 contribution</title></rect>
+    <rect class="l1" x="532" y="70" width="11" height="11" rx="2"><title>2026-07-09: 3 contributions</title></rect>
+    <rect class="l0" x="532" y="84" width="11" height="11" rx="2"><title>2026-07-10: 0 contributions</title></rect>
+    <rect class="l1" x="532" y="98" width="11" height="11" rx="2"><title>2026-07-11: 1 contribution</title></rect>
+    <rect class="l1" x="546" y="14" width="11" height="11" rx="2"><title>2026-07-12: 4 contributions</title></rect>
+    <rect class="l0" x="546" y="28" width="11" height="11" rx="2"><title>2026-07-13: 0 contributions</title></rect>
+    <rect class="l1" x="546" y="42" width="11" height="11" rx="2"><title>2026-07-14: 10 contributions</title></rect>
+    <rect class="l1" x="546" y="56" width="11" height="11" rx="2"><title>2026-07-15: 11 contributions</title></rect>
+    <rect class="l1" x="546" y="70" width="11" height="11" rx="2"><title>2026-07-16: 10 contributions</title></rect>
+    <rect class="l1" x="546" y="84" width="11" height="11" rx="2"><title>2026-07-17: 5 contributions</title></rect>
+    <rect class="l1" x="546" y="98" width="11" height="11" rx="2"><title>2026-07-18: 3 contributions</title></rect>
+    <rect class="l1" x="560" y="14" width="11" height="11" rx="2"><title>2026-07-19: 4 contributions</title></rect>
+    <rect class="l1" x="560" y="28" width="11" height="11" rx="2"><title>2026-07-20: 6 contributions</title></rect>
+    <rect class="l1" x="560" y="42" width="11" height="11" rx="2"><title>2026-07-21: 21 contributions</title></rect>
+    <rect class="l1" x="560" y="56" width="11" height="11" rx="2"><title>2026-07-22: 8 contributions</title></rect>
+    <rect class="l1" x="560" y="70" width="11" height="11" rx="2"><title>2026-07-23: 15 contributions</title></rect>
+    <rect class="l1" x="560" y="84" width="11" height="11" rx="2"><title>2026-07-24: 8 contributions</title></rect>
+    <rect class="l1" x="560" y="98" width="11" height="11" rx="2"><title>2026-07-25: 3 contributions</title></rect>
+    <rect class="l1" x="574" y="14" width="11" height="11" rx="2"><title>2026-07-26: 6 contributions</title></rect>
+    <rect class="l1" x="574" y="28" width="11" height="11" rx="2"><title>2026-07-27: 4 contributions</title></rect>
+    <rect class="l1" x="574" y="42" width="11" height="11" rx="2"><title>2026-07-28: 6 contributions</title></rect>
+    <rect class="l1" x="574" y="56" width="11" height="11" rx="2"><title>2026-07-29: 6 contributions</title></rect>
+    <rect class="l1" x="574" y="70" width="11" height="11" rx="2"><title>2026-07-30: 6 contributions</title></rect>
+    <rect class="l1" x="574" y="84" width="11" height="11" rx="2"><title>2026-07-31: 9 contributions</title></rect>
+    <rect class="l1" x="574" y="98" width="11" height="11" rx="2"><title>2026-08-01: 14 contributions</title></rect>
+    <rect class="l1" x="588" y="14" width="11" height="11" rx="2"><title>2026-08-02: 4 contributions</title></rect>
+    <rect class="l1" x="588" y="28" width="11" height="11" rx="2"><title>2026-08-03: 12 contributions</title></rect>
+    <rect class="l1" x="588" y="42" width="11" height="11" rx="2"><title>2026-08-04: 11 contributions</title></rect>
+    <rect class="l1" x="588" y="56" width="11" height="11" rx="2"><title>2026-08-05: 11 contributions</title></rect>
+    <rect class="l1" x="588" y="70" width="11" height="11" rx="2"><title>2026-08-06: 12 contributions</title></rect>
+    <rect class="l1" x="588" y="84" width="11" height="11" rx="2"><title>2026-08-07: 2 contributions</title></rect>
+    <rect class="l0" x="588" y="98" width="11" height="11" rx="2"><title>2026-08-08: 0 contributions</title></rect>
+    <rect class="l0" x="602" y="14" width="11" height="11" rx="2"><title>2026-08-09: 0 contributions</title></rect>
+    <rect class="l1" x="602" y="28" width="11" height="11" rx="2"><title>2026-08-10: 6 contributions</title></rect>
+    <rect class="l0" x="602" y="42" width="11" height="11" rx="2"><title>2026-08-11: 0 contributions</title></rect>
+    <rect class="l0" x="602" y="56" width="11" height="11" rx="2"><title>2026-08-12: 0 contributions</title></rect>
+    <rect class="l0" x="602" y="70" width="11" height="11" rx="2"><title>2026-08-13: 0 contributions</title></rect>
+    <rect class="l1" x="602" y="84" width="11" height="11" rx="2"><title>2026-08-14: 5 contributions</title></rect>
+    <rect class="l1" x="602" y="98" width="11" height="11" rx="2"><title>2026-08-15: 11 contributions</title></rect>
+    <rect class="l1" x="616" y="14" width="11" height="11" rx="2"><title>2026-08-16: 33 contributions</title></rect>
+    <rect class="l0" x="616" y="28" width="11" height="11" rx="2"><title>2026-08-17: 0 contributions</title></rect>
+    <rect class="l1" x="616" y="42" width="11" height="11" rx="2"><title>2026-08-18: 7 contributions</title></rect>
+    <rect class="l1" x="616" y="56" width="11" height="11" rx="2"><title>2026-08-19: 12 contributions</title></rect>
+    <rect class="l1" x="616" y="70" width="11" height="11" rx="2"><title>2026-08-20: 21 contributions</title></rect>
+    <rect class="l1" x="616" y="84" width="11" height="11" rx="2"><title>2026-08-21: 17 contributions</title></rect>
+    <rect class="l1" x="616" y="98" width="11" height="11" rx="2"><title>2026-08-22: 33 contributions</title></rect>
+    <rect class="l1" x="630" y="14" width="11" height="11" rx="2"><title>2026-08-23: 45 contributions</title></rect>
+    <rect class="l1" x="630" y="28" width="11" height="11" rx="2"><title>2026-08-24: 45 contributions</title></rect>
+    <rect class="l1" x="630" y="42" width="11" height="11" rx="2"><title>2026-08-25: 10 contributions</title></rect>
+    <rect class="l1" x="630" y="56" width="11" height="11" rx="2"><title>2026-08-26: 4 contributions</title></rect>
+    <rect class="l1" x="630" y="70" width="11" height="11" rx="2"><title>2026-08-27: 1 contribution</title></rect>
+    <rect class="l1" x="630" y="84" width="11" height="11" rx="2"><title>2026-08-28: 6 contributions</title></rect>
+    <rect class="l0" x="630" y="98" width="11" height="11" rx="2"><title>2026-08-29: 0 contributions</title></rect>
+    <rect class="l1" x="644" y="14" width="11" height="11" rx="2"><title>2026-08-30: 14 contributions</title></rect>
+    <rect class="l1" x="644" y="28" width="11" height="11" rx="2"><title>2026-08-31: 6 contributions</title></rect>
+    <rect class="l1" x="644" y="42" width="11" height="11" rx="2"><title>2026-09-01: 33 contributions</title></rect>
+    <rect class="l1" x="644" y="56" width="11" height="11" rx="2"><title>2026-09-02: 11 contributions</title></rect>
+    <rect class="l1" x="644" y="70" width="11" height="11" rx="2"><title>2026-09-03: 2 contributions</title></rect>
+    <rect class="l1" x="644" y="84" width="11" height="11" rx="2"><title>2026-09-04: 16 contributions</title></rect>
+    <rect class="l1" x="644" y="98" width="11" height="11" rx="2"><title>2026-09-05: 31 contributions</title></rect>
+    <rect class="l1" x="658" y="14" width="11" height="11" rx="2"><title>2026-09-06: 17 contributions</title></rect>
+    <rect class="l1" x="658" y="28" width="11" height="11" rx="2"><title>2026-09-07: 11 contributions</title></rect>
+    <rect class="l1" x="658" y="42" width="11" height="11" rx="2"><title>2026-09-08: 5 contributions</title></rect>
+    <rect class="l1" x="658" y="56" width="11" height="11" rx="2"><title>2026-09-09: 1 contribution</title></rect>
+    <rect class="l1" x="658" y="70" width="11" height="11" rx="2"><title>2026-09-10: 23 contributions</title></rect>
+    <rect class="l0" x="658" y="84" width="11" height="11" rx="2"><title>2026-09-11: 0 contributions</title></rect>
+    <rect class="l1" x="658" y="98" width="11" height="11" rx="2"><title>2026-09-12: 1 contribution</title></rect>
+    <rect class="l0" x="672" y="14" width="11" height="11" rx="2"><title>2026-09-13: 0 contributions</title></rect>
+    <rect class="l0" x="672" y="28" width="11" height="11" rx="2"><title>2026-09-14: 0 contributions</title></rect>
+    <rect class="l0" x="672" y="42" width="11" height="11" rx="2"><title>2026-09-15: 0 contributions</title></rect>
+    <rect class="l0" x="672" y="56" width="11" height="11" rx="2"><title>2026-09-16: 0 contributions</title></rect>
+    <rect class="l1" x="672" y="70" width="11" height="11" rx="2"><title>2026-09-17: 2 contributions</title></rect>
+    <rect class="l1" x="672" y="84" width="11" height="11" rx="2"><title>2026-09-18: 1 contribution</title></rect>
+    <rect class="l0" x="672" y="98" width="11" height="11" rx="2"><title>2026-09-19: 0 contributions</title></rect>
+    <rect class="l1" x="686" y="14" width="11" height="11" rx="2"><title>2026-09-20: 1 contribution</title></rect>
+    <rect class="l1" x="686" y="28" width="11" height="11" rx="2"><title>2026-09-21: 7 contributions</title></rect>
+    <rect class="l1" x="686" y="42" width="11" height="11" rx="2"><title>2026-09-22: 29 contributions</title></rect>
+    <rect class="l0" x="686" y="56" width="11" height="11" rx="2"><title>2026-09-23: 0 contributions</title></rect>
+    <rect class="l0" x="686" y="70" width="11" height="11" rx="2"><title>2026-09-24: 0 contributions</title></rect>
+    <rect class="l1" x="686" y="84" width="11" height="11" rx="2"><title>2026-09-25: 2 contributions</title></rect>
+    <rect class="l1" x="686" y="98" width="11" height="11" rx="2"><title>2026-09-26: 2 contributions</title></rect>
+    <rect class="l1" x="700" y="14" width="11" height="11" rx="2"><title>2026-09-27: 1 contribution</title></rect>
+    <rect class="l0" x="700" y="28" width="11" height="11" rx="2"><title>2026-09-28: 0 contributions</title></rect>
+    <rect class="l1" x="700" y="42" width="11" height="11" rx="2"><title>2026-09-29: 4 contributions</title></rect>
+    <rect class="l0" x="700" y="56" width="11" height="11" rx="2"><title>2026-09-30: 0 contributions</title></rect>
+    <rect class="l0" x="700" y="70" width="11" height="11" rx="2"><title>2026-10-01: 0 contributions</title></rect>
+    <rect class="l1" x="700" y="84" width="11" height="11" rx="2"><title>2026-10-02: 3 contributions</title></rect>
+    <rect class="l1" x="700" y="98" width="11" height="11" rx="2"><title>2026-10-03: 10 contributions</title></rect>
+    <rect class="l1" x="714" y="14" width="11" height="11" rx="2"><title>2026-10-04: 9 contributions</title></rect>
+    <rect class="l0" x="714" y="28" width="11" height="11" rx="2"><title>2026-10-05: 0 contributions</title></rect>
+    <rect class="l0" x="714" y="42" width="11" height="11" rx="2"><title>2026-10-06: 0 contributions</title></rect>
+    <rect class="l1" x="714" y="56" width="11" height="11" rx="2"><title>2026-10-07: 1 contribution</title></rect>
+    <rect class="l1" x="714" y="70" width="11" height="11" rx="2"><title>2026-10-08: 1 contribution</title></rect>
+    <rect class="l1" x="714" y="84" width="11" height="11" rx="2"><title>2026-10-09: 1 contribution</title></rect>
+    <rect class="l0" x="714" y="98" width="11" height="11" rx="2"><title>2026-10-10: 0 contributions</title></rect>
+    <rect class="l0" x="728" y="14" width="11" height="11" rx="2"><title>2026-10-11: 0 contributions</title></rect>
+    <rect class="l1" x="728" y="28" width="11" height="11" rx="2"><title>2026-10-12: 1 contribution</title></rect>
+    <rect class="l1" x="728" y="42" width="11" height="11" rx="2"><title>2026-10-13: 4 contributions</title></rect>
+    <rect class="l1" x="728" y="56" width="11" height="11" rx="2"><title>2026-10-14: 8 contributions</title></rect>
+    <rect class="l0" x="728" y="70" width="11" height="11" rx="2"><title>2026-10-15: 0 contributions</title></rect>
+    <rect class="l2" x="728" y="84" width="11" height="11" rx="2"><title>2026-10-16: 78 contributions</title></rect>
+    <rect class="l1" x="728" y="98" width="11" height="11" rx="2"><title>2026-10-17: 47 contributions</title></rect>
+    <rect class="l1" x="742" y="14" width="11" height="11" rx="2"><title>2026-10-18: 18 contributions</title></rect>
+    <rect class="l1" x="742" y="28" width="11" height="11" rx="2"><title>2026-10-19: 10 contributions</title></rect>
+    <rect class="l1" x="742" y="42" width="11" height="11" rx="2"><title>2026-10-20: 46 contributions</title></rect>
+    <rect class="l1" x="742" y="56" width="11" height="11" rx="2"><title>2026-10-21: 20 contributions</title></rect>
+    <rect class="l3" x="742" y="70" width="11" height="11" rx="2"><title>2026-10-22: 112 contributions</title></rect>
+    <rect class="l2" x="742" y="84" width="11" height="11" rx="2"><title>2026-10-23: 67 contributions</title></rect>
+    <rect class="l2" x="742" y="98" width="11" height="11" rx="2"><title>2026-10-24: 92 contributions</title></rect>
+    <rect class="l3" x="756" y="14" width="11" height="11" rx="2"><title>2026-10-25: 113 contributions</title></rect>
+    <rect class="l1" x="756" y="28" width="11" height="11" rx="2"><title>2026-10-26: 20 contributions</title></rect>
+    
+  </svg>
+
+  <h3>Commits per year</h3>
+  <ul class="bars years">
+  
+    <li><span class="label">2012</span><span class="track"><span class="fill" style="width: 0.0%"></span></span><span class="value">0</span></li>
+  
+    <li><span class="label">2013</span><span class="track"><span class="fill" style="width: 0.5%"></span></span><span class="value">18</span></li>
+  
+    <li><span class="label">2014</span><span class="track"><span class="fill" style="width: 5.7%"></span></span><span class="value">208</span></li>
+  
+    <li><span class="label">2015</span><span class="track"><span class="fill" style="width: 34.4%"></span></span><span class="value">1,256</span></li>
+  
+    <li><span class="label">2016</span><span class="track"><span class="fill" style="width: 51.4%"></span></span><span class="value">1,876</span></li>
+  
+    <li><span class="label">2017</span><span class="track"><span class="fill" style="width: 43.3%"></span></span><span class="value">1,580</span></li>
+  
+    <li><span class="label">2018</span><span class="track"><span class="fill" style="width: 13.8%"></span></span><span class="value">505</span></li>
+  
+    <li><span class="label">2019</span><span class="track"><span class="fill" style="width: 1.7%"></span></span><span class="value">61</span></li>
+  
+    <li><span class="label">2020</span><span class="track"><span class="fill" style="width: 1.4%"></span></span><span class="value">51</span></li>
+  
+    <li><span class="label">2021</span><span class="track"><span class="fill" style="width: 2.3%"></span></span><span class="value">85</span></li>
+  
+    <li><span class="label">2022</span><span class="track"><span class="fill" style="width: 2.9%"></span></span><span class="value">106</span></li>
+  
+    <li><span class="label">2023</span><span class="track"><span class="fill" style="width: 4.0%"></span></span><span class="value">145</span></li>
+  
+    <li><span class="label">2024</span><span class="track"><span class="fill" style="width: 0.3%"></span></span><span class="value">12</span></li>
+  
+    <li><span class="label">2025</span><span class="track"><span class="fill" style="width: 0.1%"></span></span><span class="value">2</span></li>
+  
+    <li><span class="label">2026</span><span class="track"><span class="fill" style="width: 100.0%"></span></span><span class="value">3,650</span></li>
+  
+  </ul>
+
+  <h3>By organisation</h3>
+  <p class="fine">Commits <i class="sw commits"></i>, pull requests <i class="sw prs"></i>, issues <i class="sw issues"></i>, reviews <i class="sw reviews"></i>; width is relative to the most active organisation.</p>
+  <ul class="bars orgs">
+  
+    <li><span class="label"><a href="https://github.com/JPL-IMCE">JPL-IMCE</a> <small>41 repos</small></span>
+        <span class="track"><span class="fill commits" style="width: 82.24%" title="3816 commits"></span><span class="fill prs" style="width: 4.18%" title="194 prs"></span><span class="fill issues" style="width: 13.23%" title="614 issues"></span><span class="fill reviews" style="width: 0.34%" title="16 reviews"></span></span>
+        <span class="value">4,640</span></li>
+  
+    <li><span class="label"><a href="https://github.com/nasa-jpl">nasa-jpl</a> <small>5 repos</small></span>
+        <span class="track"><span class="fill commits" style="width: 72.93%" title="3384 commits"></span><span class="fill prs" style="width: 0.15%" title="7 prs"></span><span class="fill issues" style="width: 0.09%" title="4 issues"></span><span class="fill reviews" style="width: 0.04%" title="2 reviews"></span></span>
+        <span class="value">3,397</span></li>
+  
+    <li><span class="label"><a href="https://github.com/TIWG">TIWG</a> <small>14 repos</small></span>
+        <span class="track"><span class="fill commits" style="width: 35.52%" title="1648 commits"></span><span class="fill prs" style="width: 0.11%" title="5 prs"></span><span class="fill issues" style="width: 0.13%" title="6 issues"></span></span>
+        <span class="value">1,659</span></li>
+  
+    <li><span class="label"><a href="https://github.com/NicolasRouquette">NicolasRouquette</a> <small>19 repos</small></span>
+        <span class="track"><span class="fill commits" style="width: 7.54%" title="350 commits"></span><span class="fill prs" style="width: 0.15%" title="7 prs"></span></span>
+        <span class="value">357</span></li>
+  
+    <li><span class="label"><a href="https://github.com/opencaesar">opencaesar</a> <small>14 repos</small></span>
+        <span class="track"><span class="fill commits" style="width: 3.04%" title="141 commits"></span><span class="fill prs" style="width: 1.27%" title="59 prs"></span><span class="fill issues" style="width: 1.16%" title="54 issues"></span><span class="fill reviews" style="width: 0.09%" title="4 reviews"></span></span>
+        <span class="value">258</span></li>
+  
+    <li><span class="label"><a href="https://github.com/pacti-org">pacti-org</a> <small>7 repos</small></span>
+        <span class="track"><span class="fill commits" style="width: 2.61%" title="121 commits"></span><span class="fill prs" style="width: 0.37%" title="17 prs"></span><span class="fill issues" style="width: 0.6%" title="28 issues"></span><span class="fill reviews" style="width: 0.02%" title="1 reviews"></span></span>
+        <span class="value">167</span></li>
+  
+    <li><span class="label"><a href="https://github.com/lean-dojo">lean-dojo</a> <small>1 repo</small></span>
+        <span class="track"><span class="fill commits" style="width: 0.24%" title="11 commits"></span><span class="fill prs" style="width: 0.5%" title="23 prs"></span></span>
+        <span class="value">34</span></li>
+  
+    <li><span class="label"><a href="https://github.com/leanprover">leanprover</a> <small>5 repos</small></span>
+        <span class="track"><span class="fill commits" style="width: 0.13%" title="6 commits"></span><span class="fill prs" style="width: 0.19%" title="9 prs"></span><span class="fill issues" style="width: 0.32%" title="15 issues"></span></span>
+        <span class="value">30</span></li>
+  
+    <li><span class="label"><a href="https://github.com/banana-rdf">banana-rdf</a> <small>1 repo</small></span>
+        <span class="track"><span class="fill commits" style="width: 0.19%" title="9 commits"></span><span class="fill prs" style="width: 0.11%" title="5 prs"></span><span class="fill issues" style="width: 0.11%" title="5 issues"></span></span>
+        <span class="value">19</span></li>
+  
+    <li><span class="label"><a href="https://github.com/nasa">nasa</a> <small>2 repos</small></span>
+        <span class="track"><span class="fill commits" style="width: 0.32%" title="15 commits"></span><span class="fill prs" style="width: 0.04%" title="2 prs"></span><span class="fill issues" style="width: 0.04%" title="2 issues"></span></span>
+        <span class="value">19</span></li>
+  
+    <li><span class="label"><a href="https://github.com/leanprover-community">leanprover-community</a> <small>2 repos</small></span>
+        <span class="track"><span class="fill commits" style="width: 0.13%" title="6 commits"></span><span class="fill prs" style="width: 0.15%" title="7 prs"></span><span class="fill issues" style="width: 0.09%" title="4 issues"></span></span>
+        <span class="value">17</span></li>
+  
+    <li><span class="label"><a href="https://github.com/havelund">havelund</a> <small>1 repo</small></span>
+        <span class="track"><span class="fill commits" style="width: 0.19%" title="9 commits"></span><span class="fill prs" style="width: 0.13%" title="6 prs"></span><span class="fill issues" style="width: 0.02%" title="1 issues"></span></span>
+        <span class="value">16</span></li>
+  
+    <li><span class="label">88 other organisations and people <small>101 repos</small></span>
+        <span class="track"><span class="fill commits" style="width: 0.84%" title="39 commits"></span><span class="fill prs" style="width: 1.25%" title="58 prs"></span><span class="fill issues" style="width: 3.08%" title="143 issues"></span><span class="fill reviews" style="width: 0.02%" title="1 reviews"></span></span>
+        <span class="value">241</span></li>
+  
+  </ul>
+
+  <h3>Most active repositories</h3>
+  <table class="repos">
+    <thead><tr><th>Repository</th><th>Language</th><th class="num">Commits</th><th class="num">PRs</th><th class="num">Issues</th><th>Years</th></tr></thead>
+    <tbody>
+    
+      <tr><td><a href="https://github.com/nasa-jpl/L4YAML">nasa-jpl/L4YAML</a></td>
+          <td><i class="dot" style="background: var(--muted)"></i>Lean</td>
+          <td class="num">2,737</td><td class="num">3</td><td class="num">2</td>
+          <td>2026</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml">JPL-IMCE/gov.nasa.jpl.imce.oml</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #b07219"></i>Java</td>
+          <td class="num">597</td><td class="num">104</td><td class="num">183</td>
+          <td>2017–2020</td></tr>
+    
+      <tr><td><a href="https://github.com/nasa-jpl/PropertyKindCalculus">nasa-jpl/PropertyKindCalculus</a></td>
+          <td><i class="dot" style="background: var(--muted)"></i>Lean</td>
+          <td class="num">642</td><td class="num">1</td><td class="num">0</td>
+          <td>2026</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/gov.nasa.jpl.omf.scala.binding.owlapi">JPL-IMCE/gov.nasa.jpl.omf.scala.binding.owlapi</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">423</td><td class="num">5</td><td class="num">78</td>
+          <td>2015–2019</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/gov.nasa.jpl.omf.scala.core">JPL-IMCE/gov.nasa.jpl.omf.scala.core</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">304</td><td class="num">7</td><td class="num">36</td>
+          <td>2015–2019</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.tables">JPL-IMCE/gov.nasa.jpl.imce.oml.tables</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">260</td><td class="num">9</td><td class="num">60</td>
+          <td>2016–2019</td></tr>
+    
+      <tr><td><a href="https://github.com/TIWG/org.omg.oti.uml.core">TIWG/org.omg.oti.uml.core</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">311</td><td class="num">1</td><td class="num">3</td>
+          <td>2014–2017</td></tr>
+    
+      <tr><td><a href="https://github.com/TIWG/org.omg.oti.uml.magicdraw.adapter">TIWG/org.omg.oti.uml.magicdraw.adapter</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">277</td><td class="num">2</td><td class="num">2</td>
+          <td>2014–2017</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.specification.parent">JPL-IMCE/gov.nasa.jpl.imce.oml.specification.parent</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">266</td><td class="num">3</td><td class="num">7</td>
+          <td>2016–2017</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/imce.sbt.plugin">JPL-IMCE/imce.sbt.plugin</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">244</td><td class="num">10</td><td class="num">12</td>
+          <td>2015–2017</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.converters">JPL-IMCE/gov.nasa.jpl.imce.oml.converters</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">155</td><td class="num">14</td><td class="num">74</td>
+          <td>2017–2020</td></tr>
+    
+      <tr><td><a href="https://github.com/NicolasRouquette/doc-verification-bridge">NicolasRouquette/doc-verification-bridge</a></td>
+          <td><i class="dot" style="background: var(--muted)"></i>Lean</td>
+          <td class="num">225</td><td class="num">0</td><td class="num">0</td>
+          <td>2026</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.resolver">JPL-IMCE/gov.nasa.jpl.imce.oml.resolver</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">176</td><td class="num">5</td><td class="num">36</td>
+          <td>2016–2019</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/imce.dynamic_scripts.magicdraw.plugin">JPL-IMCE/imce.dynamic_scripts.magicdraw.plugin</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">198</td><td class="num">0</td><td class="num">1</td>
+          <td>2014–2017</td></tr>
+    
+      <tr><td><a href="https://github.com/TIWG/org.omg.oti.uml.change_migration">TIWG/org.omg.oti.uml.change_migration</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">174</td><td class="num">0</td><td class="num">0</td>
+          <td>2015–2017</td></tr>
+    
+      <tr><td><a href="https://github.com/TIWG/org.omg.oti.uml.composite_structure_tree_analysis">TIWG/org.omg.oti.uml.composite_structure_tree_analysis</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">158</td><td class="num">0</td><td class="num">0</td>
+          <td>2015–2017</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.development.generators">JPL-IMCE/gov.nasa.jpl.imce.oml.development.generators</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #b07219"></i>Java</td>
+          <td class="num">115</td><td class="num">1</td><td class="num">36</td>
+          <td>2017–2019</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/gov.nasa.jpl.magicdraw.projectUsageIntegrityChecker">JPL-IMCE/gov.nasa.jpl.magicdraw.projectUsageIntegrityChecker</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #b07219"></i>Java</td>
+          <td class="num">146</td><td class="num">0</td><td class="num">0</td>
+          <td>2013–2017</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/gov.nasa.jpl.omf.scala.mapping.oti">JPL-IMCE/gov.nasa.jpl.omf.scala.mapping.oti</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">144</td><td class="num">0</td><td class="num">1</td>
+          <td>2015–2017</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.core">JPL-IMCE/gov.nasa.jpl.imce.oml.core</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #b07219"></i>Java</td>
+          <td class="num">134</td><td class="num">0</td><td class="num">6</td>
+          <td>2017</td></tr>
+    
+      <tr><td><a href="https://github.com/TIWG/org.omg.oti.uml.canonical_xmi.serialization">TIWG/org.omg.oti.uml.canonical_xmi.serialization</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">140</td><td class="num">0</td><td class="num">0</td>
+          <td>2015–2017</td></tr>
+    
+      <tr><td><a href="https://github.com/TIWG/imce.oti.uml.magicdraw.dynamicscripts">TIWG/imce.oti.uml.magicdraw.dynamicscripts</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">131</td><td class="num">0</td><td class="num">0</td>
+          <td>2015–2017</td></tr>
+    
+      <tr><td><a href="https://github.com/TIWG/org.omg.oti.uml.canonical_xmi.loader">TIWG/org.omg.oti.uml.canonical_xmi.loader</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">131</td><td class="num">0</td><td class="num">0</td>
+          <td>2015–2017</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/gov.nasa.jpl.imce.ontologies.public">JPL-IMCE/gov.nasa.jpl.imce.ontologies.public</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #e34c26"></i>HTML</td>
+          <td class="num">43</td><td class="num">27</td><td class="num">50</td>
+          <td>2016–2019</td></tr>
+    
+      <tr><td><a href="https://github.com/JPL-IMCE/imce.dynamic_scripts.generic_dsl">JPL-IMCE/imce.dynamic_scripts.generic_dsl</a> <small>archived</small></td>
+          <td><i class="dot" style="background: #c22d40"></i>Scala</td>
+          <td class="num">114</td><td class="num">0</td><td class="num">0</td>
+          <td>2014–2017</td></tr>
+    
+    </tbody>
+  </table>
+  <p class="fine">Public contributions only (1,438 further contributions are in private repositories); refreshed 2026-10-26. Full data: <a href="../activity/github.com.json">github.com.json</a>.</p>
+</section>
+
+</main>
+<footer>
+  <ul class="ids">
+    <li><a href="https://orcid.org/0000-0003-3137-8690">ORCID 0000-0003-3137-8690</a></li>
+    <li><a href="https://scholar.google.com/citations?user=-KUbp7IAAAAJ">Google Scholar</a></li>
+    <li><a href="https://dblp.org/pid/56/3476.html">DBLP</a></li>
+    <li><a href="https://openalex.org/A5113483498">OpenAlex</a></li>
+    <li><a href="https://github.com/NicolasRouquette">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/nicolas-rouquette-1a56aa/">LinkedIn</a></li>
+  </ul>
+  <p class="fine">Publication list regenerated 2026-10-26 from ORCID, Crossref, DBLP, OpenAlex and NTRS.
+     <a href="../publications.bib">BibTeX</a> · <a href="../publications.json">JSON</a> ·
+     <a href="">source</a></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,6649 @@
+{
+ "host": "github.com",
+ "label": "github.com",
+ "profile_url": "https://github.com/NicolasRouquette",
+ "kind": "github",
+ "pr_label": "pull requests",
+ "scope_note": "Public contributions only (1,438 further contributions are in private repositories)",
+ "generated": "2026-10-26",
+ "login": "NicolasRouquette",
+ "since": 2012,
+ "totals": {
+  "commits": 9555,
+  "prs": 399,
+  "reviews": 24,
+  "issues": 876,
+  "restricted": 1438
+ },
+ "years": {
+  "2012": {
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0
+  },
+  "2013": {
+   "commits": 18,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0
+  },
+  "2014": {
+   "commits": 208,
+   "prs": 5,
+   "reviews": 0,
+   "issues": 7
+  },
+  "2015": {
+   "commits": 1256,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 8
+  },
+  "2016": {
+   "commits": 1876,
+   "prs": 25,
+   "reviews": 0,
+   "issues": 40
+  },
+  "2017": {
+   "commits": 1580,
+   "prs": 100,
+   "reviews": 6,
+   "issues": 402
+  },
+  "2018": {
+   "commits": 505,
+   "prs": 77,
+   "reviews": 2,
+   "issues": 217
+  },
+  "2019": {
+   "commits": 61,
+   "prs": 35,
+   "reviews": 8,
+   "issues": 50
+  },
+  "2020": {
+   "commits": 51,
+   "prs": 34,
+   "reviews": 0,
+   "issues": 18
+  },
+  "2021": {
+   "commits": 85,
+   "prs": 13,
+   "reviews": 3,
+   "issues": 39
+  },
+  "2022": {
+   "commits": 106,
+   "prs": 18,
+   "reviews": 2,
+   "issues": 17
+  },
+  "2023": {
+   "commits": 145,
+   "prs": 20,
+   "reviews": 1,
+   "issues": 35
+  },
+  "2024": {
+   "commits": 12,
+   "prs": 8,
+   "reviews": 0,
+   "issues": 12
+  },
+  "2025": {
+   "commits": 2,
+   "prs": 12,
+   "reviews": 0,
+   "issues": 10
+  },
+  "2026": {
+   "commits": 3650,
+   "prs": 49,
+   "reviews": 2,
+   "issues": 21
+  }
+ },
+ "orgs": [
+  {
+   "owner": "JPL-IMCE",
+   "repos": 41,
+   "commits": 3816,
+   "prs": 194,
+   "reviews": 16,
+   "issues": 614,
+   "total": 4640
+  },
+  {
+   "owner": "nasa-jpl",
+   "repos": 5,
+   "commits": 3384,
+   "prs": 7,
+   "reviews": 2,
+   "issues": 4,
+   "total": 3397
+  },
+  {
+   "owner": "TIWG",
+   "repos": 14,
+   "commits": 1648,
+   "prs": 5,
+   "reviews": 0,
+   "issues": 6,
+   "total": 1659
+  },
+  {
+   "owner": "NicolasRouquette",
+   "repos": 19,
+   "commits": 350,
+   "prs": 7,
+   "reviews": 0,
+   "issues": 0,
+   "total": 357
+  },
+  {
+   "owner": "opencaesar",
+   "repos": 14,
+   "commits": 141,
+   "prs": 59,
+   "reviews": 4,
+   "issues": 54,
+   "total": 258
+  },
+  {
+   "owner": "pacti-org",
+   "repos": 7,
+   "commits": 121,
+   "prs": 17,
+   "reviews": 1,
+   "issues": 28,
+   "total": 167
+  },
+  {
+   "owner": "lean-dojo",
+   "repos": 1,
+   "commits": 11,
+   "prs": 23,
+   "reviews": 0,
+   "issues": 0,
+   "total": 34
+  },
+  {
+   "owner": "leanprover",
+   "repos": 5,
+   "commits": 6,
+   "prs": 9,
+   "reviews": 0,
+   "issues": 15,
+   "total": 30
+  },
+  {
+   "owner": "banana-rdf",
+   "repos": 1,
+   "commits": 9,
+   "prs": 5,
+   "reviews": 0,
+   "issues": 5,
+   "total": 19
+  },
+  {
+   "owner": "nasa",
+   "repos": 2,
+   "commits": 15,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 2,
+   "total": 19
+  },
+  {
+   "owner": "leanprover-community",
+   "repos": 2,
+   "commits": 6,
+   "prs": 7,
+   "reviews": 0,
+   "issues": 4,
+   "total": 17
+  },
+  {
+   "owner": "havelund",
+   "repos": 1,
+   "commits": 9,
+   "prs": 6,
+   "reviews": 0,
+   "issues": 1,
+   "total": 16
+  },
+  {
+   "owner": "sbt",
+   "repos": 6,
+   "commits": 1,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 10,
+   "total": 14
+  },
+  {
+   "owner": "xerial",
+   "repos": 2,
+   "commits": 7,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 3,
+   "total": 12
+  },
+  {
+   "owner": "speced",
+   "repos": 1,
+   "commits": 5,
+   "prs": 4,
+   "reviews": 0,
+   "issues": 1,
+   "total": 10
+  },
+  {
+   "owner": "http4s",
+   "repos": 2,
+   "commits": 6,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 2,
+   "total": 10
+  },
+  {
+   "owner": "owlcs",
+   "repos": 1,
+   "commits": 3,
+   "prs": 2,
+   "reviews": 1,
+   "issues": 3,
+   "total": 9
+  },
+  {
+   "owner": "doriordan",
+   "repos": 1,
+   "commits": 1,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 4,
+   "total": 8
+  },
+  {
+   "owner": "scala-graph",
+   "repos": 1,
+   "commits": 2,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 5,
+   "total": 8
+  },
+  {
+   "owner": "TheoBourdais",
+   "repos": 1,
+   "commits": 0,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 5,
+   "total": 8
+  },
+  {
+   "owner": "muuki88",
+   "repos": 1,
+   "commits": 1,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 3,
+   "total": 7
+  },
+  {
+   "owner": "jsonld-java",
+   "repos": 2,
+   "commits": 2,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 3,
+   "total": 7
+  },
+  {
+   "owner": "Jarlakxen",
+   "repos": 1,
+   "commits": 2,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 2,
+   "total": 6
+  },
+  {
+   "owner": "ohnosequences",
+   "repos": 2,
+   "commits": 2,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 2,
+   "total": 6
+  },
+  {
+   "owner": "epfl-lara",
+   "repos": 2,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 5,
+   "total": 6
+  },
+  {
+   "owner": "scalacenter",
+   "repos": 1,
+   "commits": 2,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "total": 5
+  },
+  {
+   "owner": "tektoncd",
+   "repos": 2,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 4,
+   "total": 5
+  },
+  {
+   "owner": "fgdorais",
+   "repos": 1,
+   "commits": 0,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 1,
+   "total": 4
+  },
+  {
+   "owner": "vigoo",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 4,
+   "total": 4
+  },
+  {
+   "owner": "jfrog",
+   "repos": 2,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 4,
+   "total": 4
+  },
+  {
+   "owner": "akka-js",
+   "repos": 1,
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "total": 3
+  },
+  {
+   "owner": "aklikic",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "total": 3
+  },
+  {
+   "owner": "alexarchambault",
+   "repos": 1,
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "total": 3
+  },
+  {
+   "owner": "Banno",
+   "repos": 1,
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "total": 3
+  },
+  {
+   "owner": "endpoints4s",
+   "repos": 1,
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "total": 3
+  },
+  {
+   "owner": "kubernetes",
+   "repos": 1,
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "total": 3
+  },
+  {
+   "owner": "sangria-graphql",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "total": 3
+  },
+  {
+   "owner": "scalameta",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "total": 3
+  },
+  {
+   "owner": "typelevel",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "total": 3
+  },
+  {
+   "owner": "JetBrains",
+   "repos": 2,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "total": 3
+  },
+  {
+   "owner": "almond-sh",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "total": 2
+  },
+  {
+   "owner": "apache",
+   "repos": 1,
+   "commits": 0,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 0,
+   "total": 2
+  },
+  {
+   "owner": "arktekk",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "total": 2
+  },
+  {
+   "owner": "eclipse-cbi",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "total": 2
+  },
+  {
+   "owner": "hysds",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "total": 2
+  },
+  {
+   "owner": "jitpack",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "total": 2
+  },
+  {
+   "owner": "jpype-project",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "total": 2
+  },
+  {
+   "owner": "lagom",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "total": 2
+  },
+  {
+   "owner": "languitar",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "total": 2
+  },
+  {
+   "owner": "LorenzoBettini",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "total": 2
+  },
+  {
+   "owner": "microsoft",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "total": 2
+  },
+  {
+   "owner": "nikita-volkov",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "total": 2
+  },
+  {
+   "owner": "pyrv",
+   "repos": 1,
+   "commits": 0,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 0,
+   "total": 2
+  },
+  {
+   "owner": "rsgoncalves",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "total": 2
+  },
+  {
+   "owner": "scala",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "total": 2
+  },
+  {
+   "owner": "slick",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "total": 2
+  },
+  {
+   "owner": "stanch",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "total": 2
+  },
+  {
+   "owner": "twosigma",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "total": 2
+  },
+  {
+   "owner": "alexander-myltsev",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "AlexKontorovich",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "apollographql",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "argumentcomputer",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "bintray",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "coursier",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "deathbeds",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "debasishg",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "total": 1
+  },
+  {
+   "owner": "devcontainers",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "digimead",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "eclipse-sprotty",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "esbmc",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "getshaka-org",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "git-up",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "gitkraken",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "Jafaral",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "jenkinsci",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "jgraph",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "kapicorp",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "kernel-enthusiasts",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "total": 1
+  },
+  {
+   "owner": "KnowledgeCaptureAndDiscovery",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "kontena",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "kubernetes-sigs",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "lightbend",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "mathworks-ref-arch",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "MisterTea",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "NASA-IMPACT",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "nidi3",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "NISP-GmbH",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "pawamoy",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "psxpaul",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "rtimush",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "runtimeverification",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "scala-js",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "scala-native",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "siddhartha-gadgil",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "spark-notebook",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "TNO",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "warpdotdev",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "weaveworks",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "xtext",
+   "repos": 1,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "yaml",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "total": 1
+  }
+ ],
+ "repos": [
+  {
+   "repo": "nasa-jpl/L4YAML",
+   "owner": "nasa-jpl",
+   "url": "https://github.com/nasa-jpl/L4YAML",
+   "description": "A YAML 1.2.2 parser in Lean 4 with the goal of **verified correctness**",
+   "fork": false,
+   "archived": false,
+   "stars": 13,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 2737,
+   "prs": 3,
+   "reviews": 2,
+   "issues": 2,
+   "years": [
+    2026
+   ],
+   "total": 2744
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml",
+   "description": "Ontology Modeling Language (OML) Workbench",
+   "fork": false,
+   "archived": true,
+   "stars": 14,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 597,
+   "prs": 104,
+   "reviews": 7,
+   "issues": 183,
+   "years": [
+    2017,
+    2018,
+    2019,
+    2020
+   ],
+   "total": 891
+  },
+  {
+   "repo": "nasa-jpl/PropertyKindCalculus",
+   "owner": "nasa-jpl",
+   "url": "https://github.com/nasa-jpl/PropertyKindCalculus",
+   "description": "A Lean 4 formalization of Ren\u00e9 Dybk\u00e6r's An Ontology on Property for Physical, Chemical, and Biological Systems (2009)",
+   "fork": false,
+   "archived": false,
+   "stars": 11,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 642,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 643
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.omf.scala.binding.owlapi",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.omf.scala.binding.owlapi",
+   "description": "OWL API binding for JPL's Ontological Modeling Framework (OMF)",
+   "fork": false,
+   "archived": true,
+   "stars": 2,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 423,
+   "prs": 5,
+   "reviews": 0,
+   "issues": 78,
+   "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "total": 506
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.omf.scala.core",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.omf.scala.core",
+   "description": "OMF (Ontological Modeling Framework) Core Functional API",
+   "fork": false,
+   "archived": true,
+   "stars": 6,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 304,
+   "prs": 7,
+   "reviews": 0,
+   "issues": 36,
+   "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "total": 347
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml.tables",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.tables",
+   "description": "Definition of the normalized schema tables for JPL's Ontological Modeling Framework (OMF).",
+   "fork": false,
+   "archived": true,
+   "stars": 5,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 260,
+   "prs": 9,
+   "reviews": 0,
+   "issues": 60,
+   "years": [
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "total": 329
+  },
+  {
+   "repo": "TIWG/org.omg.oti.uml.core",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/org.omg.oti.uml.core",
+   "description": "OMG Tool-Interoperability API for OMG's UML 2.5 & later compliant modeling tools ",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 311,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 3,
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017
+   ],
+   "total": 315
+  },
+  {
+   "repo": "TIWG/org.omg.oti.uml.magicdraw.adapter",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/org.omg.oti.uml.magicdraw.adapter",
+   "description": "MagicDraw adapter for the OMG Tool-Neutral Interoperability (OTI) API",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 277,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017
+   ],
+   "total": 281
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml.specification.parent",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.specification.parent",
+   "description": "Parent project for JPL's Ontological Modeling Language specification",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 266,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 7,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 276
+  },
+  {
+   "repo": "JPL-IMCE/imce.sbt.plugin",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/imce.sbt.plugin",
+   "description": "A convenience aggregate of several SBT plugins",
+   "fork": false,
+   "archived": true,
+   "stars": 2,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 244,
+   "prs": 10,
+   "reviews": 0,
+   "issues": 12,
+   "years": [
+    2015,
+    2016,
+    2017
+   ],
+   "total": 266
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml.converters",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.converters",
+   "description": "Converters among supported representations of OML models (textual, owl2-dl+swrl, tabular)",
+   "fork": false,
+   "archived": true,
+   "stars": 2,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 155,
+   "prs": 14,
+   "reviews": 0,
+   "issues": 74,
+   "years": [
+    2017,
+    2018,
+    2019,
+    2020
+   ],
+   "total": 243
+  },
+  {
+   "repo": "NicolasRouquette/doc-verification-bridge",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/doc-verification-bridge",
+   "description": "What theorems assume, prove, validate, and depend on?",
+   "fork": false,
+   "archived": false,
+   "stars": 4,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 225,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 225
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml.resolver",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.resolver",
+   "description": "Symbol table resolver for the Json serialization of JPL's Ontological Modeling Framework Schema.",
+   "fork": false,
+   "archived": true,
+   "stars": 5,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 176,
+   "prs": 5,
+   "reviews": 0,
+   "issues": 36,
+   "years": [
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "total": 217
+  },
+  {
+   "repo": "JPL-IMCE/imce.dynamic_scripts.magicdraw.plugin",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/imce.dynamic_scripts.magicdraw.plugin",
+   "description": "Implementation of IMCE's dynamic scripts DSL for MagicDraw.",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 198,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017
+   ],
+   "total": 199
+  },
+  {
+   "repo": "TIWG/org.omg.oti.uml.change_migration",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/org.omg.oti.uml.change_migration",
+   "description": "xmi:ID and xmi:UUID change/migration support for the OMG Tool-Neutral Interoperability (OTI) API.",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 174,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2015,
+    2016,
+    2017
+   ],
+   "total": 174
+  },
+  {
+   "repo": "TIWG/org.omg.oti.uml.composite_structure_tree_analysis",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/org.omg.oti.uml.composite_structure_tree_analysis",
+   "description": "Composite Structure Tree Analysis (aka Block- and Property-Specific Type) for the OMG Tool-Interoperability API.",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 158,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2015,
+    2016,
+    2017
+   ],
+   "total": 158
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml.development.generators",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.development.generators",
+   "description": "OML Development Generators",
+   "fork": false,
+   "archived": true,
+   "stars": 5,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 115,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 36,
+   "years": [
+    2017,
+    2018,
+    2019
+   ],
+   "total": 152
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.magicdraw.projectUsageIntegrityChecker",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.magicdraw.projectUsageIntegrityChecker",
+   "description": "Project Usage Integrity Checker for MagicDraw 18",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 146,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017
+   ],
+   "total": 146
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.omf.scala.mapping.oti",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.omf.scala.mapping.oti",
+   "description": "Mapping from OTI models (i.e., OMG Tool-neutral Interface for UML) to generic OMF (Ontological Modeling Framework)",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 144,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2015,
+    2016,
+    2017
+   ],
+   "total": 145
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml.core",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.core",
+   "description": "Simplified OML for exercising Xcore/Xtext/Xtend code generation and building using gradle",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 134,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 6,
+   "years": [
+    2017
+   ],
+   "total": 140
+  },
+  {
+   "repo": "TIWG/org.omg.oti.uml.canonical_xmi.serialization",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/org.omg.oti.uml.canonical_xmi.serialization",
+   "description": "Implementation of OMG Canonical XMI 2.5 for the OMG Tool-Interoperability (OTI) API.",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 140,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2015,
+    2016,
+    2017
+   ],
+   "total": 140
+  },
+  {
+   "repo": "TIWG/imce.oti.uml.magicdraw.dynamicscripts",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/imce.oti.uml.magicdraw.dynamicscripts",
+   "description": "JPL IMCE MagicDraw Dynamic Scripts for operating on MD models through the OMG Tool-Neutral Interoperability (OTI) API.",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 131,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2015,
+    2016,
+    2017
+   ],
+   "total": 131
+  },
+  {
+   "repo": "TIWG/org.omg.oti.uml.canonical_xmi.loader",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/org.omg.oti.uml.canonical_xmi.loader",
+   "description": "OMG Tool-Interoperability (OTI) API parser for OMG Canonical XMI 2.5 serialization.",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 131,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2015,
+    2016,
+    2017
+   ],
+   "total": 131
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.ontologies.public",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.ontologies.public",
+   "description": "JPL's IMCE ontologies for Model-Based Systems Engineering",
+   "fork": false,
+   "archived": true,
+   "stars": 21,
+   "language": "HTML",
+   "language_color": "#e34c26",
+   "commits": 43,
+   "prs": 27,
+   "reviews": 7,
+   "issues": 50,
+   "years": [
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "total": 127
+  },
+  {
+   "repo": "JPL-IMCE/imce.dynamic_scripts.generic_dsl",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/imce.dynamic_scripts.generic_dsl",
+   "description": "A textual DSL for specifying browser, diagram & contextualized actions in a modeling tool.",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 114,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2014,
+    2015,
+    2016,
+    2017
+   ],
+   "total": 114
+  },
+  {
+   "repo": "JPL-IMCE/imce.magicdraw.library.enhanced_api",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/imce.magicdraw.library.enhanced_api",
+   "description": "AspectJ enhancements of the MagicDraw 18 Browser & Diagram selection UI APIs",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 94,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2015,
+    2016,
+    2017
+   ],
+   "total": 94
+  },
+  {
+   "repo": "TIWG/imce.magicdraw.dynamicscripts.batch",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/imce.magicdraw.dynamicscripts.batch",
+   "description": "DynamicScripts batch launcher for MagicDraw",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 73,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 73
+  },
+  {
+   "repo": "TIWG/org.omg.oti.uml.json.schema",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/org.omg.oti.uml.json.schema",
+   "description": "Json serialization for OMG Tool-Interoperability API for OMG-compliant UML 2.5 & later",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 68,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 71
+  },
+  {
+   "repo": "pacti-org/cs-space-mission",
+   "owner": "pacti-org",
+   "url": "https://github.com/pacti-org/cs-space-mission",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 3,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 70,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2023
+   ],
+   "total": 70
+  },
+  {
+   "repo": "opencaesar/metrology-vocabularies",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/metrology-vocabularies",
+   "description": "A set of vocabularies about metrology",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": null,
+   "language_color": null,
+   "commits": 64,
+   "prs": 4,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2021,
+    2022,
+    2025
+   ],
+   "total": 69
+  },
+  {
+   "repo": "TIWG/org.omg.oti.mof.schema",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/org.omg.oti.mof.schema",
+   "description": "OMG Tool-Interoperability (OTI) MOF Information Normalized Schemas & API",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 69,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 69
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml.frameless",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.frameless",
+   "description": "Scala/Frameless-based API for the Ontological Modeling Language",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 46,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 12,
+   "years": [
+    2017,
+    2018,
+    2019
+   ],
+   "total": 61
+  },
+  {
+   "repo": "TIWG/org.omg.oti.uml.json.serialization",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/org.omg.oti.uml.json.serialization",
+   "description": "JSon serialization of OMG Tool-Interoperability (OTI) Documents.",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 59,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 59
+  },
+  {
+   "repo": "pacti-org/pacti",
+   "owner": "pacti-org",
+   "url": "https://github.com/pacti-org/pacti",
+   "description": "A package for compositional system analysis and design",
+   "fork": false,
+   "archived": false,
+   "stars": 36,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 18,
+   "prs": 9,
+   "reviews": 1,
+   "issues": 28,
+   "years": [
+    2023
+   ],
+   "total": 56
+  },
+  {
+   "repo": "TIWG/imce.oti.mof.magicdraw.dynamicscripts",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/imce.oti.mof.magicdraw.dynamicscripts",
+   "description": "JPL IMCE MagicDraw Dynamic Scripts for operating on MD models through the OMG Tool-Neutral Interoperability (OTI) MOF Information Schema & API.",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 53,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 53
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml.doc",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.oml.doc",
+   "description": "The documentation about the Ontological Modeling Language specification",
+   "fork": false,
+   "archived": true,
+   "stars": 3,
+   "language": null,
+   "language_color": null,
+   "commits": 48,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2017,
+    2018
+   ],
+   "total": 48
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.ontologies.workflow",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.ontologies.workflow",
+   "description": "Ontology Processing Workflow",
+   "fork": false,
+   "archived": true,
+   "stars": 3,
+   "language": "Ruby",
+   "language_color": "#701516",
+   "commits": 45,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016,
+    2017,
+    2018
+   ],
+   "total": 46
+  },
+  {
+   "repo": "opencaesar/oml",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/oml",
+   "description": "Ontological Modeling Language (OML)",
+   "fork": false,
+   "archived": false,
+   "stars": 40,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 5,
+   "prs": 8,
+   "reviews": 2,
+   "issues": 22,
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "total": 37
+  },
+  {
+   "repo": "NicolasRouquette/computational-hypergraph",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/computational-hypergraph",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 36,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2022,
+    2023
+   ],
+   "total": 36
+  },
+  {
+   "repo": "JPL-IMCE/imce.third_party.scala_libraries",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/imce.third_party.scala_libraries",
+   "description": "Aggregate of org.scala-lang libraries",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 33,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 34
+  },
+  {
+   "repo": "lean-dojo/TorchLean",
+   "owner": "lean-dojo",
+   "url": "https://github.com/lean-dojo/TorchLean",
+   "description": " TorchLean is the first unified Lean 4 framework for neural-network specification, execution, and verification. ",
+   "fork": false,
+   "archived": false,
+   "stars": 182,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 11,
+   "prs": 23,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 34
+  },
+  {
+   "repo": "JPL-IMCE/imce.third_party.other_scala_libraries",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/imce.third_party.other_scala_libraries",
+   "description": "Aggregate of Akka, Play, Scalaz, ScalaCheck, ScalaTest, Spray libraries",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 30,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 33
+  },
+  {
+   "repo": "opencaesar/owl-tools",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/owl-tools",
+   "description": "A set of analysis tools for OWL",
+   "fork": false,
+   "archived": false,
+   "stars": 6,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 13,
+   "prs": 13,
+   "reviews": 0,
+   "issues": 7,
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "total": 33
+  },
+  {
+   "repo": "JPL-IMCE/imce.third_party.owlapi_libraries",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/imce.third_party.owlapi_libraries",
+   "description": "Aggregate of net.sourceforge.owlapi libraries",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 29,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 31
+  },
+  {
+   "repo": "JPL-IMCE/imce.third_party.aspectj_libraries",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/imce.third_party.aspectj_libraries",
+   "description": "Aggregate of org.aspectj libraries",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 28,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016
+   ],
+   "total": 28
+  },
+  {
+   "repo": "JPL-IMCE/imce.third_party.scala_graph_libraries",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/imce.third_party.scala_graph_libraries",
+   "description": "Aggregate of com.assembla.scala-incubator Graph libraries",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 25,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 26
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.xml.catalog.scope",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.xml.catalog.scope",
+   "description": "Enhanced Apache XML Commons Resolver",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 16,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 7,
+   "years": [
+    2018
+   ],
+   "total": 23
+  },
+  {
+   "repo": "opencaesar/owl-adapter",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/owl-adapter",
+   "description": "The OML adapter for OWL",
+   "fork": false,
+   "archived": false,
+   "stars": 3,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 5,
+   "prs": 8,
+   "reviews": 1,
+   "issues": 9,
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024
+   ],
+   "total": 23
+  },
+  {
+   "repo": "JPL-IMCE/imce.third_party.jena_libraries",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/imce.third_party.jena_libraries",
+   "description": "Aggregate of org.apache.jena libraries (TDB, Fuseki)",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 22,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 22
+  },
+  {
+   "repo": "opencaesar/core-vocabularies",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/core-vocabularies",
+   "description": "A set of core vocabularies",
+   "fork": false,
+   "archived": false,
+   "stars": 2,
+   "language": null,
+   "language_color": null,
+   "commits": 11,
+   "prs": 9,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022
+   ],
+   "total": 22
+  },
+  {
+   "repo": "NicolasRouquette/nicolasrouquette.github.io",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/nicolasrouquette.github.io",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 16,
+   "prs": 5,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 21
+  },
+  {
+   "repo": "NicolasRouquette/oml.lean4",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/oml.lean4",
+   "description": "Experiments in defining the Ontological Modeling Language in Lean4",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 21,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2022,
+    2023
+   ],
+   "total": 21
+  },
+  {
+   "repo": "banana-rdf/banana-rdf",
+   "owner": "banana-rdf",
+   "url": "https://github.com/banana-rdf/banana-rdf",
+   "description": "Banana RDF",
+   "fork": false,
+   "archived": false,
+   "stars": 298,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 9,
+   "prs": 5,
+   "reviews": 0,
+   "issues": 5,
+   "years": [
+    2014
+   ],
+   "total": 19
+  },
+  {
+   "repo": "nasa/fpp",
+   "owner": "nasa",
+   "url": "https://github.com/nasa/fpp",
+   "description": "F Prime Prime: A modeling language for F Prime",
+   "fork": false,
+   "archived": false,
+   "stars": 123,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 15,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2022
+   ],
+   "total": 18
+  },
+  {
+   "repo": "JPL-IMCE/profileGenerator",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/profileGenerator",
+   "description": "Utility for Generating IMCE Ontology Embedding as SysML Profiles for MagicDraw",
+   "fork": false,
+   "archived": true,
+   "stars": 2,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 15,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016,
+    2018
+   ],
+   "total": 17
+  },
+  {
+   "repo": "opencaesar/firesat-example",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/firesat-example",
+   "description": "An example in OML for a Fire Satellite mission",
+   "fork": false,
+   "archived": false,
+   "stars": 10,
+   "language": null,
+   "language_color": null,
+   "commits": 10,
+   "prs": 7,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2020,
+    2022
+   ],
+   "total": 17
+  },
+  {
+   "repo": "havelund/daut",
+   "owner": "havelund",
+   "url": "https://github.com/havelund/daut",
+   "description": "Monitoring framework in Scala.",
+   "fork": false,
+   "archived": false,
+   "stars": 8,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 9,
+   "prs": 6,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2024
+   ],
+   "total": 16
+  },
+  {
+   "repo": "NicolasRouquette/dimensional-calculus.lean4",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/dimensional-calculus.lean4",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 15,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2022
+   ],
+   "total": 16
+  },
+  {
+   "repo": "leanprover-community/physlib",
+   "owner": "leanprover-community",
+   "url": "https://github.com/leanprover-community/physlib",
+   "description": "A project to digitalise results from physics into Lean.",
+   "fork": false,
+   "archived": false,
+   "stars": 808,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 6,
+   "prs": 6,
+   "reviews": 0,
+   "issues": 3,
+   "years": [
+    2026
+   ],
+   "total": 15
+  },
+  {
+   "repo": "NicolasRouquette/scala3-bundle-closure",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/scala3-bundle-closure",
+   "description": "OML Bundle Closure implementation in Scala3",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 15,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2021,
+    2022
+   ],
+   "total": 15
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.ontologies.tools",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.ontologies.tools",
+   "description": "A Collection of Tools for Processing Ontologies",
+   "fork": false,
+   "archived": true,
+   "stars": 2,
+   "language": "Ruby",
+   "language_color": "#701516",
+   "commits": 10,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2016,
+    2018
+   ],
+   "total": 14
+  },
+  {
+   "repo": "leanprover/doc-gen4",
+   "owner": "leanprover",
+   "url": "https://github.com/leanprover/doc-gen4",
+   "description": "Document Generator for Lean 4",
+   "fork": false,
+   "archived": false,
+   "stars": 175,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 4,
+   "prs": 6,
+   "reviews": 0,
+   "issues": 4,
+   "years": [
+    2025,
+    2026
+   ],
+   "total": 14
+  },
+  {
+   "repo": "opencaesar/imce-vocabularies",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/imce-vocabularies",
+   "description": "The set of vocabularies for the IMCE methodology",
+   "fork": false,
+   "archived": false,
+   "stars": 1,
+   "language": null,
+   "language_color": null,
+   "commits": 9,
+   "prs": 3,
+   "reviews": 1,
+   "issues": 0,
+   "years": [
+    2020,
+    2022
+   ],
+   "total": 13
+  },
+  {
+   "repo": "opencaesar/provenance-vocabularies",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/provenance-vocabularies",
+   "description": "A set of vocabularies about provenance",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": null,
+   "language_color": null,
+   "commits": 13,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2021
+   ],
+   "total": 13
+  },
+  {
+   "repo": "pacti-org/pacti-instrumentation",
+   "owner": "pacti-org",
+   "url": "https://github.com/pacti-org/pacti-instrumentation",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 13,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2023
+   ],
+   "total": 13
+  },
+  {
+   "repo": "pacti-org/cs-biocircuits",
+   "owner": "pacti-org",
+   "url": "https://github.com/pacti-org/cs-biocircuits",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 1,
+   "language": "Jupyter Notebook",
+   "language_color": "#DA5B0B",
+   "commits": 9,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2023
+   ],
+   "total": 12
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.profileGenerator.application",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.profileGenerator.application",
+   "description": "Generator from Ontological Modeling Framework (OMF) vocabularies to profiles extending UML/SysML",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 7,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 4,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 11
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.semmle",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.semmle",
+   "description": "Configuration for Semmle Analysis of JPL's open-source projects",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Shell",
+   "language_color": "#89e051",
+   "commits": 11,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016
+   ],
+   "total": 11
+  },
+  {
+   "repo": "leanprover/lean4",
+   "owner": "leanprover",
+   "url": "https://github.com/leanprover/lean4",
+   "description": "Lean 4 programming language and theorem prover",
+   "fork": false,
+   "archived": false,
+   "stars": 9675,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 2,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 6,
+   "years": [
+    2025,
+    2026
+   ],
+   "total": 10
+  },
+  {
+   "repo": "opencaesar/oml-rosetta",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/oml-rosetta",
+   "description": "An Eclipse IDE that supports OML natively",
+   "fork": false,
+   "archived": false,
+   "stars": 12,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 9,
+   "years": [
+    2021,
+    2022
+   ],
+   "total": 10
+  },
+  {
+   "repo": "speced/bikeshed",
+   "owner": "speced",
+   "url": "https://github.com/speced/bikeshed",
+   "description": ":bike: A preprocessor for anyone writing specifications that converts source files into actual specs.",
+   "fork": false,
+   "archived": false,
+   "stars": 1332,
+   "language": "HTML",
+   "language_color": "#e34c26",
+   "commits": 5,
+   "prs": 4,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019,
+    2021
+   ],
+   "total": 10
+  },
+  {
+   "repo": "xerial/sbt-sonatype",
+   "owner": "xerial",
+   "url": "https://github.com/xerial/sbt-sonatype",
+   "description": "A sbt plugin for publishing Scala/Java projects to the Maven central.",
+   "fork": false,
+   "archived": false,
+   "stars": 341,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 6,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 3,
+   "years": [
+    2015,
+    2016
+   ],
+   "total": 10
+  },
+  {
+   "repo": "opencaesar/oml-tools",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/oml-tools",
+   "description": "A set of analysis tools for OML",
+   "fork": false,
+   "archived": false,
+   "stars": 2,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 5,
+   "prs": 4,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2020,
+    2022
+   ],
+   "total": 9
+  },
+  {
+   "repo": "owlcs/owlapi",
+   "owner": "owlcs",
+   "url": "https://github.com/owlcs/owlapi",
+   "description": "OWL API main repository",
+   "fork": false,
+   "archived": false,
+   "stars": 942,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 3,
+   "prs": 2,
+   "reviews": 1,
+   "issues": 3,
+   "years": [
+    2014,
+    2017,
+    2021
+   ],
+   "total": 9
+  },
+  {
+   "repo": "doriordan/skuber",
+   "owner": "doriordan",
+   "url": "https://github.com/doriordan/skuber",
+   "description": "A Scala Kubernetes client library",
+   "fork": false,
+   "archived": false,
+   "stars": 332,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 1,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 4,
+   "years": [
+    2019
+   ],
+   "total": 8
+  },
+  {
+   "repo": "http4s/http4s",
+   "owner": "http4s",
+   "url": "https://github.com/http4s/http4s",
+   "description": "A minimal, idiomatic Scala interface for HTTP",
+   "fork": false,
+   "archived": false,
+   "stars": 2627,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 5,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2017
+   ],
+   "total": 8
+  },
+  {
+   "repo": "JPL-IMCE/imce.dynamic_scripts.magicdraw.launcher",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/imce.dynamic_scripts.magicdraw.launcher",
+   "description": null,
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 8,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2017
+   ],
+   "total": 8
+  },
+  {
+   "repo": "JPL-IMCE/imce.spark.data",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/imce.spark.data",
+   "description": "Prototyping SPARK-based analysis of IMCE OMF Schema data",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 8,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016
+   ],
+   "total": 8
+  },
+  {
+   "repo": "scala-graph/scala-graph",
+   "owner": "scala-graph",
+   "url": "https://github.com/scala-graph/scala-graph",
+   "description": "Graph for Scala is intended to provide basic graph functionality seamlessly fitting into the Scala Collection Library. Like the well known members of scala.collection, Graph for Scala is an in-memory graph library aiming at editing and traversing graphs, finding cycles etc. in a user-friendly way.",
+   "fork": false,
+   "archived": false,
+   "stars": 575,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 2,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 5,
+   "years": [
+    2015,
+    2017
+   ],
+   "total": 8
+  },
+  {
+   "repo": "TheoBourdais/ComputationalHypergraphDiscovery",
+   "owner": "TheoBourdais",
+   "url": "https://github.com/TheoBourdais/ComputationalHypergraphDiscovery",
+   "description": "This is the source code for the paper \"Computational Hypergraph Discovery: A Gaussian process framework for connecting the dots\".",
+   "fork": false,
+   "archived": false,
+   "stars": 9,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 0,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 5,
+   "years": [
+    2024,
+    2025
+   ],
+   "total": 8
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.ontologies.processor",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.ontologies.processor",
+   "description": null,
+   "fork": false,
+   "archived": true,
+   "stars": 2,
+   "language": null,
+   "language_color": null,
+   "commits": 6,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2017
+   ],
+   "total": 7
+  },
+  {
+   "repo": "muuki88/sbt-graphql",
+   "owner": "muuki88",
+   "url": "https://github.com/muuki88/sbt-graphql",
+   "description": "SBT plugin to generate and validate graphql schemas written with Sangria",
+   "fork": false,
+   "archived": false,
+   "stars": 94,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 1,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 3,
+   "years": [
+    2019
+   ],
+   "total": 7
+  },
+  {
+   "repo": "pacti-org/cs-digital-signal-processing",
+   "owner": "pacti-org",
+   "url": "https://github.com/pacti-org/cs-digital-signal-processing",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Jupyter Notebook",
+   "language_color": "#DA5B0B",
+   "commits": 6,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2023
+   ],
+   "total": 7
+  },
+  {
+   "repo": "pacti-org/cs-vehicle-perception",
+   "owner": "pacti-org",
+   "url": "https://github.com/pacti-org/cs-vehicle-perception",
+   "description": "Contract-based design for evaluating perception in the context of system-level specifications",
+   "fork": false,
+   "archived": false,
+   "stars": 1,
+   "language": "Jupyter Notebook",
+   "language_color": "#DA5B0B",
+   "commits": 4,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2023
+   ],
+   "total": 7
+  },
+  {
+   "repo": "Jarlakxen/drunk",
+   "owner": "Jarlakxen",
+   "url": "https://github.com/Jarlakxen/drunk",
+   "description": "A simple GraphQL client on top of Sangria, Akka HTTP and Circe.",
+   "fork": false,
+   "archived": false,
+   "stars": 65,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 2,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2018
+   ],
+   "total": 6
+  },
+  {
+   "repo": "ohnosequences/sbt-github-release",
+   "owner": "ohnosequences",
+   "url": "https://github.com/ohnosequences/sbt-github-release",
+   "description": "An sbt plugin to publish releases on Github",
+   "fork": false,
+   "archived": false,
+   "stars": 42,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 2,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016
+   ],
+   "total": 5
+  },
+  {
+   "repo": "sbt/sbt",
+   "owner": "sbt",
+   "url": "https://github.com/sbt/sbt",
+   "description": "sbt, the interactive build tool",
+   "fork": false,
+   "archived": false,
+   "stars": 4952,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 4,
+   "years": [
+    2017,
+    2018,
+    2020
+   ],
+   "total": 5
+  },
+  {
+   "repo": "scalacenter/scalafix",
+   "owner": "scalacenter",
+   "url": "https://github.com/scalacenter/scalafix",
+   "description": "Refactoring and linting tool for Scala",
+   "fork": false,
+   "archived": false,
+   "stars": 877,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 2,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2018,
+    2019
+   ],
+   "total": 5
+  },
+  {
+   "repo": "epfl-lara/leon",
+   "owner": "epfl-lara",
+   "url": "https://github.com/epfl-lara/leon",
+   "description": "The Leon system for verification, synthesis, repair",
+   "fork": false,
+   "archived": false,
+   "stars": 168,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 3,
+   "years": [
+    2015,
+    2017
+   ],
+   "total": 4
+  },
+  {
+   "repo": "fgdorais/lean4-parser",
+   "owner": "fgdorais",
+   "url": "https://github.com/fgdorais/lean4-parser",
+   "description": "Parser Combinator Library for Lean 4",
+   "fork": false,
+   "archived": false,
+   "stars": 89,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 0,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2026
+   ],
+   "total": 4
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.profileGenerator.model.bundle",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.profileGenerator.model.bundle",
+   "description": "Model for representing digest bundles, used as an intermediate format in the profile generation process.",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 4,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016
+   ],
+   "total": 4
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.profileGenerator.model.profile",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.profileGenerator.model.profile",
+   "description": "Model for representing SysML profiles, used as an intermediate format in the profile generation process.",
+   "fork": false,
+   "archived": true,
+   "stars": 1,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 4,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016
+   ],
+   "total": 4
+  },
+  {
+   "repo": "jsonld-java/jsonld-java",
+   "owner": "jsonld-java",
+   "url": "https://github.com/jsonld-java/jsonld-java",
+   "description": "JSON-LD implementation for Java",
+   "fork": false,
+   "archived": false,
+   "stars": 387,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2017
+   ],
+   "total": 4
+  },
+  {
+   "repo": "nasa-jpl/tasksat",
+   "owner": "nasa-jpl",
+   "url": "https://github.com/nasa-jpl/tasksat",
+   "description": "A domain-specific language and SMT-based tool for modeling, scheduling, and verifying task networks with temporal and resource constraints",
+   "fork": false,
+   "archived": false,
+   "stars": 5,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 3,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 4
+  },
+  {
+   "repo": "NicolasRouquette/stainless-bundle-closure",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/stainless-bundle-closure",
+   "description": "Bundle closure formalization in Stainless.",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 4,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2020
+   ],
+   "total": 4
+  },
+  {
+   "repo": "opencaesar/oml-luxor",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/oml-luxor",
+   "description": "A VS Code extension providing LSP support for OML models",
+   "fork": false,
+   "archived": false,
+   "stars": 6,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2020,
+    2021,
+    2022
+   ],
+   "total": 4
+  },
+  {
+   "repo": "opencaesar/oml-tutorials",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/oml-tutorials",
+   "description": "A tutorial on the Ontological Modeling Language",
+   "fork": false,
+   "archived": false,
+   "stars": 3,
+   "language": "HTML",
+   "language_color": "#e34c26",
+   "commits": 4,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2023
+   ],
+   "total": 4
+  },
+  {
+   "repo": "vigoo/clipp",
+   "owner": "vigoo",
+   "url": "https://github.com/vigoo/clipp",
+   "description": "CLI Parameter Parser library",
+   "fork": false,
+   "archived": false,
+   "stars": 28,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 4,
+   "years": [
+    2021
+   ],
+   "total": 4
+  },
+  {
+   "repo": "akka-js/shocon",
+   "owner": "akka-js",
+   "url": "https://github.com/akka-js/shocon",
+   "description": "Simple pure-scala Typesafe HOCON implementation using FastParse",
+   "fork": false,
+   "archived": false,
+   "stars": 75,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2018
+   ],
+   "total": 3
+  },
+  {
+   "repo": "aklikic/lagom-fund-transfer-saga-scala",
+   "owner": "aklikic",
+   "url": "https://github.com/aklikic/lagom-fund-transfer-saga-scala",
+   "description": "Lagom projects",
+   "fork": false,
+   "archived": false,
+   "stars": 6,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2019
+   ],
+   "total": 3
+  },
+  {
+   "repo": "alexarchambault/case-app",
+   "owner": "alexarchambault",
+   "url": "https://github.com/alexarchambault/case-app",
+   "description": "Type-level & seamless command-line argument parsing for Scala",
+   "fork": false,
+   "archived": false,
+   "stars": 311,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2018
+   ],
+   "total": 3
+  },
+  {
+   "repo": "Banno/sbt-license-plugin",
+   "owner": "Banno",
+   "url": "https://github.com/Banno/sbt-license-plugin",
+   "description": "sbt plugin for adding/updating license headers in source files",
+   "fork": false,
+   "archived": true,
+   "stars": 16,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2015
+   ],
+   "total": 3
+  },
+  {
+   "repo": "endpoints4s/endpoints4s",
+   "owner": "endpoints4s",
+   "url": "https://github.com/endpoints4s/endpoints4s",
+   "description": "Describe HTTP endpoints in Scala and derive clients, servers, and documentation",
+   "fork": false,
+   "archived": false,
+   "stars": 418,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2018,
+    2019
+   ],
+   "total": 3
+  },
+  {
+   "repo": "jfrog/jfrog-cli",
+   "owner": "jfrog",
+   "url": "https://github.com/jfrog/jfrog-cli",
+   "description": "JFrog CLI is a client that provides a simple interface that automates access to the JFrog products.",
+   "fork": false,
+   "archived": false,
+   "stars": 597,
+   "language": "Go",
+   "language_color": "#00ADD8",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 3,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 3
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.metrology.isoiec80000.magicdraw.library",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.metrology.isoiec80000.magicdraw.library",
+   "description": "IMCE Metrology ISO/IEC 80000 Library",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016
+   ],
+   "total": 3
+  },
+  {
+   "repo": "JPL-IMCE/jpl-imce.github.io",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/jpl-imce.github.io",
+   "description": "Jet Propulsion Laboratory's Integrated Model-Centric Engineering initiative",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "CSS",
+   "language_color": "#663399",
+   "commits": 3,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016
+   ],
+   "total": 3
+  },
+  {
+   "repo": "jsonld-java/jsonld-java-tools",
+   "owner": "jsonld-java",
+   "url": "https://github.com/jsonld-java/jsonld-java-tools",
+   "description": "Tools for using JSONLD-Java",
+   "fork": false,
+   "archived": false,
+   "stars": 7,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2017
+   ],
+   "total": 3
+  },
+  {
+   "repo": "kubernetes/website",
+   "owner": "kubernetes",
+   "url": "https://github.com/kubernetes/website",
+   "description": "Kubernetes website and documentation repo: ",
+   "fork": false,
+   "archived": false,
+   "stars": 5413,
+   "language": "HTML",
+   "language_color": "#e34c26",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019
+   ],
+   "total": 3
+  },
+  {
+   "repo": "leanprover/verso",
+   "owner": "leanprover",
+   "url": "https://github.com/leanprover/verso",
+   "description": "Lean documentation authoring tool",
+   "fork": false,
+   "archived": false,
+   "stars": 398,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2026
+   ],
+   "total": 3
+  },
+  {
+   "repo": "nasa-jpl/fastcat",
+   "owner": "nasa-jpl",
+   "url": "https://github.com/nasa-jpl/fastcat",
+   "description": "C++ EtherCAT Device Command & Control Library",
+   "fork": false,
+   "archived": false,
+   "stars": 70,
+   "language": "C++",
+   "language_color": "#f34b7d",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2024
+   ],
+   "total": 3
+  },
+  {
+   "repo": "nasa-jpl/jsd",
+   "owner": "nasa-jpl",
+   "url": "https://github.com/nasa-jpl/jsd",
+   "description": "Just SOEM Drivers",
+   "fork": false,
+   "archived": false,
+   "stars": 26,
+   "language": "C",
+   "language_color": "#555555",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2024
+   ],
+   "total": 3
+  },
+  {
+   "repo": "NicolasRouquette/description-graphs",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/description-graphs",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": null,
+   "language_color": null,
+   "commits": 3,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2021
+   ],
+   "total": 3
+  },
+  {
+   "repo": "NicolasRouquette/wip-graph-theory",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/wip-graph-theory",
+   "description": "WIP on graph theory based on mathlib and or4nge19/MCMC",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 3,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2025,
+    2026
+   ],
+   "total": 3
+  },
+  {
+   "repo": "sangria-graphql/sangria",
+   "owner": "sangria-graphql",
+   "url": "https://github.com/sangria-graphql/sangria",
+   "description": "Scala GraphQL implementation",
+   "fork": false,
+   "archived": false,
+   "stars": 1962,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2018,
+    2019
+   ],
+   "total": 3
+  },
+  {
+   "repo": "sbt/sbt-native-packager",
+   "owner": "sbt",
+   "url": "https://github.com/sbt/sbt-native-packager",
+   "description": "sbt Native Packager",
+   "fork": false,
+   "archived": false,
+   "stars": 1606,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019
+   ],
+   "total": 3
+  },
+  {
+   "repo": "scalameta/scalafmt",
+   "owner": "scalameta",
+   "url": "https://github.com/scalameta/scalafmt",
+   "description": "Code formatter for Scala",
+   "fork": false,
+   "archived": false,
+   "stars": 1490,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2016
+   ],
+   "total": 3
+  },
+  {
+   "repo": "tektoncd/pipeline",
+   "owner": "tektoncd",
+   "url": "https://github.com/tektoncd/pipeline",
+   "description": "A cloud-native Pipeline resource.",
+   "fork": false,
+   "archived": false,
+   "stars": 9090,
+   "language": "Go",
+   "language_color": "#00ADD8",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 3,
+   "years": [
+    2019
+   ],
+   "total": 3
+  },
+  {
+   "repo": "TIWG/com.nomagic.magicdraw.package",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/com.nomagic.magicdraw.package",
+   "description": "NoMagic-vendored MagicDraw application package (\"no_install.zip\") upload to bintray",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 3,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016
+   ],
+   "total": 3
+  },
+  {
+   "repo": "typelevel/frameless",
+   "owner": "typelevel",
+   "url": "https://github.com/typelevel/frameless",
+   "description": "Expressive types for Spark.",
+   "fork": false,
+   "archived": false,
+   "stars": 898,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2017
+   ],
+   "total": 3
+  },
+  {
+   "repo": "almond-sh/almond",
+   "owner": "almond-sh",
+   "url": "https://github.com/almond-sh/almond",
+   "description": "A Scala kernel for Jupyter",
+   "fork": false,
+   "archived": false,
+   "stars": 1630,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2021
+   ],
+   "total": 2
+  },
+  {
+   "repo": "apache/zeppelin",
+   "owner": "apache",
+   "url": "https://github.com/apache/zeppelin",
+   "description": "Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.",
+   "fork": false,
+   "archived": false,
+   "stars": 6666,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 0,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2018
+   ],
+   "total": 2
+  },
+  {
+   "repo": "arktekk/sbt-aether-deploy",
+   "owner": "arktekk",
+   "url": "https://github.com/arktekk/sbt-aether-deploy",
+   "description": "Deploy SBT artifacts using Maven Artifact Resolver (formerly Eclipse Aether)",
+   "fork": false,
+   "archived": false,
+   "stars": 89,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016,
+    2017
+   ],
+   "total": 2
+  },
+  {
+   "repo": "eclipse-cbi/targetplatform-dsl",
+   "owner": "eclipse-cbi",
+   "url": "https://github.com/eclipse-cbi/targetplatform-dsl",
+   "description": "Target Platform Definition DSL and Generator",
+   "fork": false,
+   "archived": false,
+   "stars": 78,
+   "language": "Xtend",
+   "language_color": "#24255d",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2016
+   ],
+   "total": 2
+  },
+  {
+   "repo": "epfl-lara/stainless",
+   "owner": "epfl-lara",
+   "url": "https://github.com/epfl-lara/stainless",
+   "description": "Verification framework and tool for higher-order Scala programs. https://gitlab.epfl.ch/lara/stainless",
+   "fork": false,
+   "archived": false,
+   "stars": 410,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2020
+   ],
+   "total": 2
+  },
+  {
+   "repo": "http4s/http4s.g8",
+   "owner": "http4s",
+   "url": "https://github.com/http4s/http4s.g8",
+   "description": "giter8 template for bootstrapping http4s services",
+   "fork": false,
+   "archived": false,
+   "stars": 119,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2017
+   ],
+   "total": 2
+  },
+  {
+   "repo": "hysds/container-builder",
+   "owner": "hysds",
+   "url": "https://github.com/hysds/container-builder",
+   "description": "A repository holding the scripts to be triggered by Jenkins in order to build a container.",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Shell",
+   "language_color": "#89e051",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2026
+   ],
+   "total": 2
+  },
+  {
+   "repo": "JetBrains/sbt-ide-settings",
+   "owner": "JetBrains",
+   "url": "https://github.com/JetBrains/sbt-ide-settings",
+   "description": "SBT plugin for tweaking various IDE settings",
+   "fork": false,
+   "archived": false,
+   "stars": 69,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2015
+   ],
+   "total": 2
+  },
+  {
+   "repo": "jitpack/jitpack.io",
+   "owner": "jitpack",
+   "url": "https://github.com/jitpack/jitpack.io",
+   "description": "Documentation and issues of https://jitpack.io",
+   "fork": false,
+   "archived": false,
+   "stars": 2671,
+   "language": null,
+   "language_color": null,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2016,
+    2021
+   ],
+   "total": 2
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.ontologies.analysis",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.ontologies.analysis",
+   "description": "Workflow for analysis of exported artifacts",
+   "fork": false,
+   "archived": true,
+   "stars": 5,
+   "language": "Web Ontology Language",
+   "language_color": "#5b70bd",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 2,
+   "issues": 0,
+   "years": [
+    2018,
+    2019
+   ],
+   "total": 2
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.ontologies.fuseki",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.ontologies.fuseki",
+   "description": "Configuration for setting up a Fuseki server for the IMCE ontology workflows",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 2,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2017
+   ],
+   "total": 2
+  },
+  {
+   "repo": "jpype-project/jpype",
+   "owner": "jpype-project",
+   "url": "https://github.com/jpype-project/jpype",
+   "description": "JPype is cross language bridge to allow Python programs full access to Java class libraries.",
+   "fork": false,
+   "archived": false,
+   "stars": 1295,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2022
+   ],
+   "total": 2
+  },
+  {
+   "repo": "lagom/lagom",
+   "owner": "lagom",
+   "url": "https://github.com/lagom/lagom",
+   "description": "Reactive Microservices for the JVM",
+   "fork": false,
+   "archived": false,
+   "stars": 2629,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2020,
+    2021
+   ],
+   "total": 2
+  },
+  {
+   "repo": "languitar/drawio-batch",
+   "owner": "languitar",
+   "url": "https://github.com/languitar/drawio-batch",
+   "description": "Command line converter for draw.io diagrams",
+   "fork": false,
+   "archived": true,
+   "stars": 65,
+   "language": "JavaScript",
+   "language_color": "#f1e05a",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2019
+   ],
+   "total": 2
+  },
+  {
+   "repo": "leanprover-community/batteries",
+   "owner": "leanprover-community",
+   "url": "https://github.com/leanprover-community/batteries",
+   "description": "The \"batteries included\" extended library for the Lean programming language and theorem prover",
+   "fork": false,
+   "archived": false,
+   "stars": 425,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2025
+   ],
+   "total": 2
+  },
+  {
+   "repo": "leanprover/verso-slides",
+   "owner": "leanprover",
+   "url": "https://github.com/leanprover/verso-slides",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 18,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2026
+   ],
+   "total": 2
+  },
+  {
+   "repo": "LorenzoBettini/p2composite-bintray-example",
+   "owner": "LorenzoBettini",
+   "url": "https://github.com/LorenzoBettini/p2composite-bintray-example",
+   "description": "An example of how to create Eclipse p2 composite site during the build and release them on Bintray",
+   "fork": false,
+   "archived": false,
+   "stars": 3,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2017
+   ],
+   "total": 2
+  },
+  {
+   "repo": "microsoft/TypeScript-React-Conversion-Guide",
+   "owner": "microsoft",
+   "url": "https://github.com/microsoft/TypeScript-React-Conversion-Guide",
+   "description": "A guide for converting a simple JavaScript/React project to TypeScript. Contains both before an after code with the step-by-step process in the README below.",
+   "fork": false,
+   "archived": true,
+   "stars": 1430,
+   "language": "JavaScript",
+   "language_color": "#f1e05a",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2018
+   ],
+   "total": 2
+  },
+  {
+   "repo": "NicolasRouquette/verso-blueprint-h1-bug",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/verso-blueprint-h1-bug",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 2,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 2
+  },
+  {
+   "repo": "NicolasRouquette/vscode-devc-ubuntu-desktop",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/vscode-devc-ubuntu-desktop",
+   "description": "Reproducible problem for https://github.com/devcontainers/features/issues/762",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": null,
+   "language_color": null,
+   "commits": 2,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2023
+   ],
+   "total": 2
+  },
+  {
+   "repo": "NicolasRouquette/YatimaGraphLib",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/YatimaGraphLib",
+   "description": "Extracted Yatima's Lean4 Graph as a generic library",
+   "fork": false,
+   "archived": false,
+   "stars": 1,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 2,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2022
+   ],
+   "total": 2
+  },
+  {
+   "repo": "nikita-volkov/sext",
+   "owner": "nikita-volkov",
+   "url": "https://github.com/nikita-volkov/sext",
+   "description": "A small extensions library for Scala",
+   "fork": false,
+   "archived": false,
+   "stars": 38,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2015
+   ],
+   "total": 2
+  },
+  {
+   "repo": "opencaesar/ecore-adapter",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/ecore-adapter",
+   "description": "The OML adapter framework for Ecore",
+   "fork": false,
+   "archived": false,
+   "stars": 1,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2021
+   ],
+   "total": 2
+  },
+  {
+   "repo": "opencaesar/ecore-tools",
+   "owner": "opencaesar",
+   "url": "https://github.com/opencaesar/ecore-tools",
+   "description": "A set of tools that work on Ecore models",
+   "fork": false,
+   "archived": false,
+   "stars": 2,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2022
+   ],
+   "total": 2
+  },
+  {
+   "repo": "pacti-org/cs-multiagent-planning",
+   "owner": "pacti-org",
+   "url": "https://github.com/pacti-org/cs-multiagent-planning",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 2,
+   "language": "Jupyter Notebook",
+   "language_color": "#DA5B0B",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2023
+   ],
+   "total": 2
+  },
+  {
+   "repo": "pyrv/pycontract",
+   "owner": "pyrv",
+   "url": "https://github.com/pyrv/pycontract",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 16,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 0,
+   "prs": 2,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2025
+   ],
+   "total": 2
+  },
+  {
+   "repo": "rsgoncalves/ecco",
+   "owner": "rsgoncalves",
+   "url": "https://github.com/rsgoncalves/ecco",
+   "description": "a diff tool for OWL 2 ontologies",
+   "fork": false,
+   "archived": false,
+   "stars": 20,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2017
+   ],
+   "total": 2
+  },
+  {
+   "repo": "sbt/sbt-dependency-graph",
+   "owner": "sbt",
+   "url": "https://github.com/sbt/sbt-dependency-graph",
+   "description": "sbt plugin to create a dependency graph for your project",
+   "fork": false,
+   "archived": true,
+   "stars": 1243,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2016
+   ],
+   "total": 2
+  },
+  {
+   "repo": "sbt/sbt-license-report",
+   "owner": "sbt",
+   "url": "https://github.com/sbt/sbt-license-report",
+   "description": "Report on licenses used in an sbt project.",
+   "fork": false,
+   "archived": false,
+   "stars": 99,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016
+   ],
+   "total": 2
+  },
+  {
+   "repo": "scala/scala3",
+   "owner": "scala",
+   "url": "https://github.com/scala/scala3",
+   "description": "The Scala 3 compiler, also known as Dotty.",
+   "fork": false,
+   "archived": false,
+   "stars": 6327,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2020,
+    2024
+   ],
+   "total": 2
+  },
+  {
+   "repo": "slick/slick",
+   "owner": "slick",
+   "url": "https://github.com/slick/slick",
+   "description": "Slick (Scala Language Integrated Connection Kit) is a modern database query and access library for Scala",
+   "fork": false,
+   "archived": false,
+   "stars": 2665,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2018
+   ],
+   "total": 2
+  },
+  {
+   "repo": "stanch/reftree",
+   "owner": "stanch",
+   "url": "https://github.com/stanch/reftree",
+   "description": "Automatically generated diagrams and animations for Scala data structures",
+   "fork": false,
+   "archived": false,
+   "stars": 590,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019
+   ],
+   "total": 2
+  },
+  {
+   "repo": "tektoncd/catalog",
+   "owner": "tektoncd",
+   "url": "https://github.com/tektoncd/catalog",
+   "description": "Catalog of shared Tasks and Pipelines.",
+   "fork": false,
+   "archived": false,
+   "stars": 737,
+   "language": "Shell",
+   "language_color": "#89e051",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019
+   ],
+   "total": 2
+  },
+  {
+   "repo": "twosigma/git-meta",
+   "owner": "twosigma",
+   "url": "https://github.com/twosigma/git-meta",
+   "description": "Repository for the git-meta project -- build your own monorepo using Git submodules",
+   "fork": false,
+   "archived": false,
+   "stars": 234,
+   "language": "JavaScript",
+   "language_color": "#f1e05a",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 2,
+   "years": [
+    2017
+   ],
+   "total": 2
+  },
+  {
+   "repo": "xerial/sbt-pack",
+   "owner": "xerial",
+   "url": "https://github.com/xerial/sbt-pack",
+   "description": "A sbt plugin for creating distributable Scala packages.",
+   "fork": false,
+   "archived": false,
+   "stars": 504,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2015
+   ],
+   "total": 2
+  },
+  {
+   "repo": "alexander-myltsev/parboiled2",
+   "owner": "alexander-myltsev",
+   "url": "https://github.com/alexander-myltsev/parboiled2",
+   "description": "a Macro-Based PEG Parser Generator for Scala",
+   "fork": true,
+   "archived": false,
+   "stars": 13,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2014
+   ],
+   "total": 1
+  },
+  {
+   "repo": "AlexKontorovich/PrimeNumberTheoremAnd",
+   "owner": "AlexKontorovich",
+   "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+   "description": "Blueprint for the PNT+ Project",
+   "fork": false,
+   "archived": false,
+   "stars": 351,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2026
+   ],
+   "total": 1
+  },
+  {
+   "repo": "apollographql/apollo-scalajs",
+   "owner": "apollographql",
+   "url": "https://github.com/apollographql/apollo-scalajs",
+   "description": "Use Apollo GraphQL from Scala.js apps!",
+   "fork": false,
+   "archived": true,
+   "stars": 88,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019
+   ],
+   "total": 1
+  },
+  {
+   "repo": "argumentcomputer/yatima",
+   "owner": "argumentcomputer",
+   "url": "https://github.com/argumentcomputer/yatima",
+   "description": "A zero-knowledge Lean4 compiler and kernel",
+   "fork": false,
+   "archived": false,
+   "stars": 148,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2022
+   ],
+   "total": 1
+  },
+  {
+   "repo": "bintray/gradle-bintray-plugin",
+   "owner": "bintray",
+   "url": "https://github.com/bintray/gradle-bintray-plugin",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 1270,
+   "language": "Groovy",
+   "language_color": "#4298b8",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2017
+   ],
+   "total": 1
+  },
+  {
+   "repo": "coursier/coursier",
+   "owner": "coursier",
+   "url": "https://github.com/coursier/coursier",
+   "description": "Pure Scala Artifact Fetching",
+   "fork": false,
+   "archived": false,
+   "stars": 2140,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2017
+   ],
+   "total": 1
+  },
+  {
+   "repo": "deathbeds/wxyz",
+   "owner": "deathbeds",
+   "url": "https://github.com/deathbeds/wxyz",
+   "description": "Some Experimental Widgets",
+   "fork": false,
+   "archived": false,
+   "stars": 31,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2022
+   ],
+   "total": 1
+  },
+  {
+   "repo": "debasishg/frdomain",
+   "owner": "debasishg",
+   "url": "https://github.com/debasishg/frdomain",
+   "description": "Code repo for Functional and Reactive Domain Modeling",
+   "fork": false,
+   "archived": false,
+   "stars": 466,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016
+   ],
+   "total": 1
+  },
+  {
+   "repo": "devcontainers/features",
+   "owner": "devcontainers",
+   "url": "https://github.com/devcontainers/features",
+   "description": "A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own",
+   "fork": false,
+   "archived": false,
+   "stars": 1551,
+   "language": "Shell",
+   "language_color": "#89e051",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2023
+   ],
+   "total": 1
+  },
+  {
+   "repo": "digimead/sbt-osgi-manager",
+   "owner": "digimead",
+   "url": "https://github.com/digimead/sbt-osgi-manager",
+   "description": "OSGi development bridge based on Bndtools and Tycho.",
+   "fork": false,
+   "archived": false,
+   "stars": 6,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2017
+   ],
+   "total": 1
+  },
+  {
+   "repo": "eclipse-sprotty/sprotty-vscode",
+   "owner": "eclipse-sprotty",
+   "url": "https://github.com/eclipse-sprotty/sprotty-vscode",
+   "description": "sprotty-vscode",
+   "fork": false,
+   "archived": false,
+   "stars": 62,
+   "language": "TypeScript",
+   "language_color": "#3178c6",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2020
+   ],
+   "total": 1
+  },
+  {
+   "repo": "esbmc/esbmc",
+   "owner": "esbmc",
+   "url": "https://github.com/esbmc/esbmc",
+   "description": "The efficient SMT-based context-bounded model checker (ESBMC)",
+   "fork": false,
+   "archived": false,
+   "stars": 533,
+   "language": "C++",
+   "language_color": "#f34b7d",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2025
+   ],
+   "total": 1
+  },
+  {
+   "repo": "getshaka-org/native-converter",
+   "owner": "getshaka-org",
+   "url": "https://github.com/getshaka-org/native-converter",
+   "description": "Easily convert between Scala.js and native JavaScript",
+   "fork": false,
+   "archived": false,
+   "stars": 63,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2021
+   ],
+   "total": 1
+  },
+  {
+   "repo": "git-up/GitUp",
+   "owner": "git-up",
+   "url": "https://github.com/git-up/GitUp",
+   "description": "The Git interface you've been missing all your life has finally arrived.",
+   "fork": false,
+   "archived": false,
+   "stars": 12148,
+   "language": "Objective-C",
+   "language_color": "#438eff",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2018
+   ],
+   "total": 1
+  },
+  {
+   "repo": "gitkraken/gk-cli",
+   "owner": "gitkraken",
+   "url": "https://github.com/gitkraken/gk-cli",
+   "description": "GitKraken CLI Releases and Documentation",
+   "fork": false,
+   "archived": false,
+   "stars": 462,
+   "language": null,
+   "language_color": null,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2024
+   ],
+   "total": 1
+  },
+  {
+   "repo": "Jafaral/bmon",
+   "owner": "Jafaral",
+   "url": "https://github.com/Jafaral/bmon",
+   "description": "bandwidth monitor and rate estimator",
+   "fork": false,
+   "archived": false,
+   "stars": 1396,
+   "language": "C",
+   "language_color": "#555555",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2020
+   ],
+   "total": 1
+  },
+  {
+   "repo": "jenkinsci/java-client-api",
+   "owner": "jenkinsci",
+   "url": "https://github.com/jenkinsci/java-client-api",
+   "description": "A Jenkins API client for Java",
+   "fork": false,
+   "archived": false,
+   "stars": 913,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2018
+   ],
+   "total": 1
+  },
+  {
+   "repo": "JetBrains/intellij-scala",
+   "owner": "JetBrains",
+   "url": "https://github.com/JetBrains/intellij-scala",
+   "description": "Scala plugin for IntelliJ IDEA",
+   "fork": false,
+   "archived": false,
+   "stars": 1229,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2015
+   ],
+   "total": 1
+  },
+  {
+   "repo": "jfrog/build-info",
+   "owner": "jfrog",
+   "url": "https://github.com/jfrog/build-info",
+   "description": "Artifactory's open integration layer for CI build servers",
+   "fork": false,
+   "archived": false,
+   "stars": 152,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2023
+   ],
+   "total": 1
+  },
+  {
+   "repo": "jgraph/drawio",
+   "owner": "jgraph",
+   "url": "https://github.com/jgraph/drawio",
+   "description": "draw.io is a JavaScript, client-side editor for general diagramming.",
+   "fork": false,
+   "archived": false,
+   "stars": 8992,
+   "language": "JavaScript",
+   "language_color": "#f1e05a",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019
+   ],
+   "total": 1
+  },
+  {
+   "repo": "JPL-IMCE/gov.nasa.jpl.imce.profileGenerator.batch",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/gov.nasa.jpl.imce.profileGenerator.batch",
+   "description": "A project to execute the OMF to UML profile generator as a MagicDraw DynamicScript batch unit test.",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 1,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016
+   ],
+   "total": 1
+  },
+  {
+   "repo": "JPL-IMCE/onto-analysis",
+   "owner": "JPL-IMCE",
+   "url": "https://github.com/JPL-IMCE/onto-analysis",
+   "description": "Tools for ontological modeling analysis",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 1,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2019
+   ],
+   "total": 1
+  },
+  {
+   "repo": "kapicorp/kapitan",
+   "owner": "kapicorp",
+   "url": "https://github.com/kapicorp/kapitan",
+   "description": "Generic templated configuration management for Kubernetes, Terraform and other things",
+   "fork": false,
+   "archived": false,
+   "stars": 1933,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019
+   ],
+   "total": 1
+  },
+  {
+   "repo": "kernel-enthusiasts/Kernel-Mode-Decomposition-1D",
+   "owner": "kernel-enthusiasts",
+   "url": "https://github.com/kernel-enthusiasts/Kernel-Mode-Decomposition-1D",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 6,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2025
+   ],
+   "total": 1
+  },
+  {
+   "repo": "KnowledgeCaptureAndDiscovery/wings",
+   "owner": "KnowledgeCaptureAndDiscovery",
+   "url": "https://github.com/KnowledgeCaptureAndDiscovery/wings",
+   "description": "Wings workflow system",
+   "fork": false,
+   "archived": false,
+   "stars": 51,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019
+   ],
+   "total": 1
+  },
+  {
+   "repo": "kontena/pharos-cluster",
+   "owner": "kontena",
+   "url": "https://github.com/kontena/pharos-cluster",
+   "description": "Pharos - The Kubernetes Distribution",
+   "fork": false,
+   "archived": false,
+   "stars": 307,
+   "language": "Ruby",
+   "language_color": "#701516",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019
+   ],
+   "total": 1
+  },
+  {
+   "repo": "kubernetes-sigs/kustomize",
+   "owner": "kubernetes-sigs",
+   "url": "https://github.com/kubernetes-sigs/kustomize",
+   "description": "Customization of kubernetes YAML configurations",
+   "fork": false,
+   "archived": false,
+   "stars": 12189,
+   "language": "Go",
+   "language_color": "#00ADD8",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019
+   ],
+   "total": 1
+  },
+  {
+   "repo": "leanprover/verso-blueprint",
+   "owner": "leanprover",
+   "url": "https://github.com/leanprover/verso-blueprint",
+   "description": "Build structured Proof Blueprints with Verso",
+   "fork": false,
+   "archived": false,
+   "stars": 36,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2026
+   ],
+   "total": 1
+  },
+  {
+   "repo": "lightbend/cloudflow",
+   "owner": "lightbend",
+   "url": "https://github.com/lightbend/cloudflow",
+   "description": "Cloudflow enables users to quickly develop, orchestrate, and operate distributed streaming applications on Kubernetes.",
+   "fork": false,
+   "archived": true,
+   "stars": 327,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2020
+   ],
+   "total": 1
+  },
+  {
+   "repo": "mathworks-ref-arch/matlab-dockerfile",
+   "owner": "mathworks-ref-arch",
+   "url": "https://github.com/mathworks-ref-arch/matlab-dockerfile",
+   "description": "Create a docker container that contains a MATLAB install",
+   "fork": false,
+   "archived": false,
+   "stars": 421,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2023
+   ],
+   "total": 1
+  },
+  {
+   "repo": "MisterTea/EternalTerminal",
+   "owner": "MisterTea",
+   "url": "https://github.com/MisterTea/EternalTerminal",
+   "description": "Re-Connectable secure remote shell",
+   "fork": false,
+   "archived": false,
+   "stars": 3933,
+   "language": "C++",
+   "language_color": "#f34b7d",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019
+   ],
+   "total": 1
+  },
+  {
+   "repo": "NASA-IMPACT/veda-docs",
+   "owner": "NASA-IMPACT",
+   "url": "https://github.com/NASA-IMPACT/veda-docs",
+   "description": "Documentation for the VEDA Project",
+   "fork": false,
+   "archived": false,
+   "stars": 10,
+   "language": "Jupyter Notebook",
+   "language_color": "#DA5B0B",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2026
+   ],
+   "total": 1
+  },
+  {
+   "repo": "nasa/fprime",
+   "owner": "nasa",
+   "url": "https://github.com/nasa/fprime",
+   "description": "F\u00b4 - A flight software and embedded systems framework",
+   "fork": false,
+   "archived": false,
+   "stars": 11836,
+   "language": "C++",
+   "language_color": "#f34b7d",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2026
+   ],
+   "total": 1
+  },
+  {
+   "repo": "NicolasRouquette/dafny-bundle-closure",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/dafny-bundle-closure",
+   "description": "Bundle closure formalization in Dafny",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Dafny",
+   "language_color": "#FFEC25",
+   "commits": 1,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2020
+   ],
+   "total": 1
+  },
+  {
+   "repo": "NicolasRouquette/digraphs",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/digraphs",
+   "description": "Directed graphs in Lean",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 1,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2020
+   ],
+   "total": 1
+  },
+  {
+   "repo": "NicolasRouquette/oml-tutorial",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/oml-tutorial",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": null,
+   "language_color": null,
+   "commits": 1,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2021
+   ],
+   "total": 1
+  },
+  {
+   "repo": "NicolasRouquette/oml-tutorial-viewpoint",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/oml-tutorial-viewpoint",
+   "description": "A viewpoint for the Oml tutorial",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 1,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2021
+   ],
+   "total": 1
+  },
+  {
+   "repo": "NicolasRouquette/PL1580",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/PL1580",
+   "description": null,
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 1,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 1
+  },
+  {
+   "repo": "NicolasRouquette/pycontract",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/pycontract",
+   "description": null,
+   "fork": true,
+   "archived": false,
+   "stars": 0,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2025
+   ],
+   "total": 1
+  },
+  {
+   "repo": "NicolasRouquette/viper-bundle-closure",
+   "owner": "NicolasRouquette",
+   "url": "https://github.com/NicolasRouquette/viper-bundle-closure",
+   "description": "OML Bundle Closure Algorithm in the Viper verification infrastructure intermediate language",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": null,
+   "language_color": null,
+   "commits": 1,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2022
+   ],
+   "total": 1
+  },
+  {
+   "repo": "nidi3/graphviz-java",
+   "owner": "nidi3",
+   "url": "https://github.com/nidi3/graphviz-java",
+   "description": "Use graphviz with pure java",
+   "fork": false,
+   "archived": false,
+   "stars": 963,
+   "language": "Java",
+   "language_color": "#b07219",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2021
+   ],
+   "total": 1
+  },
+  {
+   "repo": "NISP-GmbH/SLURM",
+   "owner": "NISP-GmbH",
+   "url": "https://github.com/NISP-GmbH/SLURM",
+   "description": "SLURM Installer",
+   "fork": false,
+   "archived": false,
+   "stars": 43,
+   "language": "Shell",
+   "language_color": "#89e051",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2024
+   ],
+   "total": 1
+  },
+  {
+   "repo": "ohnosequences/nice-sbt-settings",
+   "owner": "ohnosequences",
+   "url": "https://github.com/ohnosequences/nice-sbt-settings",
+   "description": "sbt plugin with common settings for all era7/ohnosequences releases",
+   "fork": false,
+   "archived": false,
+   "stars": 10,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016
+   ],
+   "total": 1
+  },
+  {
+   "repo": "pawamoy/copier-pdm",
+   "owner": "pawamoy",
+   "url": "https://github.com/pawamoy/copier-pdm",
+   "description": "Copier template for Python projects managed by PDM.",
+   "fork": false,
+   "archived": false,
+   "stars": 92,
+   "language": "Jinja",
+   "language_color": "#a52a22",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2023
+   ],
+   "total": 1
+  },
+  {
+   "repo": "psxpaul/gradle-execfork-plugin",
+   "owner": "psxpaul",
+   "url": "https://github.com/psxpaul/gradle-execfork-plugin",
+   "description": "A gradle plugin that lets you define Exec and JavaExec tasks that run in the background",
+   "fork": false,
+   "archived": false,
+   "stars": 59,
+   "language": "Kotlin",
+   "language_color": "#A97BFF",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2022
+   ],
+   "total": 1
+  },
+  {
+   "repo": "rtimush/sbt-updates",
+   "owner": "rtimush",
+   "url": "https://github.com/rtimush/sbt-updates",
+   "description": "sbt plugin that can check Maven and Ivy repositories for dependency updates",
+   "fork": false,
+   "archived": false,
+   "stars": 771,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016
+   ],
+   "total": 1
+  },
+  {
+   "repo": "runtimeverification/k",
+   "owner": "runtimeverification",
+   "url": "https://github.com/runtimeverification/k",
+   "description": "K Framework Tools 7.0",
+   "fork": false,
+   "archived": false,
+   "stars": 599,
+   "language": "Python",
+   "language_color": "#3572A5",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2021
+   ],
+   "total": 1
+  },
+  {
+   "repo": "sbt/sbt-bintray",
+   "owner": "sbt",
+   "url": "https://github.com/sbt/sbt-bintray",
+   "description": "fresh packages delivered from your sbt console",
+   "fork": false,
+   "archived": true,
+   "stars": 177,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016
+   ],
+   "total": 1
+  },
+  {
+   "repo": "sbt/sbt-ghpages",
+   "owner": "sbt",
+   "url": "https://github.com/sbt/sbt-ghpages",
+   "description": "GitHub Pages support for sbt",
+   "fork": true,
+   "archived": false,
+   "stars": 93,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016
+   ],
+   "total": 1
+  },
+  {
+   "repo": "scala-js/scala-js",
+   "owner": "scala-js",
+   "url": "https://github.com/scala-js/scala-js",
+   "description": "Scala.js, the Scala to JavaScript compiler",
+   "fork": false,
+   "archived": false,
+   "stars": 4710,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2018
+   ],
+   "total": 1
+  },
+  {
+   "repo": "scala-native/scala-native",
+   "owner": "scala-native",
+   "url": "https://github.com/scala-native/scala-native",
+   "description": "Your favorite language gets closer to bare metal.",
+   "fork": false,
+   "archived": false,
+   "stars": 4704,
+   "language": "Scala",
+   "language_color": "#c22d40",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2025
+   ],
+   "total": 1
+  },
+  {
+   "repo": "siddhartha-gadgil/ProvingGround",
+   "owner": "siddhartha-gadgil",
+   "url": "https://github.com/siddhartha-gadgil/ProvingGround",
+   "description": "Proving Ground: Tools for Automated Mathematics",
+   "fork": false,
+   "archived": false,
+   "stars": 204,
+   "language": "Jupyter Notebook",
+   "language_color": "#DA5B0B",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2017
+   ],
+   "total": 1
+  },
+  {
+   "repo": "spark-notebook/spark-notebook",
+   "owner": "spark-notebook",
+   "url": "https://github.com/spark-notebook/spark-notebook",
+   "description": "Interactive and Reactive Data Science using Scala and Spark.",
+   "fork": false,
+   "archived": false,
+   "stars": 3138,
+   "language": "JavaScript",
+   "language_color": "#f1e05a",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2016
+   ],
+   "total": 1
+  },
+  {
+   "repo": "TIWG/com.nomagic.magicdraw.sysml.plugin",
+   "owner": "TIWG",
+   "url": "https://github.com/TIWG/com.nomagic.magicdraw.sysml.plugin",
+   "description": "NoMagic-vendored MagicDraw SysML plugin upload to bintray",
+   "fork": false,
+   "archived": true,
+   "stars": 0,
+   "language": null,
+   "language_color": null,
+   "commits": 1,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2016
+   ],
+   "total": 1
+  },
+  {
+   "repo": "TNO/vscode-tracy",
+   "owner": "TNO",
+   "url": "https://github.com/TNO/vscode-tracy",
+   "description": "Tracy is a Visual Studio Code plugin made to simplify log analysis",
+   "fork": false,
+   "archived": false,
+   "stars": 7,
+   "language": "TypeScript",
+   "language_color": "#3178c6",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2024
+   ],
+   "total": 1
+  },
+  {
+   "repo": "warpdotdev/warp",
+   "owner": "warpdotdev",
+   "url": "https://github.com/warpdotdev/warp",
+   "description": "Warp is an agentic development environment, born out of the terminal.",
+   "fork": false,
+   "archived": false,
+   "stars": 65708,
+   "language": "Rust",
+   "language_color": "#dea584",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2024
+   ],
+   "total": 1
+  },
+  {
+   "repo": "weaveworks/wks-quickstart-firekube",
+   "owner": "weaveworks",
+   "url": "https://github.com/weaveworks/wks-quickstart-firekube",
+   "description": "Example configuration to create Kubernetes clusters powered by ignite and gitops",
+   "fork": false,
+   "archived": true,
+   "stars": 341,
+   "language": "Shell",
+   "language_color": "#89e051",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2019
+   ],
+   "total": 1
+  },
+  {
+   "repo": "xtext/xtext-gradle-plugin",
+   "owner": "xtext",
+   "url": "https://github.com/xtext/xtext-gradle-plugin",
+   "description": "Gradle plugins for using Xtext and Xtend",
+   "fork": false,
+   "archived": false,
+   "stars": 50,
+   "language": "Xtend",
+   "language_color": "#24255d",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2017
+   ],
+   "total": 1
+  },
+  {
+   "repo": "yaml/yaml-runtimes",
+   "owner": "yaml",
+   "url": "https://github.com/yaml/yaml-runtimes",
+   "description": "YAML processor runtimes via docker",
+   "fork": false,
+   "archived": false,
+   "stars": 48,
+   "language": "Perl",
+   "language_color": "#0298c3",
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 1
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2025-10-26",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-10-27",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-10-28",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-10-29",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-10-30",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-10-31",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-01",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-02",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-03",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-04",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-05",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-06",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-07",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-08",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-09",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-10",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-11",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-12",
+   "contributionCount": 1
+  },
+  {
+   "date": "2025-11-13",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-14",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-15",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-16",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-17",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-18",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-19",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-20",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-21",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-22",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-23",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-24",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-25",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-26",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-27",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-28",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-29",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-11-30",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-01",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-02",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-03",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-04",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-05",
+   "contributionCount": 3
+  },
+  {
+   "date": "2025-12-06",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-07",
+   "contributionCount": 5
+  },
+  {
+   "date": "2025-12-08",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-09",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-10",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-11",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-12",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-13",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-14",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-15",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-16",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-17",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-18",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-19",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-20",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-21",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-22",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-23",
+   "contributionCount": 2
+  },
+  {
+   "date": "2025-12-24",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-25",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-26",
+   "contributionCount": 3
+  },
+  {
+   "date": "2025-12-27",
+   "contributionCount": 1
+  },
+  {
+   "date": "2025-12-28",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-29",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-30",
+   "contributionCount": 0
+  },
+  {
+   "date": "2025-12-31",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-01-01",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-01-02",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-01-03",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-01-04",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-01-05",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-01-06",
+   "contributionCount": 8
+  },
+  {
+   "date": "2026-01-07",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-01-08",
+   "contributionCount": 11
+  },
+  {
+   "date": "2026-01-09",
+   "contributionCount": 14
+  },
+  {
+   "date": "2026-01-10",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-01-11",
+   "contributionCount": 23
+  },
+  {
+   "date": "2026-01-12",
+   "contributionCount": 26
+  },
+  {
+   "date": "2026-01-13",
+   "contributionCount": 3
+  },
+  {
+   "date": "2026-01-14",
+   "contributionCount": 9
+  },
+  {
+   "date": "2026-01-15",
+   "contributionCount": 10
+  },
+  {
+   "date": "2026-01-16",
+   "contributionCount": 11
+  },
+  {
+   "date": "2026-01-17",
+   "contributionCount": 20
+  },
+  {
+   "date": "2026-01-18",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-01-19",
+   "contributionCount": 13
+  },
+  {
+   "date": "2026-01-20",
+   "contributionCount": 3
+  },
+  {
+   "date": "2026-01-21",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-01-22",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-01-23",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-01-24",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-01-25",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-01-26",
+   "contributionCount": 5
+  },
+  {
+   "date": "2026-01-27",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-01-28",
+   "contributionCount": 2
+  },
+  {
+   "date": "2026-01-29",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-01-30",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-01-31",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-02-01",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-02-02",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-02-03",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-02-04",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-02-05",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-02-06",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-02-07",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-02-08",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-02-09",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-02-10",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-02-11",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-02-12",
+   "contributionCount": 2
+  },
+  {
+   "date": "2026-02-13",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-02-14",
+   "contributionCount": 2
+  },
+  {
+   "date": "2026-02-15",
+   "contributionCount": 22
+  },
+  {
+   "date": "2026-02-16",
+   "contributionCount": 25
+  },
+  {
+   "date": "2026-02-17",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-02-18",
+   "contributionCount": 12
+  },
+  {
+   "date": "2026-02-19",
+   "contributionCount": 19
+  },
+  {
+   "date": "2026-02-20",
+   "contributionCount": 13
+  },
+  {
+   "date": "2026-02-21",
+   "contributionCount": 26
+  },
+  {
+   "date": "2026-02-22",
+   "contributionCount": 44
+  },
+  {
+   "date": "2026-02-23",
+   "contributionCount": 10
+  },
+  {
+   "date": "2026-02-24",
+   "contributionCount": 15
+  },
+  {
+   "date": "2026-02-25",
+   "contributionCount": 17
+  },
+  {
+   "date": "2026-02-26",
+   "contributionCount": 56
+  },
+  {
+   "date": "2026-02-27",
+   "contributionCount": 37
+  },
+  {
+   "date": "2026-02-28",
+   "contributionCount": 22
+  },
+  {
+   "date": "2026-03-01",
+   "contributionCount": 36
+  },
+  {
+   "date": "2026-03-02",
+   "contributionCount": 29
+  },
+  {
+   "date": "2026-03-03",
+   "contributionCount": 23
+  },
+  {
+   "date": "2026-03-04",
+   "contributionCount": 43
+  },
+  {
+   "date": "2026-03-05",
+   "contributionCount": 29
+  },
+  {
+   "date": "2026-03-06",
+   "contributionCount": 2
+  },
+  {
+   "date": "2026-03-07",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-03-08",
+   "contributionCount": 14
+  },
+  {
+   "date": "2026-03-09",
+   "contributionCount": 29
+  },
+  {
+   "date": "2026-03-10",
+   "contributionCount": 30
+  },
+  {
+   "date": "2026-03-11",
+   "contributionCount": 61
+  },
+  {
+   "date": "2026-03-12",
+   "contributionCount": 22
+  },
+  {
+   "date": "2026-03-13",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-03-14",
+   "contributionCount": 10
+  },
+  {
+   "date": "2026-03-15",
+   "contributionCount": 20
+  },
+  {
+   "date": "2026-03-16",
+   "contributionCount": 7
+  },
+  {
+   "date": "2026-03-17",
+   "contributionCount": 8
+  },
+  {
+   "date": "2026-03-18",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-03-19",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-03-20",
+   "contributionCount": 18
+  },
+  {
+   "date": "2026-03-21",
+   "contributionCount": 13
+  },
+  {
+   "date": "2026-03-22",
+   "contributionCount": 14
+  },
+  {
+   "date": "2026-03-23",
+   "contributionCount": 5
+  },
+  {
+   "date": "2026-03-24",
+   "contributionCount": 7
+  },
+  {
+   "date": "2026-03-25",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-03-26",
+   "contributionCount": 5
+  },
+  {
+   "date": "2026-03-27",
+   "contributionCount": 7
+  },
+  {
+   "date": "2026-03-28",
+   "contributionCount": 7
+  },
+  {
+   "date": "2026-03-29",
+   "contributionCount": 13
+  },
+  {
+   "date": "2026-03-30",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-03-31",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-04-01",
+   "contributionCount": 15
+  },
+  {
+   "date": "2026-04-02",
+   "contributionCount": 13
+  },
+  {
+   "date": "2026-04-03",
+   "contributionCount": 17
+  },
+  {
+   "date": "2026-04-04",
+   "contributionCount": 24
+  },
+  {
+   "date": "2026-04-05",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-04-06",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-04-07",
+   "contributionCount": 8
+  },
+  {
+   "date": "2026-04-08",
+   "contributionCount": 5
+  },
+  {
+   "date": "2026-04-09",
+   "contributionCount": 17
+  },
+  {
+   "date": "2026-04-10",
+   "contributionCount": 5
+  },
+  {
+   "date": "2026-04-11",
+   "contributionCount": 12
+  },
+  {
+   "date": "2026-04-12",
+   "contributionCount": 12
+  },
+  {
+   "date": "2026-04-13",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-04-14",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-04-15",
+   "contributionCount": 7
+  },
+  {
+   "date": "2026-04-16",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-04-17",
+   "contributionCount": 15
+  },
+  {
+   "date": "2026-04-18",
+   "contributionCount": 16
+  },
+  {
+   "date": "2026-04-19",
+   "contributionCount": 15
+  },
+  {
+   "date": "2026-04-20",
+   "contributionCount": 2
+  },
+  {
+   "date": "2026-04-21",
+   "contributionCount": 13
+  },
+  {
+   "date": "2026-04-22",
+   "contributionCount": 13
+  },
+  {
+   "date": "2026-04-23",
+   "contributionCount": 17
+  },
+  {
+   "date": "2026-04-24",
+   "contributionCount": 5
+  },
+  {
+   "date": "2026-04-25",
+   "contributionCount": 12
+  },
+  {
+   "date": "2026-04-26",
+   "contributionCount": 12
+  },
+  {
+   "date": "2026-04-27",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-04-28",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-04-29",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-04-30",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-01",
+   "contributionCount": 5
+  },
+  {
+   "date": "2026-05-02",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-03",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-05-04",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-05",
+   "contributionCount": 3
+  },
+  {
+   "date": "2026-05-06",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-07",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-08",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-09",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-05-10",
+   "contributionCount": 11
+  },
+  {
+   "date": "2026-05-11",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-05-12",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-13",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-14",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-15",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-05-16",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-17",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-18",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-19",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-20",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-21",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-22",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-05-23",
+   "contributionCount": 44
+  },
+  {
+   "date": "2026-05-24",
+   "contributionCount": 28
+  },
+  {
+   "date": "2026-05-25",
+   "contributionCount": 34
+  },
+  {
+   "date": "2026-05-26",
+   "contributionCount": 46
+  },
+  {
+   "date": "2026-05-27",
+   "contributionCount": 24
+  },
+  {
+   "date": "2026-05-28",
+   "contributionCount": 20
+  },
+  {
+   "date": "2026-05-29",
+   "contributionCount": 22
+  },
+  {
+   "date": "2026-05-30",
+   "contributionCount": 23
+  },
+  {
+   "date": "2026-05-31",
+   "contributionCount": 82
+  },
+  {
+   "date": "2026-06-01",
+   "contributionCount": 95
+  },
+  {
+   "date": "2026-06-02",
+   "contributionCount": 101
+  },
+  {
+   "date": "2026-06-03",
+   "contributionCount": 125
+  },
+  {
+   "date": "2026-06-04",
+   "contributionCount": 150
+  },
+  {
+   "date": "2026-06-05",
+   "contributionCount": 145
+  },
+  {
+   "date": "2026-06-06",
+   "contributionCount": 92
+  },
+  {
+   "date": "2026-06-07",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-06-08",
+   "contributionCount": 28
+  },
+  {
+   "date": "2026-06-09",
+   "contributionCount": 83
+  },
+  {
+   "date": "2026-06-10",
+   "contributionCount": 122
+  },
+  {
+   "date": "2026-06-11",
+   "contributionCount": 143
+  },
+  {
+   "date": "2026-06-12",
+   "contributionCount": 96
+  },
+  {
+   "date": "2026-06-13",
+   "contributionCount": 107
+  },
+  {
+   "date": "2026-06-14",
+   "contributionCount": 74
+  },
+  {
+   "date": "2026-06-15",
+   "contributionCount": 43
+  },
+  {
+   "date": "2026-06-16",
+   "contributionCount": 10
+  },
+  {
+   "date": "2026-06-17",
+   "contributionCount": 14
+  },
+  {
+   "date": "2026-06-18",
+   "contributionCount": 2
+  },
+  {
+   "date": "2026-06-19",
+   "contributionCount": 10
+  },
+  {
+   "date": "2026-06-20",
+   "contributionCount": 41
+  },
+  {
+   "date": "2026-06-21",
+   "contributionCount": 26
+  },
+  {
+   "date": "2026-06-22",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-06-23",
+   "contributionCount": 9
+  },
+  {
+   "date": "2026-06-24",
+   "contributionCount": 41
+  },
+  {
+   "date": "2026-06-25",
+   "contributionCount": 45
+  },
+  {
+   "date": "2026-06-26",
+   "contributionCount": 52
+  },
+  {
+   "date": "2026-06-27",
+   "contributionCount": 36
+  },
+  {
+   "date": "2026-06-28",
+   "contributionCount": 32
+  },
+  {
+   "date": "2026-06-29",
+   "contributionCount": 20
+  },
+  {
+   "date": "2026-06-30",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-07-01",
+   "contributionCount": 30
+  },
+  {
+   "date": "2026-07-02",
+   "contributionCount": 23
+  },
+  {
+   "date": "2026-07-03",
+   "contributionCount": 8
+  },
+  {
+   "date": "2026-07-04",
+   "contributionCount": 5
+  },
+  {
+   "date": "2026-07-05",
+   "contributionCount": 11
+  },
+  {
+   "date": "2026-07-06",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-07-07",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-07-08",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-07-09",
+   "contributionCount": 3
+  },
+  {
+   "date": "2026-07-10",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-07-11",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-07-12",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-07-13",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-07-14",
+   "contributionCount": 10
+  },
+  {
+   "date": "2026-07-15",
+   "contributionCount": 11
+  },
+  {
+   "date": "2026-07-16",
+   "contributionCount": 10
+  },
+  {
+   "date": "2026-07-17",
+   "contributionCount": 5
+  },
+  {
+   "date": "2026-07-18",
+   "contributionCount": 3
+  },
+  {
+   "date": "2026-07-19",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-07-20",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-07-21",
+   "contributionCount": 21
+  },
+  {
+   "date": "2026-07-22",
+   "contributionCount": 8
+  },
+  {
+   "date": "2026-07-23",
+   "contributionCount": 15
+  },
+  {
+   "date": "2026-07-24",
+   "contributionCount": 8
+  },
+  {
+   "date": "2026-07-25",
+   "contributionCount": 3
+  },
+  {
+   "date": "2026-07-26",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-07-27",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-07-28",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-07-29",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-07-30",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-07-31",
+   "contributionCount": 9
+  },
+  {
+   "date": "2026-08-01",
+   "contributionCount": 14
+  },
+  {
+   "date": "2026-08-02",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-08-03",
+   "contributionCount": 12
+  },
+  {
+   "date": "2026-08-04",
+   "contributionCount": 11
+  },
+  {
+   "date": "2026-08-05",
+   "contributionCount": 11
+  },
+  {
+   "date": "2026-08-06",
+   "contributionCount": 12
+  },
+  {
+   "date": "2026-08-07",
+   "contributionCount": 2
+  },
+  {
+   "date": "2026-08-08",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-08-09",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-08-10",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-08-11",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-08-12",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-08-13",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-08-14",
+   "contributionCount": 5
+  },
+  {
+   "date": "2026-08-15",
+   "contributionCount": 11
+  },
+  {
+   "date": "2026-08-16",
+   "contributionCount": 33
+  },
+  {
+   "date": "2026-08-17",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-08-18",
+   "contributionCount": 7
+  },
+  {
+   "date": "2026-08-19",
+   "contributionCount": 12
+  },
+  {
+   "date": "2026-08-20",
+   "contributionCount": 21
+  },
+  {
+   "date": "2026-08-21",
+   "contributionCount": 17
+  },
+  {
+   "date": "2026-08-22",
+   "contributionCount": 33
+  },
+  {
+   "date": "2026-08-23",
+   "contributionCount": 45
+  },
+  {
+   "date": "2026-08-24",
+   "contributionCount": 45
+  },
+  {
+   "date": "2026-08-25",
+   "contributionCount": 10
+  },
+  {
+   "date": "2026-08-26",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-08-27",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-08-28",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-08-29",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-08-30",
+   "contributionCount": 14
+  },
+  {
+   "date": "2026-08-31",
+   "contributionCount": 6
+  },
+  {
+   "date": "2026-09-01",
+   "contributionCount": 33
+  },
+  {
+   "date": "2026-09-02",
+   "contributionCount": 11
+  },
+  {
+   "date": "2026-09-03",
+   "contributionCount": 2
+  },
+  {
+   "date": "2026-09-04",
+   "contributionCount": 16
+  },
+  {
+   "date": "2026-09-05",
+   "contributionCount": 31
+  },
+  {
+   "date": "2026-09-06",
+   "contributionCount": 17
+  },
+  {
+   "date": "2026-09-07",
+   "contributionCount": 11
+  },
+  {
+   "date": "2026-09-08",
+   "contributionCount": 5
+  },
+  {
+   "date": "2026-09-09",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-09-10",
+   "contributionCount": 23
+  },
+  {
+   "date": "2026-09-11",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-09-12",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-09-13",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-09-14",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-09-15",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-09-16",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-09-17",
+   "contributionCount": 2
+  },
+  {
+   "date": "2026-09-18",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-09-19",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-09-20",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-09-21",
+   "contributionCount": 7
+  },
+  {
+   "date": "2026-09-22",
+   "contributionCount": 29
+  },
+  {
+   "date": "2026-09-23",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-09-24",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-09-25",
+   "contributionCount": 2
+  },
+  {
+   "date": "2026-09-26",
+   "contributionCount": 2
+  },
+  {
+   "date": "2026-09-27",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-09-28",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-09-29",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-09-30",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-10-01",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-10-02",
+   "contributionCount": 3
+  },
+  {
+   "date": "2026-10-03",
+   "contributionCount": 10
+  },
+  {
+   "date": "2026-10-04",
+   "contributionCount": 9
+  },
+  {
+   "date": "2026-10-05",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-10-06",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-10-07",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-10-08",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-10-09",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-10-10",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-10-11",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-10-12",
+   "contributionCount": 1
+  },
+  {
+   "date": "2026-10-13",
+   "contributionCount": 4
+  },
+  {
+   "date": "2026-10-14",
+   "contributionCount": 8
+  },
+  {
+   "date": "2026-10-15",
+   "contributionCount": 0
+  },
+  {
+   "date": "2026-10-16",
+   "contributionCount": 78
+  },
+  {
+   "date": "2026-10-17",
+   "contributionCount": 47
+  },
+  {
+   "date": "2026-10-18",
+   "contributionCount": 18
+  },
+  {
+   "date": "2026-10-19",
+   "contributionCount": 10
+  },
+  {
+   "date": "2026-10-20",
+   "contributionCount": 46
+  },
+  {
+   "date": "2026-10-21",
+   "contributionCount": 20
+  },
+  {
+   "date": "2026-10-22",
+   "contributionCount": 112
+  },
+  {
+   "date": "2026-10-23",
+   "contributionCount": 67
+  },
+  {
+   "date": "2026-10-24",
+   "contributionCount": 92
+  },
+  {
+   "date": "2026-10-25",
+   "contributionCount": 113
+  },
+  {
+   "date": "2026-10-26",
+   "contributionCount": 20
+  }
+ ]
+}
