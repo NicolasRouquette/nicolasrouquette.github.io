@@ -4,16 +4,16 @@
  "profile_url": "https://github.com/NicolasRouquette",
  "kind": "github",
  "pr_label": "pull requests",
- "scope_note": "Public contributions only (1,438 further contributions are in private repositories)",
- "generated": "2026-10-26",
+ "scope_note": "Public contributions only (3,592 further contributions are in private repositories)",
+ "generated": "2026-11-02",
  "login": "NicolasRouquette",
  "since": 2012,
  "totals": {
-  "commits": 9555,
+  "commits": 9856,
   "prs": 399,
-  "reviews": 24,
+  "reviews": 96,
   "issues": 876,
-  "restricted": 1438
+  "restricted": 3592
  },
  "years": {
   "2012": {
@@ -101,9 +101,9 @@
    "issues": 10
   },
   "2026": {
-   "commits": 3650,
+   "commits": 3951,
    "prs": 49,
-   "reviews": 2,
+   "reviews": 74,
    "issues": 21
   }
  },
@@ -120,11 +120,11 @@
   {
    "owner": "nasa-jpl",
    "repos": 5,
-   "commits": 3384,
+   "commits": 3486,
    "prs": 7,
-   "reviews": 2,
+   "reviews": 51,
    "issues": 4,
-   "total": 3397
+   "total": 3548
   },
   {
    "owner": "TIWG",
@@ -152,6 +152,15 @@
    "reviews": 4,
    "issues": 54,
    "total": 258
+  },
+  {
+   "owner": "Open-MBEE",
+   "repos": 2,
+   "commits": 199,
+   "prs": 0,
+   "reviews": 23,
+   "issues": 0,
+   "total": 222
   },
   {
    "owner": "pacti-org",
@@ -1022,12 +1031,12 @@
    "language_color": null,
    "commits": 2737,
    "prs": 3,
-   "reviews": 2,
+   "reviews": 25,
    "issues": 2,
    "years": [
     2026
    ],
-   "total": 2744
+   "total": 2767
   },
   {
    "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml",
@@ -1058,17 +1067,17 @@
    "description": "A Lean 4 formalization of Ren\u00e9 Dybk\u00e6r's An Ontology on Property for Physical, Chemical, and Biological Systems (2009)",
    "fork": false,
    "archived": false,
-   "stars": 11,
+   "stars": 12,
    "language": "Lean",
    "language_color": null,
-   "commits": 642,
+   "commits": 744,
    "prs": 1,
-   "reviews": 0,
+   "reviews": 26,
    "issues": 0,
    "years": [
     2026
    ],
-   "total": 643
+   "total": 771
   },
   {
    "repo": "JPL-IMCE/gov.nasa.jpl.omf.scala.binding.owlapi",
@@ -1285,6 +1294,25 @@
     2019
    ],
    "total": 217
+  },
+  {
+   "repo": "Open-MBEE/OpenSysML",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/OpenSysML",
+   "description": "Open Source SysML v2 Implementation in Go",
+   "fork": false,
+   "archived": false,
+   "stars": 52,
+   "language": "Go",
+   "language_color": "#00ADD8",
+   "commits": 189,
+   "prs": 0,
+   "reviews": 23,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 212
   },
   {
    "repo": "JPL-IMCE/imce.dynamic_scripts.magicdraw.plugin",
@@ -1853,7 +1881,7 @@
    "description": " TorchLean is the first unified Lean 4 framework for neural-network specification, execution, and verification. ",
    "fork": false,
    "archived": false,
-   "stars": 182,
+   "stars": 192,
    "language": "Lean",
    "language_color": null,
    "commits": 11,
@@ -2212,7 +2240,7 @@
    "description": "A project to digitalise results from physics into Lean.",
    "fork": false,
    "archived": false,
-   "stars": 808,
+   "stars": 818,
    "language": "Lean",
    "language_color": null,
    "commits": 6,
@@ -2271,7 +2299,7 @@
    "description": "Document Generator for Lean 4",
    "fork": false,
    "archived": false,
-   "stars": 175,
+   "stars": 177,
    "language": "Lean",
    "language_color": null,
    "commits": 4,
@@ -2407,7 +2435,7 @@
    "description": "Lean 4 programming language and theorem prover",
    "fork": false,
    "archived": false,
-   "stars": 9675,
+   "stars": 9821,
    "language": "Lean",
    "language_color": null,
    "commits": 2,
@@ -2416,6 +2444,25 @@
    "issues": 6,
    "years": [
     2025,
+    2026
+   ],
+   "total": 10
+  },
+  {
+   "repo": "Open-MBEE/OpenSysML-Extensions-Library",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/OpenSysML-Extensions-Library",
+   "description": "Community Repository for SysML v2 Extensions for OpenSysML",
+   "fork": false,
+   "archived": false,
+   "stars": 1,
+   "language": "Shell",
+   "language_color": "#89e051",
+   "commits": 10,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
     2026
    ],
    "total": 10
@@ -2507,7 +2554,7 @@
    "description": "OWL API main repository",
    "fork": false,
    "archived": false,
-   "stars": 942,
+   "stars": 944,
    "language": "Java",
    "language_color": "#b07219",
    "commits": 3,
@@ -2547,7 +2594,7 @@
    "description": "A minimal, idiomatic Scala interface for HTTP",
    "fork": false,
    "archived": false,
-   "stars": 2627,
+   "stars": 2626,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 5,
@@ -2758,7 +2805,7 @@
    "description": "sbt, the interactive build tool",
    "fork": false,
    "archived": false,
-   "stars": 4952,
+   "stars": 4953,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -2876,7 +2923,7 @@
    "description": "JSON-LD implementation for Java",
    "fork": false,
    "archived": false,
-   "stars": 387,
+   "stars": 386,
    "language": "Java",
    "language_color": "#b07219",
    "commits": 1,
@@ -3165,7 +3212,7 @@
    "description": "Kubernetes website and documentation repo: ",
    "fork": false,
    "archived": false,
-   "stars": 5413,
+   "stars": 5417,
    "language": "HTML",
    "language_color": "#e34c26",
    "commits": 1,
@@ -3184,7 +3231,7 @@
    "description": "Lean documentation authoring tool",
    "fork": false,
    "archived": false,
-   "stars": 398,
+   "stars": 405,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -3280,7 +3327,7 @@
    "description": "Scala GraphQL implementation",
    "fork": false,
    "archived": false,
-   "stars": 1962,
+   "stars": 1963,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -3300,7 +3347,7 @@
    "description": "sbt Native Packager",
    "fork": false,
    "archived": false,
-   "stars": 1606,
+   "stars": 1607,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 1,
@@ -3319,7 +3366,7 @@
    "description": "Code formatter for Scala",
    "fork": false,
    "archived": false,
-   "stars": 1490,
+   "stars": 1491,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -3338,7 +3385,7 @@
    "description": "A cloud-native Pipeline resource.",
    "fork": false,
    "archived": false,
-   "stars": 9090,
+   "stars": 9093,
    "language": "Go",
    "language_color": "#00ADD8",
    "commits": 0,
@@ -3414,7 +3461,7 @@
    "description": "Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.",
    "fork": false,
    "archived": false,
-   "stars": 6666,
+   "stars": 6668,
    "language": "Java",
    "language_color": "#b07219",
    "commits": 0,
@@ -3607,7 +3654,7 @@
    "description": "JPype is cross language bridge to allow Python programs full access to Java class libraries.",
    "fork": false,
    "archived": false,
-   "stars": 1295,
+   "stars": 1296,
    "language": "Python",
    "language_color": "#3572A5",
    "commits": 0,
@@ -3626,7 +3673,7 @@
    "description": "Reactive Microservices for the JVM",
    "fork": false,
    "archived": false,
-   "stars": 2629,
+   "stars": 2630,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -3665,7 +3712,7 @@
    "description": "The \"batteries included\" extended library for the Lean programming language and theorem prover",
    "fork": false,
    "archived": false,
-   "stars": 425,
+   "stars": 428,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -3684,7 +3731,7 @@
    "description": null,
    "fork": false,
    "archived": false,
-   "stars": 18,
+   "stars": 19,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -3722,7 +3769,7 @@
    "description": "A guide for converting a simple JavaScript/React project to TypeScript. Contains both before an after code with the step-by-step process in the README below.",
    "fork": false,
    "archived": true,
-   "stars": 1430,
+   "stars": 1429,
    "language": "JavaScript",
    "language_color": "#f1e05a",
    "commits": 0,
@@ -3950,7 +3997,7 @@
    "description": "The Scala 3 compiler, also known as Dotty.",
    "fork": false,
    "archived": false,
-   "stars": 6327,
+   "stars": 6333,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -3970,7 +4017,7 @@
    "description": "Slick (Scala Language Integrated Connection Kit) is a modern database query and access library for Scala",
    "fork": false,
    "archived": false,
-   "stars": 2665,
+   "stars": 2666,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -4141,7 +4188,7 @@
    "description": null,
    "fork": false,
    "archived": false,
-   "stars": 1270,
+   "stars": 1269,
    "language": "Groovy",
    "language_color": "#4298b8",
    "commits": 0,
@@ -4160,7 +4207,7 @@
    "description": "Pure Scala Artifact Fetching",
    "fork": false,
    "archived": false,
-   "stars": 2140,
+   "stars": 2141,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -4217,7 +4264,7 @@
    "description": "A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own",
    "fork": false,
    "archived": false,
-   "stars": 1551,
+   "stars": 1552,
    "language": "Shell",
    "language_color": "#89e051",
    "commits": 0,
@@ -4274,7 +4321,7 @@
    "description": "The efficient SMT-based context-bounded model checker (ESBMC)",
    "fork": false,
    "archived": false,
-   "stars": 533,
+   "stars": 537,
    "language": "C++",
    "language_color": "#f34b7d",
    "commits": 0,
@@ -4312,7 +4359,7 @@
    "description": "The Git interface you've been missing all your life has finally arrived.",
    "fork": false,
    "archived": false,
-   "stars": 12148,
+   "stars": 12152,
    "language": "Objective-C",
    "language_color": "#438eff",
    "commits": 0,
@@ -4350,7 +4397,7 @@
    "description": "bandwidth monitor and rate estimator",
    "fork": false,
    "archived": false,
-   "stars": 1396,
+   "stars": 1400,
    "language": "C",
    "language_color": "#555555",
    "commits": 0,
@@ -4426,7 +4473,7 @@
    "description": "draw.io is a JavaScript, client-side editor for general diagramming.",
    "fork": false,
    "archived": false,
-   "stars": 8992,
+   "stars": 9128,
    "language": "JavaScript",
    "language_color": "#f1e05a",
    "commits": 0,
@@ -4559,7 +4606,7 @@
    "description": "Customization of kubernetes YAML configurations",
    "fork": false,
    "archived": false,
-   "stars": 12189,
+   "stars": 12191,
    "language": "Go",
    "language_color": "#00ADD8",
    "commits": 0,
@@ -4578,7 +4625,7 @@
    "description": "Build structured Proof Blueprints with Verso",
    "fork": false,
    "archived": false,
-   "stars": 36,
+   "stars": 40,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -4635,7 +4682,7 @@
    "description": "Re-Connectable secure remote shell",
    "fork": false,
    "archived": false,
-   "stars": 3933,
+   "stars": 3937,
    "language": "C++",
    "language_color": "#f34b7d",
    "commits": 0,
@@ -4673,7 +4720,7 @@
    "description": "F\u00b4 - A flight software and embedded systems framework",
    "fork": false,
    "archived": false,
-   "stars": 11836,
+   "stars": 11855,
    "language": "C++",
    "language_color": "#f34b7d",
    "commits": 0,
@@ -4825,7 +4872,7 @@
    "description": "Use graphviz with pure java",
    "fork": false,
    "archived": false,
-   "stars": 963,
+   "stars": 962,
    "language": "Java",
    "language_color": "#b07219",
    "commits": 0,
@@ -4939,7 +4986,7 @@
    "description": "K Framework Tools 7.0",
    "fork": false,
    "archived": false,
-   "stars": 599,
+   "stars": 603,
    "language": "Python",
    "language_color": "#3572A5",
    "commits": 0,
@@ -4996,7 +5043,7 @@
    "description": "Scala.js, the Scala to JavaScript compiler",
    "fork": false,
    "archived": false,
-   "stars": 4710,
+   "stars": 4708,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -5015,7 +5062,7 @@
    "description": "Your favorite language gets closer to bare metal.",
    "fork": false,
    "archived": false,
-   "stars": 4704,
+   "stars": 4705,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -5034,7 +5081,7 @@
    "description": "Proving Ground: Tools for Automated Mathematics",
    "fork": false,
    "archived": false,
-   "stars": 204,
+   "stars": 205,
    "language": "Jupyter Notebook",
    "language_color": "#DA5B0B",
    "commits": 0,
@@ -5053,7 +5100,7 @@
    "description": "Interactive and Reactive Data Science using Scala and Spark.",
    "fork": false,
    "archived": false,
-   "stars": 3138,
+   "stars": 3137,
    "language": "JavaScript",
    "language_color": "#f1e05a",
    "commits": 0,
@@ -5110,7 +5157,7 @@
    "description": "Warp is an agentic development environment, born out of the terminal.",
    "fork": false,
    "archived": false,
-   "stars": 65708,
+   "stars": 65828,
    "language": "Rust",
    "language_color": "#dea584",
    "commits": 0,
@@ -5182,34 +5229,6 @@
  ],
  "calendar": [
   {
-   "date": "2025-10-26",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-10-27",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-10-28",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-10-29",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-10-30",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-10-31",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-11-01",
-   "contributionCount": 0
-  },
-  {
    "date": "2025-11-02",
    "contributionCount": 0
   },
@@ -5259,7 +5278,7 @@
   },
   {
    "date": "2025-11-14",
-   "contributionCount": 0
+   "contributionCount": 1
   },
   {
    "date": "2025-11-15",
@@ -5275,7 +5294,7 @@
   },
   {
    "date": "2025-11-18",
-   "contributionCount": 0
+   "contributionCount": 3
   },
   {
    "date": "2025-11-19",
@@ -5355,7 +5374,7 @@
   },
   {
    "date": "2025-12-08",
-   "contributionCount": 0
+   "contributionCount": 1
   },
   {
    "date": "2025-12-09",
@@ -5391,7 +5410,7 @@
   },
   {
    "date": "2025-12-17",
-   "contributionCount": 0
+   "contributionCount": 1
   },
   {
    "date": "2025-12-18",
@@ -5567,7 +5586,7 @@
   },
   {
    "date": "2026-01-30",
-   "contributionCount": 1
+   "contributionCount": 2
   },
   {
    "date": "2026-01-31",
@@ -5591,7 +5610,7 @@
   },
   {
    "date": "2026-02-05",
-   "contributionCount": 0
+   "contributionCount": 1
   },
   {
    "date": "2026-02-06",
@@ -5603,7 +5622,7 @@
   },
   {
    "date": "2026-02-08",
-   "contributionCount": 0
+   "contributionCount": 1
   },
   {
    "date": "2026-02-09",
@@ -5611,15 +5630,15 @@
   },
   {
    "date": "2026-02-10",
-   "contributionCount": 1
+   "contributionCount": 2
   },
   {
    "date": "2026-02-11",
-   "contributionCount": 0
+   "contributionCount": 1
   },
   {
    "date": "2026-02-12",
-   "contributionCount": 2
+   "contributionCount": 3
   },
   {
    "date": "2026-02-13",
@@ -5627,7 +5646,7 @@
   },
   {
    "date": "2026-02-14",
-   "contributionCount": 2
+   "contributionCount": 3
   },
   {
    "date": "2026-02-15",
@@ -5635,7 +5654,7 @@
   },
   {
    "date": "2026-02-16",
-   "contributionCount": 25
+   "contributionCount": 27
   },
   {
    "date": "2026-02-17",
@@ -5647,7 +5666,7 @@
   },
   {
    "date": "2026-02-19",
-   "contributionCount": 19
+   "contributionCount": 21
   },
   {
    "date": "2026-02-20",
@@ -5663,7 +5682,7 @@
   },
   {
    "date": "2026-02-23",
-   "contributionCount": 10
+   "contributionCount": 11
   },
   {
    "date": "2026-02-24",
@@ -5691,7 +5710,7 @@
   },
   {
    "date": "2026-03-02",
-   "contributionCount": 29
+   "contributionCount": 30
   },
   {
    "date": "2026-03-03",
@@ -5703,7 +5722,7 @@
   },
   {
    "date": "2026-03-05",
-   "contributionCount": 29
+   "contributionCount": 31
   },
   {
    "date": "2026-03-06",
@@ -5727,7 +5746,7 @@
   },
   {
    "date": "2026-03-11",
-   "contributionCount": 61
+   "contributionCount": 62
   },
   {
    "date": "2026-03-12",
@@ -5815,7 +5834,7 @@
   },
   {
    "date": "2026-04-02",
-   "contributionCount": 13
+   "contributionCount": 15
   },
   {
    "date": "2026-04-03",
@@ -5863,7 +5882,7 @@
   },
   {
    "date": "2026-04-14",
-   "contributionCount": 6
+   "contributionCount": 9
   },
   {
    "date": "2026-04-15",
@@ -5975,7 +5994,7 @@
   },
   {
    "date": "2026-05-12",
-   "contributionCount": 0
+   "contributionCount": 1
   },
   {
    "date": "2026-05-13",
@@ -5983,7 +6002,7 @@
   },
   {
    "date": "2026-05-14",
-   "contributionCount": 0
+   "contributionCount": 1
   },
   {
    "date": "2026-05-15",
@@ -6031,15 +6050,15 @@
   },
   {
    "date": "2026-05-26",
-   "contributionCount": 46
+   "contributionCount": 47
   },
   {
    "date": "2026-05-27",
-   "contributionCount": 24
+   "contributionCount": 25
   },
   {
    "date": "2026-05-28",
-   "contributionCount": 20
+   "contributionCount": 21
   },
   {
    "date": "2026-05-29",
@@ -6055,23 +6074,23 @@
   },
   {
    "date": "2026-06-01",
-   "contributionCount": 95
+   "contributionCount": 99
   },
   {
    "date": "2026-06-02",
-   "contributionCount": 101
+   "contributionCount": 111
   },
   {
    "date": "2026-06-03",
-   "contributionCount": 125
+   "contributionCount": 126
   },
   {
    "date": "2026-06-04",
-   "contributionCount": 150
+   "contributionCount": 153
   },
   {
    "date": "2026-06-05",
-   "contributionCount": 145
+   "contributionCount": 151
   },
   {
    "date": "2026-06-06",
@@ -6083,19 +6102,19 @@
   },
   {
    "date": "2026-06-08",
-   "contributionCount": 28
+   "contributionCount": 31
   },
   {
    "date": "2026-06-09",
-   "contributionCount": 83
+   "contributionCount": 85
   },
   {
    "date": "2026-06-10",
-   "contributionCount": 122
+   "contributionCount": 123
   },
   {
    "date": "2026-06-11",
-   "contributionCount": 143
+   "contributionCount": 145
   },
   {
    "date": "2026-06-12",
@@ -6111,11 +6130,11 @@
   },
   {
    "date": "2026-06-15",
-   "contributionCount": 43
+   "contributionCount": 45
   },
   {
    "date": "2026-06-16",
-   "contributionCount": 10
+   "contributionCount": 12
   },
   {
    "date": "2026-06-17",
@@ -6123,7 +6142,7 @@
   },
   {
    "date": "2026-06-18",
-   "contributionCount": 2
+   "contributionCount": 3
   },
   {
    "date": "2026-06-19",
@@ -6143,11 +6162,11 @@
   },
   {
    "date": "2026-06-23",
-   "contributionCount": 9
+   "contributionCount": 14
   },
   {
    "date": "2026-06-24",
-   "contributionCount": 41
+   "contributionCount": 46
   },
   {
    "date": "2026-06-25",
@@ -6167,11 +6186,11 @@
   },
   {
    "date": "2026-06-29",
-   "contributionCount": 20
+   "contributionCount": 24
   },
   {
    "date": "2026-06-30",
-   "contributionCount": 6
+   "contributionCount": 7
   },
   {
    "date": "2026-07-01",
@@ -6179,7 +6198,7 @@
   },
   {
    "date": "2026-07-02",
-   "contributionCount": 23
+   "contributionCount": 24
   },
   {
    "date": "2026-07-03",
@@ -6191,7 +6210,7 @@
   },
   {
    "date": "2026-07-05",
-   "contributionCount": 11
+   "contributionCount": 12
   },
   {
    "date": "2026-07-06",
@@ -6203,11 +6222,11 @@
   },
   {
    "date": "2026-07-08",
-   "contributionCount": 1
+   "contributionCount": 2
   },
   {
    "date": "2026-07-09",
-   "contributionCount": 3
+   "contributionCount": 6
   },
   {
    "date": "2026-07-10",
@@ -6227,7 +6246,7 @@
   },
   {
    "date": "2026-07-14",
-   "contributionCount": 10
+   "contributionCount": 11
   },
   {
    "date": "2026-07-15",
@@ -6251,51 +6270,51 @@
   },
   {
    "date": "2026-07-20",
-   "contributionCount": 6
+   "contributionCount": 11
   },
   {
    "date": "2026-07-21",
-   "contributionCount": 21
+   "contributionCount": 26
   },
   {
    "date": "2026-07-22",
-   "contributionCount": 8
+   "contributionCount": 10
   },
   {
    "date": "2026-07-23",
-   "contributionCount": 15
+   "contributionCount": 21
   },
   {
    "date": "2026-07-24",
-   "contributionCount": 8
+   "contributionCount": 16
   },
   {
    "date": "2026-07-25",
-   "contributionCount": 3
+   "contributionCount": 5
   },
   {
    "date": "2026-07-26",
-   "contributionCount": 6
+   "contributionCount": 9
   },
   {
    "date": "2026-07-27",
-   "contributionCount": 4
+   "contributionCount": 6
   },
   {
    "date": "2026-07-28",
-   "contributionCount": 6
+   "contributionCount": 9
   },
   {
    "date": "2026-07-29",
-   "contributionCount": 6
+   "contributionCount": 10
   },
   {
    "date": "2026-07-30",
-   "contributionCount": 6
+   "contributionCount": 11
   },
   {
    "date": "2026-07-31",
-   "contributionCount": 9
+   "contributionCount": 11
   },
   {
    "date": "2026-08-01",
@@ -6307,107 +6326,107 @@
   },
   {
    "date": "2026-08-03",
-   "contributionCount": 12
+   "contributionCount": 16
   },
   {
    "date": "2026-08-04",
-   "contributionCount": 11
+   "contributionCount": 13
   },
   {
    "date": "2026-08-05",
-   "contributionCount": 11
+   "contributionCount": 13
   },
   {
    "date": "2026-08-06",
-   "contributionCount": 12
+   "contributionCount": 26
   },
   {
    "date": "2026-08-07",
-   "contributionCount": 2
+   "contributionCount": 6
   },
   {
    "date": "2026-08-08",
-   "contributionCount": 0
+   "contributionCount": 16
   },
   {
    "date": "2026-08-09",
-   "contributionCount": 0
+   "contributionCount": 8
   },
   {
    "date": "2026-08-10",
-   "contributionCount": 6
+   "contributionCount": 14
   },
   {
    "date": "2026-08-11",
-   "contributionCount": 0
-  },
-  {
-   "date": "2026-08-12",
-   "contributionCount": 0
-  },
-  {
-   "date": "2026-08-13",
-   "contributionCount": 0
-  },
-  {
-   "date": "2026-08-14",
    "contributionCount": 5
   },
   {
+   "date": "2026-08-12",
+   "contributionCount": 9
+  },
+  {
+   "date": "2026-08-13",
+   "contributionCount": 5
+  },
+  {
+   "date": "2026-08-14",
+   "contributionCount": 6
+  },
+  {
    "date": "2026-08-15",
-   "contributionCount": 11
+   "contributionCount": 23
   },
   {
    "date": "2026-08-16",
-   "contributionCount": 33
+   "contributionCount": 80
   },
   {
    "date": "2026-08-17",
-   "contributionCount": 0
+   "contributionCount": 2
   },
   {
    "date": "2026-08-18",
-   "contributionCount": 7
+   "contributionCount": 22
   },
   {
    "date": "2026-08-19",
-   "contributionCount": 12
+   "contributionCount": 26
   },
   {
    "date": "2026-08-20",
-   "contributionCount": 21
+   "contributionCount": 35
   },
   {
    "date": "2026-08-21",
-   "contributionCount": 17
+   "contributionCount": 35
   },
   {
    "date": "2026-08-22",
-   "contributionCount": 33
+   "contributionCount": 34
   },
   {
    "date": "2026-08-23",
-   "contributionCount": 45
+   "contributionCount": 49
   },
   {
    "date": "2026-08-24",
-   "contributionCount": 45
+   "contributionCount": 52
   },
   {
    "date": "2026-08-25",
-   "contributionCount": 10
+   "contributionCount": 23
   },
   {
    "date": "2026-08-26",
-   "contributionCount": 4
+   "contributionCount": 14
   },
   {
    "date": "2026-08-27",
-   "contributionCount": 1
+   "contributionCount": 11
   },
   {
    "date": "2026-08-28",
-   "contributionCount": 6
+   "contributionCount": 18
   },
   {
    "date": "2026-08-29",
@@ -6419,7 +6438,7 @@
   },
   {
    "date": "2026-08-31",
-   "contributionCount": 6
+   "contributionCount": 18
   },
   {
    "date": "2026-09-01",
@@ -6427,7 +6446,7 @@
   },
   {
    "date": "2026-09-02",
-   "contributionCount": 11
+   "contributionCount": 15
   },
   {
    "date": "2026-09-03",
@@ -6439,7 +6458,7 @@
   },
   {
    "date": "2026-09-05",
-   "contributionCount": 31
+   "contributionCount": 35
   },
   {
    "date": "2026-09-06",
@@ -6447,7 +6466,7 @@
   },
   {
    "date": "2026-09-07",
-   "contributionCount": 11
+   "contributionCount": 12
   },
   {
    "date": "2026-09-08",
@@ -6463,19 +6482,19 @@
   },
   {
    "date": "2026-09-11",
-   "contributionCount": 0
+   "contributionCount": 10
   },
   {
    "date": "2026-09-12",
-   "contributionCount": 1
+   "contributionCount": 14
   },
   {
    "date": "2026-09-13",
-   "contributionCount": 0
+   "contributionCount": 1
   },
   {
    "date": "2026-09-14",
-   "contributionCount": 0
+   "contributionCount": 2
   },
   {
    "date": "2026-09-15",
@@ -6503,11 +6522,11 @@
   },
   {
    "date": "2026-09-21",
-   "contributionCount": 7
+   "contributionCount": 8
   },
   {
    "date": "2026-09-22",
-   "contributionCount": 29
+   "contributionCount": 38
   },
   {
    "date": "2026-09-23",
@@ -6519,7 +6538,7 @@
   },
   {
    "date": "2026-09-25",
-   "contributionCount": 2
+   "contributionCount": 5
   },
   {
    "date": "2026-09-26",
@@ -6535,7 +6554,7 @@
   },
   {
    "date": "2026-09-29",
-   "contributionCount": 4
+   "contributionCount": 5
   },
   {
    "date": "2026-09-30",
@@ -6543,7 +6562,7 @@
   },
   {
    "date": "2026-10-01",
-   "contributionCount": 0
+   "contributionCount": 3
   },
   {
    "date": "2026-10-02",
@@ -6551,7 +6570,7 @@
   },
   {
    "date": "2026-10-03",
-   "contributionCount": 10
+   "contributionCount": 12
   },
   {
    "date": "2026-10-04",
@@ -6563,7 +6582,7 @@
   },
   {
    "date": "2026-10-06",
-   "contributionCount": 0
+   "contributionCount": 2
   },
   {
    "date": "2026-10-07",
@@ -6571,11 +6590,11 @@
   },
   {
    "date": "2026-10-08",
-   "contributionCount": 1
+   "contributionCount": 3
   },
   {
    "date": "2026-10-09",
-   "contributionCount": 1
+   "contributionCount": 4
   },
   {
    "date": "2026-10-10",
@@ -6591,7 +6610,7 @@
   },
   {
    "date": "2026-10-13",
-   "contributionCount": 4
+   "contributionCount": 8
   },
   {
    "date": "2026-10-14",
@@ -6623,11 +6642,11 @@
   },
   {
    "date": "2026-10-21",
-   "contributionCount": 20
+   "contributionCount": 26
   },
   {
    "date": "2026-10-22",
-   "contributionCount": 112
+   "contributionCount": 114
   },
   {
    "date": "2026-10-23",
@@ -6643,7 +6662,35 @@
   },
   {
    "date": "2026-10-26",
-   "contributionCount": 20
+   "contributionCount": 144
+  },
+  {
+   "date": "2026-10-27",
+   "contributionCount": 110
+  },
+  {
+   "date": "2026-10-28",
+   "contributionCount": 66
+  },
+  {
+   "date": "2026-10-29",
+   "contributionCount": 432
+  },
+  {
+   "date": "2026-10-30",
+   "contributionCount": 346
+  },
+  {
+   "date": "2026-10-31",
+   "contributionCount": 313
+  },
+  {
+   "date": "2026-11-01",
+   "contributionCount": 476
+  },
+  {
+   "date": "2026-11-02",
+   "contributionCount": 79
   }
  ]
 }

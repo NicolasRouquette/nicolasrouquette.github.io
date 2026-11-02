@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26",
+ "generated": "2026-11-02",
  "count": 72,
  "publications": [
   {
@@ -11,7 +11,7 @@
     "Nicolas Rouquette"
    ],
    "year": 2026,
-   "venue": "Proceedings - IEEE Aerospace Conference",
+   "venue": "IEEE Aerospace Conference (AERO)",
    "type": "inproceedings",
    "doi": "10.1109/aero66936.2026.11520157",
    "url": "https://doi.org/10.1109/aero66936.2026.11520157",
@@ -37,7 +37,7 @@
     "Tiago Vaquero"
    ],
    "year": 2026,
-   "venue": null,
+   "venue": "AIAA Accelerating Space Commerce, Exploration, and New Discovery Conference (ASCEND)",
    "type": "inproceedings",
    "doi": "10.2514/6.2026-3019",
    "url": "https://doi.org/10.2514/6.2026-3019",
@@ -169,7 +169,7 @@
     "Nicolas Rouquette"
    ],
    "year": 2024,
-   "venue": null,
+   "venue": "AIAA AVIATION Forum",
    "type": "inproceedings",
    "doi": "10.2514/6.2024-4889",
    "url": "https://doi.org/10.2514/6.2024-4889",
@@ -219,7 +219,7 @@
     "Michel D. Ingham"
    ],
    "year": 2024,
-   "venue": null,
+   "venue": "AIAA AVIATION Forum",
    "type": "inproceedings",
    "doi": "10.2514/6.2024-4834",
    "url": "https://doi.org/10.2514/6.2024-4834",
@@ -370,7 +370,7 @@
     "Steven P Jenkins"
    ],
    "year": 2020,
-   "venue": "Proceedings - IEEE Aerospace Conference",
+   "venue": "IEEE Aerospace Conference (AERO)",
    "type": "inproceedings",
    "doi": "10.1109/aero47225.2020.9172630",
    "url": "https://doi.org/10.1109/aero47225.2020.9172630",
@@ -524,7 +524,7 @@
     "Justin Boutwell"
    ],
    "year": 2013,
-   "venue": "Proceedings - IEEE Aerospace Conference",
+   "venue": "IEEE Aerospace Conference (AERO)",
    "type": "inproceedings",
    "doi": "10.1109/aero.2013.6496979",
    "url": "https://doi.org/10.1109/aero.2013.6496979",
@@ -546,7 +546,7 @@
     "Michel D. Ingham"
    ],
    "year": 2012,
-   "venue": "Proceedings - IEEE Aerospace Conference",
+   "venue": "IEEE Aerospace Conference (AERO)",
    "type": "inproceedings",
    "doi": "10.1109/aero.2012.6187335",
    "url": "https://doi.org/10.1109/aero.2012.6187335",
@@ -592,7 +592,7 @@
     "B. Durham"
    ],
    "year": 2012,
-   "venue": "Proceedings - IEEE Aerospace Conference",
+   "venue": "IEEE Aerospace Conference (AERO)",
    "type": "inproceedings",
    "doi": "10.1109/aero.2012.6187435",
    "url": "https://doi.org/10.1109/aero.2012.6187435",
@@ -1126,7 +1126,7 @@
     "Brian C. Williams"
    ],
    "year": 2002,
-   "venue": "Proceedings - IEEE Aerospace Conference",
+   "venue": "IEEE Aerospace Conference (AERO)",
    "type": "inproceedings",
    "doi": "10.1109/aero.1998.687914",
    "url": "https://doi.org/10.1109/aero.1998.687914",
@@ -1349,7 +1349,7 @@
     "G. Chen"
    ],
    "year": 1999,
-   "venue": "Proceedings - IEEE Aerospace Conference",
+   "venue": "IEEE Aerospace Conference (AERO)",
    "type": "inproceedings",
    "doi": "10.1109/aero.1999.794354",
    "url": "https://doi.org/10.1109/aero.1999.794354",
@@ -1506,7 +1506,7 @@
     "Charles C. Robertson"
    ],
    "year": 1993,
-   "venue": "AIAA Computing in Aerospace Conference",
+   "venue": "AIAA Computers in Aerospace Conference",
    "type": "inproceedings",
    "doi": "10.2514/6.1993-4525",
    "url": "https://doi.org/10.2514/6.1993-4525",
@@ -1526,7 +1526,7 @@
     "Charles C. Robertson"
    ],
    "year": 1993,
-   "venue": "AIAA Computing in Aerospace Conference",
+   "venue": "AIAA Computers in Aerospace Conference",
    "type": "inproceedings",
    "doi": "10.2514/6.1993-4577",
    "url": "https://doi.org/10.2514/6.1993-4577",
