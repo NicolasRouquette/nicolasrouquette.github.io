@@ -4,16 +4,16 @@
  "profile_url": "https://github.com/NicolasRouquette",
  "kind": "github",
  "pr_label": "pull requests",
- "scope_note": "Public contributions only (3,592 further contributions are in private repositories)",
- "generated": "2026-11-02",
+ "scope_note": "Public contributions only (4,808 further contributions are in private repositories)",
+ "generated": "2026-11-09",
  "login": "NicolasRouquette",
  "since": 2012,
  "totals": {
-  "commits": 9856,
-  "prs": 399,
-  "reviews": 96,
+  "commits": 10002,
+  "prs": 400,
+  "reviews": 204,
   "issues": 876,
-  "restricted": 3592
+  "restricted": 4808
  },
  "years": {
   "2012": {
@@ -101,9 +101,9 @@
    "issues": 10
   },
   "2026": {
-   "commits": 3951,
-   "prs": 49,
-   "reviews": 74,
+   "commits": 4097,
+   "prs": 50,
+   "reviews": 182,
    "issues": 21
   }
  },
@@ -120,11 +120,11 @@
   {
    "owner": "nasa-jpl",
    "repos": 5,
-   "commits": 3486,
+   "commits": 3510,
    "prs": 7,
-   "reviews": 51,
+   "reviews": 126,
    "issues": 4,
-   "total": 3548
+   "total": 3647
   },
   {
    "owner": "TIWG",
@@ -134,6 +134,15 @@
    "reviews": 0,
    "issues": 6,
    "total": 1659
+  },
+  {
+   "owner": "Open-MBEE",
+   "repos": 4,
+   "commits": 320,
+   "prs": 0,
+   "reviews": 56,
+   "issues": 0,
+   "total": 376
   },
   {
    "owner": "NicolasRouquette",
@@ -152,15 +161,6 @@
    "reviews": 4,
    "issues": 54,
    "total": 258
-  },
-  {
-   "owner": "Open-MBEE",
-   "repos": 2,
-   "commits": 199,
-   "prs": 0,
-   "reviews": 23,
-   "issues": 0,
-   "total": 222
   },
   {
    "owner": "pacti-org",
@@ -502,6 +502,15 @@
    "prs": 1,
    "reviews": 0,
    "issues": 1,
+   "total": 2
+  },
+  {
+   "owner": "bergmannjg",
+   "repos": 1,
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
    "total": 2
   },
   {
@@ -1031,12 +1040,12 @@
    "language_color": null,
    "commits": 2737,
    "prs": 3,
-   "reviews": 25,
+   "reviews": 95,
    "issues": 2,
    "years": [
     2026
    ],
-   "total": 2767
+   "total": 2837
   },
   {
    "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml",
@@ -1070,14 +1079,14 @@
    "stars": 12,
    "language": "Lean",
    "language_color": null,
-   "commits": 744,
+   "commits": 768,
    "prs": 1,
-   "reviews": 26,
+   "reviews": 31,
    "issues": 0,
    "years": [
     2026
    ],
-   "total": 771
+   "total": 800
   },
   {
    "repo": "JPL-IMCE/gov.nasa.jpl.omf.scala.binding.owlapi",
@@ -1124,6 +1133,25 @@
     2019
    ],
    "total": 347
+  },
+  {
+   "repo": "Open-MBEE/OpenSysML",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/OpenSysML",
+   "description": "Open Source SysML v2 Implementation in Go",
+   "fork": false,
+   "archived": false,
+   "stars": 59,
+   "language": "Go",
+   "language_color": "#00ADD8",
+   "commits": 291,
+   "prs": 0,
+   "reviews": 51,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 342
   },
   {
    "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml.tables",
@@ -1294,25 +1322,6 @@
     2019
    ],
    "total": 217
-  },
-  {
-   "repo": "Open-MBEE/OpenSysML",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/OpenSysML",
-   "description": "Open Source SysML v2 Implementation in Go",
-   "fork": false,
-   "archived": false,
-   "stars": 52,
-   "language": "Go",
-   "language_color": "#00ADD8",
-   "commits": 189,
-   "prs": 0,
-   "reviews": 23,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 212
   },
   {
    "repo": "JPL-IMCE/imce.dynamic_scripts.magicdraw.plugin",
@@ -1738,7 +1747,7 @@
    "description": "A package for compositional system analysis and design",
    "fork": false,
    "archived": false,
-   "stars": 36,
+   "stars": 38,
    "language": "Python",
    "language_color": "#3572A5",
    "commits": 18,
@@ -1881,7 +1890,7 @@
    "description": " TorchLean is the first unified Lean 4 framework for neural-network specification, execution, and verification. ",
    "fork": false,
    "archived": false,
-   "stars": 192,
+   "stars": 208,
    "language": "Lean",
    "language_color": null,
    "commits": 11,
@@ -2104,7 +2113,7 @@
    "description": "Experiments in defining the Ontological Modeling Language in Lean4",
    "fork": false,
    "archived": false,
-   "stars": 0,
+   "stars": 1,
    "language": "Lean",
    "language_color": null,
    "commits": 21,
@@ -2116,6 +2125,25 @@
     2023
    ],
    "total": 21
+  },
+  {
+   "repo": "Open-MBEE/devin-automation",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/devin-automation",
+   "description": "Generated reports for Nicolas Rouquette",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": "HTML",
+   "language_color": "#e34c26",
+   "commits": 17,
+   "prs": 0,
+   "reviews": 3,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 20
   },
   {
    "repo": "banana-rdf/banana-rdf",
@@ -2240,7 +2268,7 @@
    "description": "A project to digitalise results from physics into Lean.",
    "fork": false,
    "archived": false,
-   "stars": 818,
+   "stars": 829,
    "language": "Lean",
    "language_color": null,
    "commits": 6,
@@ -2311,6 +2339,25 @@
     2026
    ],
    "total": 14
+  },
+  {
+   "repo": "Open-MBEE/OpenSysML-Extensions-Library",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/OpenSysML-Extensions-Library",
+   "description": "Community Repository for SysML v2 Extensions for OpenSysML",
+   "fork": false,
+   "archived": false,
+   "stars": 1,
+   "language": "Shell",
+   "language_color": "#89e051",
+   "commits": 12,
+   "prs": 0,
+   "reviews": 1,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 13
   },
   {
    "repo": "opencaesar/imce-vocabularies",
@@ -2435,7 +2482,7 @@
    "description": "Lean 4 programming language and theorem prover",
    "fork": false,
    "archived": false,
-   "stars": 9821,
+   "stars": 9925,
    "language": "Lean",
    "language_color": null,
    "commits": 2,
@@ -2444,25 +2491,6 @@
    "issues": 6,
    "years": [
     2025,
-    2026
-   ],
-   "total": 10
-  },
-  {
-   "repo": "Open-MBEE/OpenSysML-Extensions-Library",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/OpenSysML-Extensions-Library",
-   "description": "Community Repository for SysML v2 Extensions for OpenSysML",
-   "fork": false,
-   "archived": false,
-   "stars": 1,
-   "language": "Shell",
-   "language_color": "#89e051",
-   "commits": 10,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
     2026
    ],
    "total": 10
@@ -2554,7 +2582,7 @@
    "description": "OWL API main repository",
    "fork": false,
    "archived": false,
-   "stars": 944,
+   "stars": 945,
    "language": "Java",
    "language_color": "#b07219",
    "commits": 3,
@@ -2805,7 +2833,7 @@
    "description": "sbt, the interactive build tool",
    "fork": false,
    "archived": false,
-   "stars": 4953,
+   "stars": 4955,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -2826,7 +2854,7 @@
    "description": "Refactoring and linting tool for Scala",
    "fork": false,
    "archived": false,
-   "stars": 877,
+   "stars": 878,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 2,
@@ -3077,7 +3105,7 @@
    "description": "Type-level & seamless command-line argument parsing for Scala",
    "fork": false,
    "archived": false,
-   "stars": 311,
+   "stars": 312,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 1,
@@ -3212,7 +3240,7 @@
    "description": "Kubernetes website and documentation repo: ",
    "fork": false,
    "archived": false,
-   "stars": 5417,
+   "stars": 5424,
    "language": "HTML",
    "language_color": "#e34c26",
    "commits": 1,
@@ -3231,7 +3259,7 @@
    "description": "Lean documentation authoring tool",
    "fork": false,
    "archived": false,
-   "stars": 405,
+   "stars": 407,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -3366,7 +3394,7 @@
    "description": "Code formatter for Scala",
    "fork": false,
    "archived": false,
-   "stars": 1491,
+   "stars": 1493,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -3385,7 +3413,7 @@
    "description": "A cloud-native Pipeline resource.",
    "fork": false,
    "archived": false,
-   "stars": 9093,
+   "stars": 9099,
    "language": "Go",
    "language_color": "#00ADD8",
    "commits": 0,
@@ -3461,7 +3489,7 @@
    "description": "Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.",
    "fork": false,
    "archived": false,
-   "stars": 6668,
+   "stars": 6669,
    "language": "Java",
    "language_color": "#b07219",
    "commits": 0,
@@ -3494,6 +3522,25 @@
    "total": 2
   },
   {
+   "repo": "bergmannjg/leanCurl",
+   "owner": "bergmannjg",
+   "url": "https://github.com/bergmannjg/leanCurl",
+   "description": "Lean 4 bindings to libcurl",
+   "fork": false,
+   "archived": false,
+   "stars": 15,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 1,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 2
+  },
+  {
    "repo": "eclipse-cbi/targetplatform-dsl",
    "owner": "eclipse-cbi",
    "url": "https://github.com/eclipse-cbi/targetplatform-dsl",
@@ -3519,7 +3566,7 @@
    "description": "Verification framework and tool for higher-order Scala programs. https://gitlab.epfl.ch/lara/stainless",
    "fork": false,
    "archived": false,
-   "stars": 410,
+   "stars": 415,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -3654,7 +3701,7 @@
    "description": "JPype is cross language bridge to allow Python programs full access to Java class libraries.",
    "fork": false,
    "archived": false,
-   "stars": 1296,
+   "stars": 1297,
    "language": "Python",
    "language_color": "#3572A5",
    "commits": 0,
@@ -3673,7 +3720,7 @@
    "description": "Reactive Microservices for the JVM",
    "fork": false,
    "archived": false,
-   "stars": 2630,
+   "stars": 2629,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -3712,7 +3759,7 @@
    "description": "The \"batteries included\" extended library for the Lean programming language and theorem prover",
    "fork": false,
    "archived": false,
-   "stars": 428,
+   "stars": 432,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -3959,7 +4006,7 @@
    "description": "sbt plugin to create a dependency graph for your project",
    "fork": false,
    "archived": true,
-   "stars": 1243,
+   "stars": 1242,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -3997,7 +4044,7 @@
    "description": "The Scala 3 compiler, also known as Dotty.",
    "fork": false,
    "archived": false,
-   "stars": 6333,
+   "stars": 6336,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -4055,7 +4102,7 @@
    "description": "Catalog of shared Tasks and Pipelines.",
    "fork": false,
    "archived": false,
-   "stars": 737,
+   "stars": 738,
    "language": "Shell",
    "language_color": "#89e051",
    "commits": 0,
@@ -4131,7 +4178,7 @@
    "description": "Blueprint for the PNT+ Project",
    "fork": false,
    "archived": false,
-   "stars": 351,
+   "stars": 354,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -4188,7 +4235,7 @@
    "description": null,
    "fork": false,
    "archived": false,
-   "stars": 1269,
+   "stars": 1268,
    "language": "Groovy",
    "language_color": "#4298b8",
    "commits": 0,
@@ -4207,7 +4254,7 @@
    "description": "Pure Scala Artifact Fetching",
    "fork": false,
    "archived": false,
-   "stars": 2141,
+   "stars": 2142,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -4264,7 +4311,7 @@
    "description": "A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own",
    "fork": false,
    "archived": false,
-   "stars": 1552,
+   "stars": 1553,
    "language": "Shell",
    "language_color": "#89e051",
    "commits": 0,
@@ -4321,7 +4368,7 @@
    "description": "The efficient SMT-based context-bounded model checker (ESBMC)",
    "fork": false,
    "archived": false,
-   "stars": 537,
+   "stars": 543,
    "language": "C++",
    "language_color": "#f34b7d",
    "commits": 0,
@@ -4359,7 +4406,7 @@
    "description": "The Git interface you've been missing all your life has finally arrived.",
    "fork": false,
    "archived": false,
-   "stars": 12152,
+   "stars": 12159,
    "language": "Objective-C",
    "language_color": "#438eff",
    "commits": 0,
@@ -4378,7 +4425,7 @@
    "description": "GitKraken CLI Releases and Documentation",
    "fork": false,
    "archived": false,
-   "stars": 462,
+   "stars": 464,
    "language": null,
    "language_color": null,
    "commits": 0,
@@ -4397,7 +4444,7 @@
    "description": "bandwidth monitor and rate estimator",
    "fork": false,
    "archived": false,
-   "stars": 1400,
+   "stars": 1401,
    "language": "C",
    "language_color": "#555555",
    "commits": 0,
@@ -4473,7 +4520,7 @@
    "description": "draw.io is a JavaScript, client-side editor for general diagramming.",
    "fork": false,
    "archived": false,
-   "stars": 9128,
+   "stars": 9261,
    "language": "JavaScript",
    "language_color": "#f1e05a",
    "commits": 0,
@@ -4530,7 +4577,7 @@
    "description": "Generic templated configuration management for Kubernetes, Terraform and other things",
    "fork": false,
    "archived": false,
-   "stars": 1933,
+   "stars": 1932,
    "language": "Python",
    "language_color": "#3572A5",
    "commits": 0,
@@ -4606,7 +4653,7 @@
    "description": "Customization of kubernetes YAML configurations",
    "fork": false,
    "archived": false,
-   "stars": 12191,
+   "stars": 12197,
    "language": "Go",
    "language_color": "#00ADD8",
    "commits": 0,
@@ -4625,7 +4672,7 @@
    "description": "Build structured Proof Blueprints with Verso",
    "fork": false,
    "archived": false,
-   "stars": 40,
+   "stars": 48,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -4682,7 +4729,7 @@
    "description": "Re-Connectable secure remote shell",
    "fork": false,
    "archived": false,
-   "stars": 3937,
+   "stars": 3945,
    "language": "C++",
    "language_color": "#f34b7d",
    "commits": 0,
@@ -4720,7 +4767,7 @@
    "description": "F\u00b4 - A flight software and embedded systems framework",
    "fork": false,
    "archived": false,
-   "stars": 11855,
+   "stars": 11858,
    "language": "C++",
    "language_color": "#f34b7d",
    "commits": 0,
@@ -4923,6 +4970,25 @@
    "total": 1
   },
   {
+   "repo": "Open-MBEE/leanCurl",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/leanCurl",
+   "description": "Lean 4 bindings to libcurl",
+   "fork": true,
+   "archived": false,
+   "stars": 0,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 1,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 1
+  },
+  {
    "repo": "pawamoy/copier-pdm",
    "owner": "pawamoy",
    "url": "https://github.com/pawamoy/copier-pdm",
@@ -4986,7 +5052,7 @@
    "description": "K Framework Tools 7.0",
    "fork": false,
    "archived": false,
-   "stars": 603,
+   "stars": 607,
    "language": "Python",
    "language_color": "#3572A5",
    "commits": 0,
@@ -5043,7 +5109,7 @@
    "description": "Scala.js, the Scala to JavaScript compiler",
    "fork": false,
    "archived": false,
-   "stars": 4708,
+   "stars": 4707,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -5062,7 +5128,7 @@
    "description": "Your favorite language gets closer to bare metal.",
    "fork": false,
    "archived": false,
-   "stars": 4705,
+   "stars": 4706,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -5100,7 +5166,7 @@
    "description": "Interactive and Reactive Data Science using Scala and Spark.",
    "fork": false,
    "archived": false,
-   "stars": 3137,
+   "stars": 3136,
    "language": "JavaScript",
    "language_color": "#f1e05a",
    "commits": 0,
@@ -5157,7 +5223,7 @@
    "description": "Warp is an agentic development environment, born out of the terminal.",
    "fork": false,
    "archived": false,
-   "stars": 65828,
+   "stars": 65935,
    "language": "Rust",
    "language_color": "#dea584",
    "commits": 0,
@@ -5228,34 +5294,6 @@
   }
  ],
  "calendar": [
-  {
-   "date": "2025-11-02",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-11-03",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-11-04",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-11-05",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-11-06",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-11-07",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-11-08",
-   "contributionCount": 0
-  },
   {
    "date": "2025-11-09",
    "contributionCount": 0
@@ -6666,11 +6704,11 @@
   },
   {
    "date": "2026-10-27",
-   "contributionCount": 110
+   "contributionCount": 111
   },
   {
    "date": "2026-10-28",
-   "contributionCount": 66
+   "contributionCount": 67
   },
   {
    "date": "2026-10-29",
@@ -6690,7 +6728,35 @@
   },
   {
    "date": "2026-11-02",
-   "contributionCount": 79
+   "contributionCount": 335
+  },
+  {
+   "date": "2026-11-03",
+   "contributionCount": 255
+  },
+  {
+   "date": "2026-11-04",
+   "contributionCount": 249
+  },
+  {
+   "date": "2026-11-05",
+   "contributionCount": 115
+  },
+  {
+   "date": "2026-11-06",
+   "contributionCount": 173
+  },
+  {
+   "date": "2026-11-07",
+   "contributionCount": 201
+  },
+  {
+   "date": "2026-11-08",
+   "contributionCount": 202
+  },
+  {
+   "date": "2026-11-09",
+   "contributionCount": 18
   }
  ]
 }

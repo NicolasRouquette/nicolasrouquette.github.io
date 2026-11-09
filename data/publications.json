@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02",
+ "generated": "2026-11-09",
  "count": 72,
  "publications": [
   {
@@ -100,7 +100,7 @@
     "openalex",
     "orcid"
    ],
-   "citations": 11,
+   "citations": 28,
    "open_access_url": "https://arxiv.org/pdf/2303.17751",
    "dblp_key": "journals/tcps/IncerBGMPRYBCMSS25",
    "openalex_id": "W4404482918"
@@ -127,7 +127,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 3,
+   "citations": 4,
    "open_access_url": null,
    "dblp_key": "conf/models/NakajimaKTKLJERW25",
    "openalex_id": "W4417250765"
@@ -150,7 +150,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 7,
+   "citations": 9,
    "open_access_url": "https://doi.org/10.1073/pnas.2403449121",
    "openalex_id": "W4401213976"
   },
@@ -176,7 +176,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 3,
+   "citations": 4,
    "open_access_url": null,
    "openalex_id": "W4402688860"
   },
@@ -196,7 +196,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": null,
+   "citations": 1,
    "open_access_url": "https://arxiv.org/pdf/2409.02218",
    "dblp_key": "journals/corr/abs-2409-02218",
    "openalex_id": "W4403159949"
@@ -249,7 +249,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 24,
+   "citations": 30,
    "open_access_url": null,
    "dblp_key": "conf/models/ElaasarRWOHH23",
    "openalex_id": "W4390117289"
@@ -271,7 +271,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 12,
+   "citations": 13,
    "open_access_url": null,
    "openalex_id": "W4385237231"
   },
@@ -312,7 +312,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 1,
+   "citations": 3,
    "open_access_url": null,
    "openalex_id": "W4385730203"
   },
@@ -367,7 +367,7 @@
     "Alejandro Jiménez",
     "Maged Elaasar",
     "Nicolas Rouquette",
-    "Steven P Jenkins"
+    "Steven Jenkins"
    ],
    "year": 2020,
    "venue": "IEEE Aerospace Conference (AERO)",
@@ -378,7 +378,7 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 28,
+   "citations": 29,
    "open_access_url": null,
    "openalex_id": "W3080480113"
   },
@@ -460,9 +460,31 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 21,
+   "citations": 22,
    "open_access_url": null,
    "openalex_id": "W2329309348"
+  },
+  {
+   "title": "Integrating Analytical Models with Descriptive System Models: Implementation of the OMG SyML Standard for the Tool-specific Case of MapleSim and MagicDraw",
+   "authors": [
+    "Sebastian J. I. Herzig",
+    "Nicolas F. Rouquette",
+    "Stephen Forrest",
+    "J. Steven Jenkins"
+   ],
+   "year": 2013,
+   "venue": "CSER",
+   "type": "inproceedings",
+   "doi": "10.1016/j.procs.2013.01.013",
+   "url": "https://dblp.org/rec/journals/procedia/HerzigRFJ13",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 7,
+   "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1877050913000148/pdf",
+   "dblp_key": "journals/procedia/HerzigRFJ13",
+   "openalex_id": "W2079493878"
   },
   {
    "title": "Mining Requirements Knowledge from Operational Experience",
@@ -488,32 +510,10 @@
    "openalex_id": "W11131550"
   },
   {
-   "title": "Integrating Analytical Models with Descriptive System Models: Implementation of the OMG SyML Standard for the Tool-specific Case of MapleSim and MagicDraw",
-   "authors": [
-    "Sebastian J. I. Herzig",
-    "Nicolas F. Rouquette",
-    "Stephen Forrest",
-    "J. Steven Jenkins"
-   ],
-   "year": 2013,
-   "venue": "CSER",
-   "type": "inproceedings",
-   "doi": "10.1016/j.procs.2013.01.013",
-   "url": "https://dblp.org/rec/journals/procedia/HerzigRFJ13",
-   "sources": [
-    "dblp",
-    "openalex"
-   ],
-   "citations": 6,
-   "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1877050913000148/pdf",
-   "dblp_key": "journals/procedia/HerzigRFJ13",
-   "openalex_id": "W2079493878"
-  },
-  {
    "title": "Evaluating fractionated space systems - Status",
    "authors": [
     "S. Cornford",
-    "Steven P Jenkins",
+    "Steven Jenkins",
     "S. D. Wall",
     "Bjorn F. Cole",
     "Brian K. Bairstow",
@@ -542,7 +542,7 @@
     "Mike Bennett",
     "Robert Karban",
     "N. Rouquette",
-    "Steven P Jenkins",
+    "Steven Jenkins",
     "Michel D. Ingham"
    ],
    "year": 2012,
@@ -554,7 +554,7 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 54,
+   "citations": 57,
    "open_access_url": null,
    "openalex_id": "W2073934093"
   },
@@ -584,7 +584,7 @@
     "Robert Shishko",
     "S. D. Wall",
     "Bjorn F. Cole",
-    "Steven P Jenkins",
+    "Steven Jenkins",
     "N. Rouquette",
     "G. Dubos",
     "Thomas P. Ryan",
@@ -599,14 +599,14 @@
    "sources": [
     "openalex"
    ],
-   "citations": 14,
+   "citations": 16,
    "open_access_url": null,
    "openalex_id": "W2012755956"
   },
   {
    "title": "Semantically-Rigorous Systems Engineering Using SysML and OWL",
    "authors": [
-    "Steven P Jenkins",
+    "Steven Jenkins",
     "Nicolas Rouquette"
    ],
    "year": 2012,
@@ -625,7 +625,7 @@
   {
    "title": "Progress on Integrating OWL and SysML",
    "authors": [
-    "Steven P Jenkins",
+    "Steven Jenkins",
     "Nicolas Rouquette"
    ],
    "year": 2012,
@@ -738,7 +738,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 113,
+   "citations": 121,
    "open_access_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-110236",
    "openalex_id": "W2065457963"
   },
@@ -758,7 +758,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 41,
+   "citations": 45,
    "open_access_url": null,
    "dblp_key": "conf/models/2010-2",
    "openalex_id": "W1666808443"
@@ -779,7 +779,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 28,
+   "citations": 38,
    "open_access_url": null,
    "dblp_key": "conf/models/2010-1",
    "openalex_id": "W2612017095"
@@ -810,7 +810,7 @@
    "title": "OWL2 and SysML",
    "authors": [
     "Nicolas Rouquette",
-    "Steven P Jenkins"
+    "Steven Jenkins"
    ],
    "year": 2010,
    "venue": "NASA Technical Reports Server (NASA)",
@@ -1134,7 +1134,7 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 135,
+   "citations": 136,
    "open_access_url": null,
    "openalex_id": "W2133558947"
   },
