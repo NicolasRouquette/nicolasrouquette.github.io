@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-16",
  "count": 72,
  "publications": [
   {
@@ -127,7 +127,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 4,
+   "citations": 5,
    "open_access_url": null,
    "dblp_key": "conf/models/NakajimaKTKLJERW25",
    "openalex_id": "W4417250765"
@@ -276,6 +276,25 @@
    "openalex_id": "W4385237231"
   },
   {
+   "title": "Early Design Exploration of Space System Scenarios Using Assume-Guarantee Contracts",
+   "authors": [
+    "Nicolas Rouquette",
+    "Inigo Incer",
+    "Alessandro Pinto"
+   ],
+   "year": 2023,
+   "venue": "IEEE International Conference on Space Mission Challenges for Information Technology",
+   "type": "inproceedings",
+   "doi": "10.1109/smc-it56444.2023.00011",
+   "url": "http://dx.doi.org/10.1109/smc-it56444.2023.00011",
+   "sources": [
+    "openalex"
+   ],
+   "citations": 4,
+   "open_access_url": null,
+   "openalex_id": "W4385730203"
+  },
+  {
    "title": "Autonomica: Ontological Modeling and Analysis of Autonomous Behavior",
    "authors": [
     "Maged Elaasar",
@@ -296,25 +315,6 @@
    "citations": 3,
    "open_access_url": null,
    "openalex_id": "W4386309368"
-  },
-  {
-   "title": "Early Design Exploration of Space System Scenarios Using Assume-Guarantee Contracts",
-   "authors": [
-    "Nicolas Rouquette",
-    "Inigo Incer",
-    "Alessandro Pinto"
-   ],
-   "year": 2023,
-   "venue": "IEEE International Conference on Space Mission Challenges for Information Technology",
-   "type": "inproceedings",
-   "doi": "10.1109/smc-it56444.2023.00011",
-   "url": "http://dx.doi.org/10.1109/smc-it56444.2023.00011",
-   "sources": [
-    "openalex"
-   ],
-   "citations": 3,
-   "open_access_url": null,
-   "openalex_id": "W4385730203"
   },
   {
    "title": "Computational Hypergraph Discovery, a Gaussian Process framework for connecting the dots",
@@ -554,7 +554,7 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 57,
+   "citations": 59,
    "open_access_url": null,
    "openalex_id": "W2073934093"
   },
@@ -631,7 +631,7 @@
    "year": 2012,
    "venue": "NASA Technical Reports Server (NASA)",
    "type": "article",
-   "doi": null,
+   "doi": "http://hdl.handle.net/2014/42860",
    "url": "https://ntrs.nasa.gov/search.jsp?R=20140002119",
    "sources": [
     "ntrs",
@@ -743,27 +743,6 @@
    "openalex_id": "W2065457963"
   },
   {
-   "title": "Model Driven Engineering Languages and Systems - 13th International Conference, MODELS 2010, Oslo, Norway, October 3-8, 2010, Proceedings, Part II",
-   "authors": [
-    "Dorina C. Petriu",
-    "Nicolas Rouquette",
-    "Øystein Haugen"
-   ],
-   "year": 2010,
-   "venue": "MoDELS (2)",
-   "type": "book",
-   "doi": "10.1007/978-3-642-16129-2",
-   "url": "https://dblp.org/rec/conf/models/2010-2",
-   "sources": [
-    "dblp",
-    "openalex"
-   ],
-   "citations": 45,
-   "open_access_url": null,
-   "dblp_key": "conf/models/2010-2",
-   "openalex_id": "W1666808443"
-  },
-  {
    "title": "Model Driven Engineering Languages and Systems - 13th International Conference, MODELS 2010, Oslo, Norway, October 3-8, 2010, Proceedings, Part I",
    "authors": [
     "Dorina C. Petriu",
@@ -779,10 +758,31 @@
     "dblp",
     "openalex"
    ],
-   "citations": 38,
+   "citations": 54,
    "open_access_url": null,
    "dblp_key": "conf/models/2010-1",
    "openalex_id": "W2612017095"
+  },
+  {
+   "title": "Model Driven Engineering Languages and Systems - 13th International Conference, MODELS 2010, Oslo, Norway, October 3-8, 2010, Proceedings, Part II",
+   "authors": [
+    "Dorina C. Petriu",
+    "Nicolas Rouquette",
+    "Øystein Haugen"
+   ],
+   "year": 2010,
+   "venue": "MoDELS (2)",
+   "type": "book",
+   "doi": "10.1007/978-3-642-16129-2",
+   "url": "https://dblp.org/rec/conf/models/2010-2",
+   "sources": [
+    "dblp",
+    "openalex"
+   ],
+   "citations": 47,
+   "open_access_url": null,
+   "dblp_key": "conf/models/2010-2",
+   "openalex_id": "W1666808443"
   },
   {
    "title": "Programming and Validation Techniques for Reliable Goal-driven Autonomic Software",
@@ -1134,7 +1134,7 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 136,
+   "citations": 134,
    "open_access_url": null,
    "openalex_id": "W2133558947"
   },
@@ -1246,7 +1246,7 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 9,
+   "citations": 8,
    "open_access_url": null,
    "openalex_id": "W808653495"
   },
