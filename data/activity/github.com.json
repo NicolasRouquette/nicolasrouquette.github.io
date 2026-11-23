@@ -4,16 +4,16 @@
  "profile_url": "https://github.com/NicolasRouquette",
  "kind": "github",
  "pr_label": "pull requests",
- "scope_note": "Public contributions only (5,727 further contributions are in private repositories)",
- "generated": "2026-11-16",
+ "scope_note": "Public contributions only (6,367 further contributions are in private repositories)",
+ "generated": "2026-11-23",
  "login": "NicolasRouquette",
  "since": 2012,
  "totals": {
-  "commits": 10147,
-  "prs": 401,
-  "reviews": 295,
-  "issues": 877,
-  "restricted": 5727
+  "commits": 11229,
+  "prs": 406,
+  "reviews": 344,
+  "issues": 880,
+  "restricted": 6367
  },
  "years": {
   "2012": {
@@ -101,13 +101,22 @@
    "issues": 10
   },
   "2026": {
-   "commits": 4242,
-   "prs": 51,
-   "reviews": 273,
-   "issues": 22
+   "commits": 5324,
+   "prs": 56,
+   "reviews": 322,
+   "issues": 25
   }
  },
  "orgs": [
+  {
+   "owner": "nasa-jpl",
+   "repos": 5,
+   "commits": 4499,
+   "prs": 7,
+   "reviews": 216,
+   "issues": 5,
+   "total": 4727
+  },
   {
    "owner": "JPL-IMCE",
    "repos": 41,
@@ -116,15 +125,6 @@
    "reviews": 16,
    "issues": 614,
    "total": 4640
-  },
-  {
-   "owner": "nasa-jpl",
-   "repos": 5,
-   "commits": 3515,
-   "prs": 7,
-   "reviews": 190,
-   "issues": 5,
-   "total": 3717
   },
   {
    "owner": "TIWG",
@@ -137,21 +137,21 @@
   },
   {
    "owner": "Open-MBEE",
-   "repos": 4,
-   "commits": 460,
+   "repos": 9,
+   "commits": 546,
    "prs": 0,
-   "reviews": 83,
-   "issues": 0,
-   "total": 543
+   "reviews": 106,
+   "issues": 1,
+   "total": 653
   },
   {
    "owner": "NicolasRouquette",
    "repos": 19,
-   "commits": 350,
+   "commits": 355,
    "prs": 7,
    "reviews": 0,
    "issues": 0,
-   "total": 357
+   "total": 362
   },
   {
    "owner": "opencaesar",
@@ -175,10 +175,10 @@
    "owner": "lean-dojo",
    "repos": 1,
    "commits": 11,
-   "prs": 23,
+   "prs": 26,
    "reviews": 0,
-   "issues": 0,
-   "total": 34
+   "issues": 1,
+   "total": 38
   },
   {
    "owner": "leanprover",
@@ -271,6 +271,15 @@
    "total": 9
   },
   {
+   "owner": "siddhartha-gadgil",
+   "repos": 2,
+   "commits": 7,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 1,
+   "total": 9
+  },
+  {
    "owner": "doriordan",
    "repos": 1,
    "commits": 1,
@@ -352,6 +361,15 @@
    "total": 5
   },
   {
+   "owner": "fgdorais",
+   "repos": 2,
+   "commits": 0,
+   "prs": 3,
+   "reviews": 0,
+   "issues": 2,
+   "total": 5
+  },
+  {
    "owner": "tektoncd",
    "repos": 2,
    "commits": 0,
@@ -359,15 +377,6 @@
    "reviews": 0,
    "issues": 4,
    "total": 5
-  },
-  {
-   "owner": "fgdorais",
-   "repos": 1,
-   "commits": 0,
-   "prs": 3,
-   "reviews": 0,
-   "issues": 1,
-   "total": 4
   },
   {
    "owner": "vigoo",
@@ -964,15 +973,6 @@
    "total": 1
   },
   {
-   "owner": "siddhartha-gadgil",
-   "repos": 1,
-   "commits": 0,
-   "prs": 0,
-   "reviews": 0,
-   "issues": 1,
-   "total": 1
-  },
-  {
    "owner": "spark-notebook",
    "repos": 1,
    "commits": 0,
@@ -988,6 +988,15 @@
    "prs": 0,
    "reviews": 0,
    "issues": 1,
+   "total": 1
+  },
+  {
+   "owner": "Volland",
+   "repos": 1,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
    "total": 1
   },
   {
@@ -1038,14 +1047,14 @@
    "stars": 13,
    "language": "Lean",
    "language_color": null,
-   "commits": 2739,
+   "commits": 3719,
    "prs": 3,
-   "reviews": 158,
+   "reviews": 181,
    "issues": 3,
    "years": [
     2026
    ],
-   "total": 2903
+   "total": 3906
   },
   {
    "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml",
@@ -1079,14 +1088,33 @@
    "stars": 12,
    "language": "Lean",
    "language_color": null,
-   "commits": 771,
+   "commits": 775,
    "prs": 1,
-   "reviews": 32,
+   "reviews": 35,
    "issues": 0,
    "years": [
     2026
    ],
-   "total": 804
+   "total": 811
+  },
+  {
+   "repo": "Open-MBEE/OpenSysML",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/OpenSysML",
+   "description": "Open Source SysML v2 Implementation in Go",
+   "fork": false,
+   "archived": false,
+   "stars": 66,
+   "language": "Go",
+   "language_color": "#00ADD8",
+   "commits": 505,
+   "prs": 0,
+   "reviews": 87,
+   "issues": 1,
+   "years": [
+    2026
+   ],
+   "total": 593
   },
   {
    "repo": "JPL-IMCE/gov.nasa.jpl.omf.scala.binding.owlapi",
@@ -1110,25 +1138,6 @@
     2019
    ],
    "total": 506
-  },
-  {
-   "repo": "Open-MBEE/OpenSysML",
-   "owner": "Open-MBEE",
-   "url": "https://github.com/Open-MBEE/OpenSysML",
-   "description": "Open Source SysML v2 Implementation in Go",
-   "fork": false,
-   "archived": false,
-   "stars": 61,
-   "language": "Go",
-   "language_color": "#00ADD8",
-   "commits": 420,
-   "prs": 0,
-   "reviews": 73,
-   "issues": 0,
-   "years": [
-    2026
-   ],
-   "total": 493
   },
   {
    "repo": "JPL-IMCE/gov.nasa.jpl.omf.scala.core",
@@ -1289,17 +1298,17 @@
    "description": "What theorems assume, prove, validate, and depend on?",
    "fork": false,
    "archived": false,
-   "stars": 4,
+   "stars": 5,
    "language": "Lean",
    "language_color": null,
-   "commits": 225,
+   "commits": 230,
    "prs": 0,
    "reviews": 0,
    "issues": 0,
    "years": [
     2026
    ],
-   "total": 225
+   "total": 230
   },
   {
    "repo": "JPL-IMCE/gov.nasa.jpl.imce.oml.resolver",
@@ -1821,6 +1830,25 @@
    "total": 46
   },
   {
+   "repo": "lean-dojo/TorchLean",
+   "owner": "lean-dojo",
+   "url": "https://github.com/lean-dojo/TorchLean",
+   "description": " TorchLean is the first unified Lean 4 framework for neural-network specification, execution, and verification. ",
+   "fork": false,
+   "archived": false,
+   "stars": 215,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 11,
+   "prs": 26,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2026
+   ],
+   "total": 38
+  },
+  {
    "repo": "opencaesar/oml",
    "owner": "opencaesar",
    "url": "https://github.com/opencaesar/oml",
@@ -1880,25 +1908,6 @@
    "years": [
     2016,
     2017
-   ],
-   "total": 34
-  },
-  {
-   "repo": "lean-dojo/TorchLean",
-   "owner": "lean-dojo",
-   "url": "https://github.com/lean-dojo/TorchLean",
-   "description": " TorchLean is the first unified Lean 4 framework for neural-network specification, execution, and verification. ",
-   "fork": false,
-   "archived": false,
-   "stars": 212,
-   "language": "Lean",
-   "language_color": null,
-   "commits": 11,
-   "prs": 23,
-   "reviews": 0,
-   "issues": 0,
-   "years": [
-    2026
    ],
    "total": 34
   },
@@ -2171,7 +2180,7 @@
    "description": "F Prime Prime: A modeling language for F Prime",
    "fork": false,
    "archived": false,
-   "stars": 124,
+   "stars": 125,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 15,
@@ -2268,7 +2277,7 @@
    "description": "A project to digitalise results from physics into Lean.",
    "fork": false,
    "archived": false,
-   "stars": 837,
+   "stars": 871,
    "language": "Lean",
    "language_color": null,
    "commits": 6,
@@ -2347,7 +2356,7 @@
    "description": "Community Repository for SysML v2 Extensions for OpenSysML",
    "fork": false,
    "archived": false,
-   "stars": 1,
+   "stars": 2,
    "language": "Shell",
    "language_color": "#89e051",
    "commits": 12,
@@ -2482,7 +2491,7 @@
    "description": "Lean 4 programming language and theorem prover",
    "fork": false,
    "archived": false,
-   "stars": 10013,
+   "stars": 10244,
    "language": "Lean",
    "language_color": null,
    "commits": 2,
@@ -2522,7 +2531,7 @@
    "description": ":bike: A preprocessor for anyone writing specifications that converts source files into actual specs.",
    "fork": false,
    "archived": false,
-   "stars": 1334,
+   "stars": 1338,
    "language": "HTML",
    "language_color": "#e34c26",
    "commits": 5,
@@ -2542,7 +2551,7 @@
    "description": "A sbt plugin for publishing Scala/Java projects to the Maven central.",
    "fork": false,
    "archived": false,
-   "stars": 342,
+   "stars": 341,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 6,
@@ -2582,7 +2591,7 @@
    "description": "OWL API main repository",
    "fork": false,
    "archived": false,
-   "stars": 946,
+   "stars": 947,
    "language": "Java",
    "language_color": "#b07219",
    "commits": 3,
@@ -2622,7 +2631,7 @@
    "description": "A minimal, idiomatic Scala interface for HTTP",
    "fork": false,
    "archived": false,
-   "stars": 2627,
+   "stars": 2630,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 5,
@@ -2689,6 +2698,25 @@
    "years": [
     2015,
     2017
+   ],
+   "total": 8
+  },
+  {
+   "repo": "siddhartha-gadgil/LeanXml",
+   "owner": "siddhartha-gadgil",
+   "url": "https://github.com/siddhartha-gadgil/LeanXml",
+   "description": "Code from Lean core (now purged from there) for Xml support",
+   "fork": false,
+   "archived": false,
+   "stars": 1,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 7,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
    ],
    "total": 8
   },
@@ -2833,7 +2861,7 @@
    "description": "sbt, the interactive build tool",
    "fork": false,
    "archived": false,
-   "stars": 4956,
+   "stars": 4957,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -2951,7 +2979,7 @@
    "description": "JSON-LD implementation for Java",
    "fork": false,
    "archived": false,
-   "stars": 387,
+   "stars": 386,
    "language": "Java",
    "language_color": "#b07219",
    "commits": 1,
@@ -2998,6 +3026,25 @@
    "issues": 0,
    "years": [
     2020
+   ],
+   "total": 4
+  },
+  {
+   "repo": "Open-MBEE/tls-server.lean",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/tls-server.lean",
+   "description": "A Lean 4 TLS server over OpenSSL, for testing and mocking https endpoints",
+   "fork": false,
+   "archived": false,
+   "stars": 0,
+   "language": null,
+   "language_color": null,
+   "commits": 1,
+   "prs": 0,
+   "reviews": 3,
+   "issues": 0,
+   "years": [
+    2026
    ],
    "total": 4
   },
@@ -3182,7 +3229,7 @@
    "description": "JFrog CLI is a client that provides a simple interface that automates access to the JFrog products.",
    "fork": false,
    "archived": false,
-   "stars": 596,
+   "stars": 595,
    "language": "Go",
    "language_color": "#00ADD8",
    "commits": 0,
@@ -3259,7 +3306,7 @@
    "description": "Kubernetes website and documentation repo: ",
    "fork": false,
    "archived": false,
-   "stars": 5430,
+   "stars": 5434,
    "language": "HTML",
    "language_color": "#e34c26",
    "commits": 1,
@@ -3278,7 +3325,7 @@
    "description": "Lean documentation authoring tool",
    "fork": false,
    "archived": false,
-   "stars": 410,
+   "stars": 411,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -3387,13 +3434,32 @@
    "total": 3
   },
   {
+   "repo": "Open-MBEE/LeanXml",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/LeanXml",
+   "description": "Code from Lean core (now purged from there) for Xml support",
+   "fork": true,
+   "archived": false,
+   "stars": 0,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 3,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 3
+  },
+  {
    "repo": "sangria-graphql/sangria",
    "owner": "sangria-graphql",
    "url": "https://github.com/sangria-graphql/sangria",
    "description": "Scala GraphQL implementation",
    "fork": false,
    "archived": false,
-   "stars": 1962,
+   "stars": 1961,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -3451,7 +3517,7 @@
    "description": "A cloud-native Pipeline resource.",
    "fork": false,
    "archived": false,
-   "stars": 9107,
+   "stars": 9111,
    "language": "Go",
    "language_color": "#00ADD8",
    "commits": 0,
@@ -3508,7 +3574,7 @@
    "description": "A Scala kernel for Jupyter",
    "fork": false,
    "archived": false,
-   "stars": 1630,
+   "stars": 1631,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -3585,7 +3651,7 @@
    "description": "Verification framework and tool for higher-order Scala programs. https://gitlab.epfl.ch/lara/stainless",
    "fork": false,
    "archived": false,
-   "stars": 415,
+   "stars": 417,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -3661,7 +3727,7 @@
    "description": "Documentation and issues of https://jitpack.io",
    "fork": false,
    "archived": false,
-   "stars": 2675,
+   "stars": 2674,
    "language": null,
    "language_color": null,
    "commits": 0,
@@ -3739,7 +3805,7 @@
    "description": "Reactive Microservices for the JVM",
    "fork": false,
    "archived": false,
-   "stars": 2629,
+   "stars": 2628,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -3778,7 +3844,7 @@
    "description": "The \"batteries included\" extended library for the Lean programming language and theorem prover",
    "fork": false,
    "archived": false,
-   "stars": 433,
+   "stars": 440,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -3797,7 +3863,7 @@
    "description": null,
    "fork": false,
    "archived": false,
-   "stars": 20,
+   "stars": 21,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -3835,7 +3901,7 @@
    "description": "A guide for converting a simple JavaScript/React project to TypeScript. Contains both before an after code with the step-by-step process in the README below.",
    "fork": false,
    "archived": true,
-   "stars": 1429,
+   "stars": 1428,
    "language": "JavaScript",
    "language_color": "#f1e05a",
    "commits": 0,
@@ -4063,7 +4129,7 @@
    "description": "The Scala 3 compiler, also known as Dotty.",
    "fork": false,
    "archived": false,
-   "stars": 6337,
+   "stars": 6339,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -4083,7 +4149,7 @@
    "description": "Slick (Scala Language Integrated Connection Kit) is a modern database query and access library for Scala",
    "fork": false,
    "archived": false,
-   "stars": 2666,
+   "stars": 2665,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -4121,7 +4187,7 @@
    "description": "Catalog of shared Tasks and Pipelines.",
    "fork": false,
    "archived": false,
-   "stars": 739,
+   "stars": 736,
    "language": "Shell",
    "language_color": "#89e051",
    "commits": 0,
@@ -4197,7 +4263,7 @@
    "description": "Blueprint for the PNT+ Project",
    "fork": false,
    "archived": false,
-   "stars": 355,
+   "stars": 357,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -4311,7 +4377,7 @@
    "description": "Code repo for Functional and Reactive Domain Modeling",
    "fork": false,
    "archived": false,
-   "stars": 466,
+   "stars": 467,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -4330,7 +4396,7 @@
    "description": "A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own",
    "fork": false,
    "archived": false,
-   "stars": 1555,
+   "stars": 1557,
    "language": "Shell",
    "language_color": "#89e051",
    "commits": 0,
@@ -4387,7 +4453,7 @@
    "description": "The efficient SMT-based context-bounded model checker (ESBMC)",
    "fork": false,
    "archived": false,
-   "stars": 545,
+   "stars": 547,
    "language": "C++",
    "language_color": "#f34b7d",
    "commits": 0,
@@ -4396,6 +4462,25 @@
    "issues": 1,
    "years": [
     2025
+   ],
+   "total": 1
+  },
+  {
+   "repo": "fgdorais/lean4-unicode-basic",
+   "owner": "fgdorais",
+   "url": "https://github.com/fgdorais/lean4-unicode-basic",
+   "description": "Basic Unicode support for Lean 4",
+   "fork": false,
+   "archived": false,
+   "stars": 16,
+   "language": "C",
+   "language_color": "#555555",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 0,
+   "issues": 1,
+   "years": [
+    2026
    ],
    "total": 1
   },
@@ -4425,7 +4510,7 @@
    "description": "The Git interface you've been missing all your life has finally arrived.",
    "fork": false,
    "archived": false,
-   "stars": 12165,
+   "stars": 12170,
    "language": "Objective-C",
    "language_color": "#438eff",
    "commits": 0,
@@ -4444,7 +4529,7 @@
    "description": "GitKraken CLI Releases and Documentation",
    "fork": false,
    "archived": false,
-   "stars": 467,
+   "stars": 468,
    "language": null,
    "language_color": null,
    "commits": 0,
@@ -4463,7 +4548,7 @@
    "description": "bandwidth monitor and rate estimator",
    "fork": false,
    "archived": false,
-   "stars": 1401,
+   "stars": 1400,
    "language": "C",
    "language_color": "#555555",
    "commits": 0,
@@ -4482,7 +4567,7 @@
    "description": "A Jenkins API client for Java",
    "fork": false,
    "archived": false,
-   "stars": 914,
+   "stars": 913,
    "language": "Java",
    "language_color": "#b07219",
    "commits": 0,
@@ -4539,7 +4624,7 @@
    "description": "draw.io is a JavaScript, client-side editor for general diagramming.",
    "fork": false,
    "archived": false,
-   "stars": 9388,
+   "stars": 9526,
    "language": "JavaScript",
    "language_color": "#f1e05a",
    "commits": 0,
@@ -4596,7 +4681,7 @@
    "description": "Generic templated configuration management for Kubernetes, Terraform and other things",
    "fork": false,
    "archived": false,
-   "stars": 1933,
+   "stars": 1932,
    "language": "Python",
    "language_color": "#3572A5",
    "commits": 0,
@@ -4672,7 +4757,7 @@
    "description": "Customization of kubernetes YAML configurations",
    "fork": false,
    "archived": false,
-   "stars": 12206,
+   "stars": 12211,
    "language": "Go",
    "language_color": "#00ADD8",
    "commits": 0,
@@ -4691,7 +4776,7 @@
    "description": "Build structured Proof Blueprints with Verso",
    "fork": false,
    "archived": false,
-   "stars": 49,
+   "stars": 51,
    "language": "Lean",
    "language_color": null,
    "commits": 0,
@@ -4729,7 +4814,7 @@
    "description": "Create a docker container that contains a MATLAB install",
    "fork": false,
    "archived": false,
-   "stars": 421,
+   "stars": 422,
    "language": "Python",
    "language_color": "#3572A5",
    "commits": 0,
@@ -4748,7 +4833,7 @@
    "description": "Re-Connectable secure remote shell",
    "fork": false,
    "archived": false,
-   "stars": 3948,
+   "stars": 3956,
    "language": "C++",
    "language_color": "#f34b7d",
    "commits": 0,
@@ -4786,7 +4871,7 @@
    "description": "F\u00b4 - A flight software and embedded systems framework",
    "fork": false,
    "archived": false,
-   "stars": 11883,
+   "stars": 11896,
    "language": "C++",
    "language_color": "#f34b7d",
    "commits": 0,
@@ -4938,7 +5023,7 @@
    "description": "Use graphviz with pure java",
    "fork": false,
    "archived": false,
-   "stars": 963,
+   "stars": 962,
    "language": "Java",
    "language_color": "#b07219",
    "commits": 0,
@@ -4985,6 +5070,63 @@
    "issues": 1,
    "years": [
     2016
+   ],
+   "total": 1
+  },
+  {
+   "repo": "Open-MBEE/doc-verification-bridge",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/doc-verification-bridge",
+   "description": "What theorems assume, prove, validate, and depend on?",
+   "fork": true,
+   "archived": false,
+   "stars": 0,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 1,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 1
+  },
+  {
+   "repo": "Open-MBEE/lean4-unicode-basic",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/lean4-unicode-basic",
+   "description": "Basic Unicode support for Lean 4",
+   "fork": true,
+   "archived": false,
+   "stars": 0,
+   "language": "C",
+   "language_color": "#555555",
+   "commits": 0,
+   "prs": 0,
+   "reviews": 1,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 1
+  },
+  {
+   "repo": "Open-MBEE/rdf-lean",
+   "owner": "Open-MBEE",
+   "url": "https://github.com/Open-MBEE/rdf-lean",
+   "description": "LeanRDF: native RDF 1.1 model and entailment semantics in Lean 4, with Elpi search and a verified certificate checker",
+   "fork": true,
+   "archived": false,
+   "stars": 0,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 0,
+   "prs": 0,
+   "reviews": 1,
+   "issues": 0,
+   "years": [
+    2026
    ],
    "total": 1
   },
@@ -5052,7 +5194,7 @@
    "description": "K Framework Tools 7.0",
    "fork": false,
    "archived": false,
-   "stars": 608,
+   "stars": 611,
    "language": "Python",
    "language_color": "#3572A5",
    "commits": 0,
@@ -5109,7 +5251,7 @@
    "description": "Scala.js, the Scala to JavaScript compiler",
    "fork": false,
    "archived": false,
-   "stars": 4708,
+   "stars": 4711,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -5128,7 +5270,7 @@
    "description": "Your favorite language gets closer to bare metal.",
    "fork": false,
    "archived": false,
-   "stars": 4706,
+   "stars": 4707,
    "language": "Scala",
    "language_color": "#c22d40",
    "commits": 0,
@@ -5166,7 +5308,7 @@
    "description": "Interactive and Reactive Data Science using Scala and Spark.",
    "fork": false,
    "archived": false,
-   "stars": 3136,
+   "stars": 3135,
    "language": "JavaScript",
    "language_color": "#f1e05a",
    "commits": 0,
@@ -5217,13 +5359,32 @@
    "total": 1
   },
   {
+   "repo": "Volland/rdf-lean",
+   "owner": "Volland",
+   "url": "https://github.com/Volland/rdf-lean",
+   "description": "LeanRDF: native RDF 1.1 model and entailment semantics in Lean 4, with Elpi search and a verified certificate checker",
+   "fork": false,
+   "archived": false,
+   "stars": 50,
+   "language": "Lean",
+   "language_color": null,
+   "commits": 0,
+   "prs": 1,
+   "reviews": 0,
+   "issues": 0,
+   "years": [
+    2026
+   ],
+   "total": 1
+  },
+  {
    "repo": "warpdotdev/warp",
    "owner": "warpdotdev",
    "url": "https://github.com/warpdotdev/warp",
    "description": "Warp is an agentic development environment, born out of the terminal.",
    "fork": false,
    "archived": false,
-   "stars": 66025,
+   "stars": 66098,
    "language": "Rust",
    "language_color": "#dea584",
    "commits": 0,
@@ -5242,7 +5403,7 @@
    "description": "Example configuration to create Kubernetes clusters powered by ignite and gitops",
    "fork": false,
    "archived": true,
-   "stars": 341,
+   "stars": 342,
    "language": "Shell",
    "language_color": "#89e051",
    "commits": 0,
@@ -5294,34 +5455,6 @@
   }
  ],
  "calendar": [
-  {
-   "date": "2025-11-16",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-11-17",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-11-18",
-   "contributionCount": 3
-  },
-  {
-   "date": "2025-11-19",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-11-20",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-11-21",
-   "contributionCount": 0
-  },
-  {
-   "date": "2025-11-22",
-   "contributionCount": 0
-  },
   {
    "date": "2025-11-23",
    "contributionCount": 0
@@ -5888,7 +6021,7 @@
   },
   {
    "date": "2026-04-13",
-   "contributionCount": 4
+   "contributionCount": 20
   },
   {
    "date": "2026-04-14",
@@ -5900,7 +6033,7 @@
   },
   {
    "date": "2026-04-16",
-   "contributionCount": 6
+   "contributionCount": 8
   },
   {
    "date": "2026-04-17",
@@ -5928,11 +6061,11 @@
   },
   {
    "date": "2026-04-23",
-   "contributionCount": 17
+   "contributionCount": 59
   },
   {
    "date": "2026-04-24",
-   "contributionCount": 5
+   "contributionCount": 29
   },
   {
    "date": "2026-04-25",
@@ -5940,7 +6073,7 @@
   },
   {
    "date": "2026-04-26",
-   "contributionCount": 12
+   "contributionCount": 18
   },
   {
    "date": "2026-04-27",
@@ -5976,7 +6109,7 @@
   },
   {
    "date": "2026-05-05",
-   "contributionCount": 3
+   "contributionCount": 7
   },
   {
    "date": "2026-05-06",
@@ -5984,7 +6117,7 @@
   },
   {
    "date": "2026-05-07",
-   "contributionCount": 0
+   "contributionCount": 10
   },
   {
    "date": "2026-05-08",
@@ -5992,11 +6125,11 @@
   },
   {
    "date": "2026-05-09",
-   "contributionCount": 1
+   "contributionCount": 5
   },
   {
    "date": "2026-05-10",
-   "contributionCount": 11
+   "contributionCount": 17
   },
   {
    "date": "2026-05-11",
@@ -6256,7 +6389,7 @@
   },
   {
    "date": "2026-07-14",
-   "contributionCount": 11
+   "contributionCount": 13
   },
   {
    "date": "2026-07-15",
@@ -6328,11 +6461,11 @@
   },
   {
    "date": "2026-08-01",
-   "contributionCount": 14
+   "contributionCount": 18
   },
   {
    "date": "2026-08-02",
-   "contributionCount": 4
+   "contributionCount": 10
   },
   {
    "date": "2026-08-03",
@@ -6576,15 +6709,15 @@
   },
   {
    "date": "2026-10-02",
-   "contributionCount": 3
+   "contributionCount": 5
   },
   {
    "date": "2026-10-03",
-   "contributionCount": 12
+   "contributionCount": 18
   },
   {
    "date": "2026-10-04",
-   "contributionCount": 9
+   "contributionCount": 33
   },
   {
    "date": "2026-10-05",
@@ -6640,7 +6773,7 @@
   },
   {
    "date": "2026-10-18",
-   "contributionCount": 18
+   "contributionCount": 22
   },
   {
    "date": "2026-10-19",
@@ -6660,103 +6793,131 @@
   },
   {
    "date": "2026-10-23",
-   "contributionCount": 67
+   "contributionCount": 102
   },
   {
    "date": "2026-10-24",
-   "contributionCount": 92
+   "contributionCount": 157
   },
   {
    "date": "2026-10-25",
-   "contributionCount": 113
+   "contributionCount": 168
   },
   {
    "date": "2026-10-26",
-   "contributionCount": 144
+   "contributionCount": 180
   },
   {
    "date": "2026-10-27",
-   "contributionCount": 111
+   "contributionCount": 154
   },
   {
    "date": "2026-10-28",
-   "contributionCount": 67
+   "contributionCount": 118
   },
   {
    "date": "2026-10-29",
-   "contributionCount": 432
+   "contributionCount": 499
   },
   {
    "date": "2026-10-30",
-   "contributionCount": 346
+   "contributionCount": 383
   },
   {
    "date": "2026-10-31",
-   "contributionCount": 313
+   "contributionCount": 333
   },
   {
    "date": "2026-11-01",
-   "contributionCount": 476
+   "contributionCount": 513
   },
   {
    "date": "2026-11-02",
-   "contributionCount": 335
+   "contributionCount": 388
   },
   {
    "date": "2026-11-03",
-   "contributionCount": 256
+   "contributionCount": 294
   },
   {
    "date": "2026-11-04",
-   "contributionCount": 249
+   "contributionCount": 294
   },
   {
    "date": "2026-11-05",
-   "contributionCount": 115
+   "contributionCount": 129
   },
   {
    "date": "2026-11-06",
-   "contributionCount": 173
+   "contributionCount": 204
   },
   {
    "date": "2026-11-07",
-   "contributionCount": 201
+   "contributionCount": 260
   },
   {
    "date": "2026-11-08",
-   "contributionCount": 206
+   "contributionCount": 315
   },
   {
    "date": "2026-11-09",
-   "contributionCount": 228
+   "contributionCount": 262
   },
   {
    "date": "2026-11-10",
-   "contributionCount": 340
+   "contributionCount": 394
   },
   {
    "date": "2026-11-11",
-   "contributionCount": 100
+   "contributionCount": 112
   },
   {
    "date": "2026-11-12",
-   "contributionCount": 174
+   "contributionCount": 204
   },
   {
    "date": "2026-11-13",
-   "contributionCount": 95
+   "contributionCount": 102
   },
   {
    "date": "2026-11-14",
-   "contributionCount": 99
+   "contributionCount": 117
   },
   {
    "date": "2026-11-15",
-   "contributionCount": 119
+   "contributionCount": 149
   },
   {
    "date": "2026-11-16",
-   "contributionCount": 14
+   "contributionCount": 87
+  },
+  {
+   "date": "2026-11-17",
+   "contributionCount": 98
+  },
+  {
+   "date": "2026-11-18",
+   "contributionCount": 76
+  },
+  {
+   "date": "2026-11-19",
+   "contributionCount": 182
+  },
+  {
+   "date": "2026-11-20",
+   "contributionCount": 86
+  },
+  {
+   "date": "2026-11-21",
+   "contributionCount": 18
+  },
+  {
+   "date": "2026-11-22",
+   "contributionCount": 91
+  },
+  {
+   "date": "2026-11-23",
+   "contributionCount": 13
   }
  ]
 }

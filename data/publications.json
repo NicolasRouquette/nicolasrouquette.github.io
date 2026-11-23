@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16",
+ "generated": "2026-11-23",
  "count": 72,
  "publications": [
   {
@@ -18,7 +18,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 0,
+   "citations": 1,
    "open_access_url": null,
    "openalex_id": "W7162128820"
   },
@@ -100,7 +100,7 @@
     "openalex",
     "orcid"
    ],
-   "citations": 28,
+   "citations": 33,
    "open_access_url": "https://arxiv.org/pdf/2303.17751",
    "dblp_key": "journals/tcps/IncerBGMPRYBCMSS25",
    "openalex_id": "W4404482918"
@@ -150,7 +150,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 9,
+   "citations": 16,
    "open_access_url": "https://doi.org/10.1073/pnas.2403449121",
    "openalex_id": "W4401213976"
   },
@@ -176,7 +176,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 4,
+   "citations": 7,
    "open_access_url": null,
    "openalex_id": "W4402688860"
   },
@@ -226,7 +226,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 0,
+   "citations": 1,
    "open_access_url": null,
    "openalex_id": "W4402685636"
   },
@@ -249,7 +249,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 30,
+   "citations": 38,
    "open_access_url": null,
    "dblp_key": "conf/models/ElaasarRWOHH23",
    "openalex_id": "W4390117289"
@@ -271,7 +271,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 13,
+   "citations": 16,
    "open_access_url": null,
    "openalex_id": "W4385237231"
   },
@@ -290,7 +290,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 4,
+   "citations": 7,
    "open_access_url": null,
    "openalex_id": "W4385730203"
   },
@@ -312,7 +312,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 3,
+   "citations": 4,
    "open_access_url": null,
    "openalex_id": "W4386309368"
   },
@@ -378,7 +378,7 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 29,
+   "citations": 30,
    "open_access_url": null,
    "openalex_id": "W3080480113"
   },
@@ -460,7 +460,7 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 22,
+   "citations": 24,
    "open_access_url": null,
    "openalex_id": "W2329309348"
   },
@@ -554,7 +554,7 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 59,
+   "citations": 66,
    "open_access_url": null,
    "openalex_id": "W2073934093"
   },
@@ -566,14 +566,14 @@
    ],
    "year": 2012,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "inproceedings",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20150005663",
    "sources": [
     "ntrs",
     "openalex"
    ],
-   "citations": 19,
+   "citations": 24,
    "open_access_url": null,
    "openalex_id": "W1482579604"
   },
@@ -599,7 +599,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 16,
+   "citations": 19,
    "open_access_url": null,
    "openalex_id": "W2012755956"
   },
@@ -611,14 +611,14 @@
    ],
    "year": 2012,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "techreport",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20150005668",
    "sources": [
     "ntrs",
     "openalex"
    ],
-   "citations": 6,
+   "citations": 7,
    "open_access_url": null,
    "openalex_id": "W1482403111"
   },
@@ -630,8 +630,8 @@
    ],
    "year": 2012,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
-   "doi": "http://hdl.handle.net/2014/42860",
+   "type": "techreport",
+   "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20140002119",
    "sources": [
     "ntrs",
@@ -649,7 +649,7 @@
    ],
    "year": 2012,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "techreport",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20150004704",
    "sources": [
@@ -668,7 +668,7 @@
    ],
    "year": 2012,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "techreport",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20150004706",
    "sources": [
@@ -707,7 +707,7 @@
    ],
    "year": 2011,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "techreport",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20150005723",
    "sources": [
@@ -738,7 +738,7 @@
    "sources": [
     "openalex"
    ],
-   "citations": 121,
+   "citations": 134,
    "open_access_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-110236",
    "openalex_id": "W2065457963"
   },
@@ -758,7 +758,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 54,
+   "citations": 64,
    "open_access_url": null,
    "dblp_key": "conf/models/2010-1",
    "openalex_id": "W2612017095"
@@ -779,7 +779,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 47,
+   "citations": 50,
    "open_access_url": null,
    "dblp_key": "conf/models/2010-2",
    "openalex_id": "W1666808443"
@@ -801,7 +801,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 3,
+   "citations": 4,
    "open_access_url": null,
    "dblp_key": "books/daglib/p/DechevRPS10",
    "openalex_id": "W1652959898"
@@ -814,7 +814,7 @@
    ],
    "year": 2010,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "techreport",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20150008941",
    "sources": [
@@ -903,7 +903,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 2,
+   "citations": 3,
    "open_access_url": null,
    "dblp_key": "conf/ecbs/DechevPRS09",
    "openalex_id": "W2102513374"
@@ -925,7 +925,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 6,
+   "citations": 9,
    "open_access_url": "http://eudl.eu/pdf/10.4108/ICST.AUTONOMICS2008.4354",
    "dblp_key": "conf/autonomics/DechevRPS08",
    "openalex_id": "W2101990932"
@@ -939,14 +939,14 @@
    ],
    "year": 2005,
    "venue": "OWL: Experiences and Directions",
-   "type": "article",
+   "type": "inproceedings",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20060042763",
    "sources": [
     "ntrs",
     "openalex"
    ],
-   "citations": 2,
+   "citations": 3,
    "open_access_url": null,
    "openalex_id": "W817297304"
   },
@@ -957,7 +957,7 @@
    ],
    "year": 2005,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "inproceedings",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20060044209",
    "sources": [
@@ -1016,7 +1016,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 20,
+   "citations": 21,
    "open_access_url": null,
    "dblp_key": "conf/isese/BoehmBGGHLMMMMPRRR04",
    "openalex_id": "W4243347462"
@@ -1058,7 +1058,7 @@
    ],
    "year": 2003,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "inproceedings",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20060028693",
    "sources": [
@@ -1076,7 +1076,7 @@
    ],
    "year": 2003,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "inproceedings",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20060043312",
    "sources": [
@@ -1134,7 +1134,7 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 134,
+   "citations": 143,
    "open_access_url": null,
    "openalex_id": "W2133558947"
   },
@@ -1145,7 +1145,7 @@
    ],
    "year": 2002,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "inproceedings",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20060029534",
    "sources": [
@@ -1162,7 +1162,7 @@
    ],
    "year": 2002,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "inproceedings",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20060029740",
    "sources": [
@@ -1181,7 +1181,7 @@
    ],
    "year": 2001,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "inproceedings",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20060031054",
    "sources": [
@@ -1217,7 +1217,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 38,
+   "citations": 48,
    "open_access_url": null,
    "dblp_key": "conf/ecai/RajanBDGKKMMNRSTT00",
    "openalex_id": "W202104474"
@@ -1246,7 +1246,7 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 8,
+   "citations": 9,
    "open_access_url": null,
    "openalex_id": "W808653495"
   },
@@ -1267,7 +1267,7 @@
     "openalex"
    ],
    "citations": 3,
-   "open_access_url": "http://hdl.handle.net/2060/20000048813",
+   "open_access_url": "https://ntrs.nasa.gov/api/citations/20000048813/downloads/20000048813.pdf",
    "openalex_id": "W750350917"
   },
   {
@@ -1287,7 +1287,7 @@
    ],
    "year": 2000,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "inproceedings",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20060032327",
    "sources": [
@@ -1336,7 +1336,7 @@
     "dblp",
     "openalex"
    ],
-   "citations": 32,
+   "citations": 44,
    "open_access_url": null,
    "dblp_key": "journals/expert/BernardDRRWLN99",
    "openalex_id": "W1984500388"
@@ -1411,7 +1411,7 @@
    ],
    "year": 1998,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "inproceedings",
    "doi": null,
    "url": "https://ntrs.nasa.gov/search.jsp?R=20060034798",
    "sources": [
@@ -1514,7 +1514,7 @@
     "ntrs",
     "openalex"
    ],
-   "citations": 11,
+   "citations": 16,
    "open_access_url": null,
    "openalex_id": "W1978677140"
   },
@@ -1547,7 +1547,7 @@
    ],
    "year": 1992,
    "venue": "NASA Technical Reports Server (NASA)",
-   "type": "article",
+   "type": "techreport",
    "doi": null,
    "url": "https://ntrs.nasa.gov/api/citations/19940009311/downloads/19940009311.pdf",
    "sources": [
